@@ -1,0 +1,108 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    header 
+    {
+        background-color: gray;
+        margin: 0px;
+        padding: 0px;
+        z-index: 2;
+    }
+
+    main
+    {
+        background-color: #eeee
+    }
+
+    footer
+    {
+        background-color: lightgray;
+    }
+
+    .grid
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+/*------------------------------------------------*/
+                /* NAVIGATION BAR  */
+/*----------------------------------------------- */ 
+    
+    .navbar
+    {
+        padding: 0px;
+        margin: 0px;
+        background-color: darkgray;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .accordion
+    {
+        margin: 0px;
+        padding: 0px;
+        transition: 0.4s;
+    }
+
+    #navbar-menu-icon-accordion
+    {
+        margin: 0px;
+        padding: 0px;
+        grid-column: 2 / -1;
+        justify-self: end;
+    }
+
+    #navbar-menu-icon
+    {
+        margin: 20px 10px 20px 0px;
+    }
+
+    #navbar-menu-icon:hover > div
+    {
+        background-color: gray;
+    }
+
+    #navbar-menu-icon > div
+    {
+        width: 30px;
+        height: 5px;
+        background-color: black;
+        margin: 4px 0;
+    }
+
+    .navbar-menu-content-panel
+    {
+        grid-column: 1 / -1;
+        max-height: 0;
+        transition: max-height 0.3s ease-out;
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+
+    .panel
+    {
+        max-height: 0;
+        transition: max-height 0.3s ease-out;
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+/*------------------------------------------------*/
+                /* NAVIGATION BAR  */
+/*----------------------------------------------- */ 
+}
