@@ -20,7 +20,6 @@
         background-color: gray;
         margin: 0px;
         padding: 0px;
-        z-index: 2;
     }
 
     main
@@ -37,6 +36,9 @@
     {
         display: grid;
         grid-template-columns: 1fr;
+        margin: 0px;
+        padding: 0px;
+        grid-gap: 0px;
     }
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
@@ -86,21 +88,50 @@
 
     .navbar-menu-content-panel
     {
+        display: none;
+        overflow: hidden;
         grid-column: 1 / -1;
-        max-height: 0;
+        grid-gap: 0px;
+        /* max-height: 0;
         transition: max-height 0.3s ease-out;
         display: grid;
         grid-template-columns: 1fr;
-        overflow: hidden;
+        overflow: hidden; */
     }
 
     .panel
     {
-        max-height: 0;
+        margin: 0px;
+        padding: 0px;
+        display: none;
+        overflow: hidden;
+        /* max-height: 0;
         transition: max-height 0.3s ease-out;
         display: grid;
         grid-template-columns: 1fr;
-        overflow: hidden;
+        overflow: hidden; */
+    }
+
+    .panel > button 
+    {
+        border: none;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        outline: none;
+    }
+
+    .panel > button > a 
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar-menu-content-panel > div
+    {
+        padding: 0px;
+        margin: 0px;
     }
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
