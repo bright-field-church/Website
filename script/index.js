@@ -12,10 +12,13 @@ $(document).ready(function()
            if(panel.style.display === "block")
            {
                panel.style.display = "none";
+               this.style.backgroundColor = "lightgray";
            } 
            else
            {
                panel.style.display = "block";
+               this.style.backgroundColor = "gray";
+               
            }
         });
     }
@@ -26,44 +29,17 @@ $(document).ready(function()
         if(panel.style.display === "block")
         {
             panel.style.display = "none";
+
+            for(i = 0; i < accordion.length; i++)
+            {
+                accordion[i].style.backgroundColor = "lightgray";
+                var panel = accordion[i].nextElementSibling;
+                panel.style.display = "none";
+            }
         }
         else
         {
             panel.style.display = "block";
         }
     });
-
-    // // This statement adds a click event listener that drops down a menu when the menu icon is clicked.
-    // navbar_menu_icon_accordion.addEventListener("click", function()
-    // {   
-    //     var navbar_menu_content_panel = this.nextElementSibling;
-
-    //     if(navbar_menu_content_panel.style.maxHeight)
-    //     {
-    //         navbar_menu_content_panel.style.maxHeight = null;
-    //     }
-    //     else
-    //     {
-    //         navbar_menu_content_panel.style.maxHeight = navbar_menu_content_panel.scrollHeight + "px";
-    //     }
-    // });
-
-    // //alert(accordion.length);
-    // for(i = 0; i < accordion.length; i++)
-    // { 
-    //     accordion[i].addEventListener("click", function()
-    //     {
-    //         var panel = this.nextElementSibling;
-
-    //         if(panel.style.maxHeight)
-    //         {
-    //             panel.style.maxHeight = null;
-    //         }
-    //         else
-    //         {
-    //             panel.style.maxHeight = panel.scrollHeight + "px";
-    //         }
-    //     });
-    // }
-
 });

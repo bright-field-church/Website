@@ -40,6 +40,18 @@
         padding: 0px;
         grid-gap: 0px;
     }
+
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:link, a:visited
+    {
+        color: black;
+    }
+
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
 /*----------------------------------------------- */ 
@@ -86,17 +98,24 @@
         margin: 4px 0;
     }
 
+    .grid > button 
+    {
+        border: none;
+        background-color: lightgray;
+        padding: 5px;
+    }
+
     .navbar-menu-content-panel
     {
         display: none;
         overflow: hidden;
         grid-column: 1 / -1;
         grid-gap: 0px;
-        /* max-height: 0;
-        transition: max-height 0.3s ease-out;
-        display: grid;
-        grid-template-columns: 1fr;
-        overflow: hidden; */
+    }
+    .navbar-menu-content-panel > div
+    {
+        padding: 0px;
+        margin: 0px;
     }
 
     .panel
@@ -105,11 +124,6 @@
         padding: 0px;
         display: none;
         overflow: hidden;
-        /* max-height: 0;
-        transition: max-height 0.3s ease-out;
-        display: grid;
-        grid-template-columns: 1fr;
-        overflow: hidden; */
     }
 
     .panel > button 
@@ -117,21 +131,9 @@
         border: none;
         width: 100%;
         margin: 0px;
-        padding: 0px;
+        padding: 5px;
         text-align: left;
         outline: none;
-    }
-
-    .panel > button > a 
-    {
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .navbar-menu-content-panel > div
-    {
-        padding: 0px;
-        margin: 0px;
     }
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
