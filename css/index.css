@@ -35,7 +35,7 @@
     .grid
     {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 5fr 1fr;
         margin: 0px;
         padding: 0px;
         grid-gap: 0px;
@@ -100,6 +100,7 @@
 
     .grid > button 
     {
+        grid-column: 1 / -1;
         border: none;
         background-color: lightgray;
         padding: 5px;
@@ -120,6 +121,7 @@
 
     .panel
     {
+        grid-column: 1 / -1;
         margin: 0px;
         padding: 0px;
         display: none;
