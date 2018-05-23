@@ -24,7 +24,12 @@
 
     main
     {
-        background-color: #eeee
+        background-color: #eeee;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+        margin: 0px;
+        padding: 0px;
     }
 
     footer
@@ -102,6 +107,7 @@
     {
         grid-column: 1 / -1;
         border: none;
+        outline: none;
         background-color: lightgray;
         padding: 5px;
     }
@@ -130,14 +136,124 @@
 
     .panel > button 
     {
-        border: none;
         width: 100%;
         margin: 0px;
         padding: 5px;
         text-align: left;
+        border: none;
         outline: none;
     }
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
 /*----------------------------------------------- */ 
+
+/*------------------------------------------------*/
+                /* SLIDESHOW  */
+/*----------------------------------------------- */
+
+    .slideshow-container
+    {
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-gap: 0px;
+    }
+
+    .slides-fade
+    {
+        margin: 0px;
+        padding: 0px;
+        grid-row: 1 / -1;
+        grid-column: 1 / -1;
+    }
+
+    .slides-fade > img
+    {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    .prev, .next
+    {
+        cursor: pointer;
+        grid-row: 1 / -1;
+        grid-column: 1 / -1;
+        align-self: center;
+        margin: 5px;
+        padding: 0px;
+        width: auto;
+        font-weight: bold;
+        padding: 30%;
+        color: white;
+    }
+
+    .prev:hover, .next:hover 
+    {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    .prev
+    {
+        grid-column: 1 / 2;
+        justify-self: center;
+        border-radius: 3px 0px 0px 3px;
+    }
+
+    .next
+    {
+        grid-column: 3/ 4;
+        justify-self: center;
+        border-radius: 0px 3px 3px 0px;
+    }
+
+    .dot-container
+    {
+        margin: 0px;
+        padding: 0px;
+        grid-row: 1 / -1;
+        grid-column: 1 / -1;
+        align-self: end;
+        justify-self: center;
+    }
+
+    .dot
+    {
+        text-align: center;
+        height: 15px;
+        width: 15px;
+        margin: 4% 2px;
+        background-color: gray;
+        border-radius: 50%;
+        transition: background-color 0.6s ease;
+        display: inline-block;
+    }
+
+    .active 
+    {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade 
+    {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade 
+    {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+      
+    @keyframes fade 
+    {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
 }
