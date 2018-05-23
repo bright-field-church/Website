@@ -27,6 +27,7 @@
         background-color: #eeee;
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         grid-gap: 0px;
         margin: 0px;
         padding: 0px;
@@ -44,6 +45,13 @@
         margin: 0px;
         padding: 0px;
         grid-gap: 0px;
+    }
+
+    .image-wrapper
+    {
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     a
@@ -168,7 +176,7 @@
         grid-column: 1 / -1;
     }
 
-    .slides-fade > img
+    .image-wrapper > img
     {
         margin: 0px;
         padding: 0px;
@@ -256,4 +264,28 @@
         from {opacity: .4} 
         to {opacity: 1}
     }
+/*------------------------------------------------*/
+                /* SLIDESHOW  */
+/*----------------------------------------------- */
+/*------------------------------------------------*/
+            /* HOME INFORMATION  */
+/*----------------------------------------------- */
+    .home-information
+    {
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+
+    .home-information > img 
+    {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+/*------------------------------------------------*/
+            /* HOME INFORMATION  */
+/*----------------------------------------------- */
 }
