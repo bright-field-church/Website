@@ -67,7 +67,7 @@ $(document).ready(function()
     function showSlides()
     {
         var i;
-        var slides = document.getElementsByClassName("slides-fade");
+        var slides = document.getElementsByClassName("slides");
         var dots = document.getElementsByClassName("dot");
         for (i = 0; i < slides.length; i++)
         {
