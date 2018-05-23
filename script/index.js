@@ -2,6 +2,8 @@ $(document).ready(function()
 {
     var navbar_menu_icon_accordion = document.getElementById("navbar-menu-icon-accordion");
     var accordion = document.getElementsByClassName("accordion");
+    var prev = document.getElementsByClassName("prev")[0];
+    var next = document.getElementsByClassName("next")[0];
     var i;
 
     for(i = 0; i < accordion.length; i++)
@@ -44,7 +46,23 @@ $(document).ready(function()
     });
 
     var slideIndex = 0;
+    var timeoutHandler;
     showSlides();
+
+    prev.onclick = function()
+    {
+        clearTimeout(timeoutHandler);
+        slideIndex += -2;
+        //alert(slideIndex);
+        showSlides();
+    };
+
+    next.onclick = function()
+    {
+        clearTimeout(timeoutHandler);
+        //alert(slideIndex);
+        showSlides();
+    };
 
     function showSlides()
     {
@@ -57,10 +75,16 @@ $(document).ready(function()
         }
 
         slideIndex++;
+        //alert("showslides() - slideIndex: " + slideIndex);
         
         if(slideIndex > slides.length)
         {
             slideIndex = 1;
+        }
+        
+        if(slideIndex <= 0)
+        {
+            slideIndex = slides.length;
         }
 
         for(i = 0; i < dots.length; i++)
@@ -70,6 +94,6 @@ $(document).ready(function()
 
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 8000);
+        timeoutHandler = setTimeout(showSlides, 8000);
     }
 });

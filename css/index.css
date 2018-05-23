@@ -187,6 +187,7 @@
         width: auto;
         font-weight: bold;
         padding: 30%;
+        color: white;
     }
 
     .prev:hover, .next:hover 
