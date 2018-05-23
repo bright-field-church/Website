@@ -168,8 +168,17 @@
         grid-row: 1 / -1;
         grid-column: 1 / -1;
     }
+    
+    .image-wrapper
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
 
-    .slides > img
+    .image-wrapper > img
     {
         margin: 0px;
         padding: 0px;
