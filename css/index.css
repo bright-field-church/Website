@@ -335,4 +335,30 @@
 /*------------------------------------------------*/
             /* HOME INFORMATION  */
 /*----------------------------------------------- */
+/*------------------------------------------------*/
+            /* HOME DESCRIPTION  */
+/*----------------------------------------------- */
+
+    .description
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: white;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .description > h1
+    {
+        text-align: center;
+        font-size: 150%;
+        padding: 10px;
+    }
+
+    .description > p
+    {
+        text-align: center;
+        font-size: 110%;
+        padding: 10px;
+    }
 }
