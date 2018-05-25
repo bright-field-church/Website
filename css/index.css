@@ -27,6 +27,7 @@
         background-color: #eeee;
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         grid-gap: 0px;
         margin: 0px;
         padding: 0px;
@@ -34,6 +35,9 @@
 
     footer
     {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
         background-color: lightgray;
     }
 
@@ -46,16 +50,14 @@
         grid-gap: 0px;
     }
 
-    a
+    .image-wrapper
     {
-        text-decoration: none;
-        color: black;
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
-    a:link, a:visited
-    {
-        color: black;
-    }
+    
 
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
@@ -143,6 +145,17 @@
         border: none;
         outline: none;
     }
+
+    .panel > button > a 
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    .panel > button > a:link, a:visited
+    {
+        color: black;
+    }
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
 /*----------------------------------------------- */ 
@@ -157,18 +170,29 @@
         padding: 0px;
         display: grid;
         grid-template-columns: auto 1fr auto;
+        grid-auto-rows: minmax(1fr, 400px);
         grid-gap: 0px;
+        overflow: hidden;
     }
 
-    .slides-fade
+    .slides
     {
         margin: 0px;
         padding: 0px;
         grid-row: 1 / -1;
         grid-column: 1 / -1;
     }
+    
+    .image-wrapper
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
 
-    .slides-fade > img
+    .image-wrapper > img
     {
         margin: 0px;
         padding: 0px;
@@ -182,11 +206,12 @@
         grid-row: 1 / -1;
         grid-column: 1 / -1;
         align-self: center;
-        margin: 5px;
+        margin: 0px;
         padding: 0px;
         width: auto;
         font-weight: bold;
-        padding: 30%;
+        font-size: 200%;
+        padding: 10% 30% 10% 30%;
         color: white;
     }
 
@@ -199,14 +224,12 @@
     {
         grid-column: 1 / 2;
         justify-self: center;
-        border-radius: 3px 0px 0px 3px;
     }
 
     .next
     {
         grid-column: 3/ 4;
         justify-self: center;
-        border-radius: 0px 3px 3px 0px;
     }
 
     .dot-container
@@ -222,8 +245,8 @@
     .dot
     {
         text-align: center;
-        height: 15px;
-        width: 15px;
+        height: 11px;
+        width: 11px;
         margin: 4% 2px;
         background-color: gray;
         border-radius: 50%;
@@ -233,7 +256,7 @@
 
     .active 
     {
-        background-color: #717171;
+        background-color: darkslategray;
     }
 
     /* Fading animation */
@@ -255,5 +278,160 @@
     {
         from {opacity: .4} 
         to {opacity: 1}
+    }
+/*------------------------------------------------*/
+                /* SLIDESHOW  */
+/*----------------------------------------------- */
+/*------------------------------------------------*/
+            /* HOME INFORMATION  */
+/*----------------------------------------------- */
+    .home-information
+    {
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(0px, 110px);
+        grid-gap: 0px;
+    }
+    
+    .home-information > .image-wrapper
+    {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .home-information > .image-wrapper > img 
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .image-wrapper
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+
+    .info-text , .info-text > a
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-self: center;
+        align-self: center;
+        color: white;
+        font-size: 26px;
+        
+    }
+
+    .info-text > hr 
+    {
+        color: white;
+        background-color: white;
+        outline: none;
+        padding: 2px;
+        border: none;
+    }
+/*------------------------------------------------*/
+            /* HOME INFORMATION  */
+/*----------------------------------------------- */
+/*------------------------------------------------*/
+            /* HOME DESCRIPTION  */
+/*----------------------------------------------- */
+
+    .description
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: white;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .description > h1
+    {
+        text-align: center;
+        font-size: 150%;
+        padding: 10px;
+    }
+
+    .description > p
+    {
+        text-align: center;
+        font-size: 110%;
+        padding: 10px;
+    }
+/*------------------------------------------------*/
+            /* HOME DESCRIPTION  */
+/*----------------------------------------------- */
+
+    .social-media
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        background-color:#f5f5f5;
+    }
+
+    .social-media-icons
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .fa 
+    {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .fa-facebook
+    {
+        color:gray;
+        
+    }
+
+    .fa-instagram
+    {
+        color: gray;
+    }
+
+    .fa-twitter
+    {
+        color: gray;
+    }
+
+    .fa-envelope
+    {
+        color: gray;
+    }
+
+    .fa-facebook:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-twitter:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-instagram:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-envelope:hover
+    {
+        opacity: 0.7;
     }
 }
