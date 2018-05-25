@@ -14,12 +14,12 @@ $(document).ready(function()
            if(panel.style.display === "block")
            {
                panel.style.display = "none";
-               this.style.backgroundColor = "lightgray";
+               this.style.backgroundColor = "#f5f5f5";
            } 
            else
            {
                panel.style.display = "block";
-               this.style.backgroundColor = "gray";
+               this.style.backgroundColor = "darkgray";
                
            }
         });
@@ -34,7 +34,7 @@ $(document).ready(function()
 
             for(i = 0; i < accordion.length; i++)
             {
-                accordion[i].style.backgroundColor = "lightgray";
+                accordion[i].style.backgroundColor = "#f5f5f5";
                 var panel = accordion[i].nextElementSibling;
                 panel.style.display = "none";
             }
