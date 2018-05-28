@@ -1,0 +1,292 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    header 
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    main
+    {
+        background-color: #eeee;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    footer
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+        background-color: lightgray;
+    }
+
+    .grid
+    {
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        margin: 0px;
+        padding: 0px;
+        grid-gap: 0px;
+    }
+
+    .image-wrapper
+    {
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+/*------------------------------------------------*/
+                /* NAVIGATION BAR  */
+/*----------------------------------------------- */ 
+    
+    .navbar
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bright-field-logo
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .bright-field-logo > img
+    {
+        max-height: 100px;
+        width: auto;
+        padding: 6px;
+        margin-left: 10px;
+    }
+
+    .accordion
+    {
+        margin: 0px;
+        padding: 0px;
+        transition: 0.4s;
+    }
+
+    #navbar-menu-icon-accordion
+    {
+        margin: 0px;
+        padding: 0px;
+        grid-column: 2 / -1;
+        justify-self: end;
+    }
+
+    #navbar-menu-icon
+    {
+        margin: 30px 30px 30px 0px;
+    }
+
+    #navbar-menu-icon:hover > div
+    {
+        opacity: 0.7;
+    }
+
+    #navbar-menu-icon > div
+    {
+        width: 30px;
+        height: 5px;
+        background-color: #5f9e43;
+        border-radius: 1px;
+        margin: 4px 0;
+        transition: .4s;
+    }
+
+    .grid > button 
+    {
+        grid-column: 1 / -1;
+        border: none;
+        outline: none;
+        background-color: #f5f5f5;
+        padding: 5px;
+        font-size: 100%;
+        color: gray;
+    }
+
+    .grid > a
+    {
+        background-color: #f5f5f5;
+        color: gray;
+        text-decoration: none;
+        grid-column: 1 / -1;
+        padding: 5px;
+        font-size: 105%;
+        text-align: center;
+    }
+
+    .grid > a:link
+    {
+        color: gray;
+    }
+
+    .grid > a:visited
+    {
+        color: gray;
+    }
+
+    .navbar-menu-content-panel
+    {
+        display: none;
+        overflow: hidden;
+        grid-column: 1 / -1;
+        grid-gap: 0px;
+    }
+    .navbar-menu-content-panel > div
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .panel
+    {
+        grid-column: 1 / -1;
+        margin: 0px;
+        padding: 0px;
+        display: none;
+        overflow: hidden;
+        background-color: lightgray;
+    }
+
+    .panel > div
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .panel > div > a 
+    {
+        text-decoration: none;
+        color: white;
+        background-color: lightgray;
+        padding: 5px;
+    }
+
+    /* .panel > div > a:hover
+    {
+        opacity: .7;
+        background-color: gray;
+    } */
+
+    .panel > a:link, a:visited
+    {
+        color: white;
+    }
+
+    /*------------------------------------------------*/
+                /* NAVIGATION BAR  */
+    /*----------------------------------------------- */ 
+    /*------------------------------------------------*/
+                /* HOME SOCIAL MEDIA  */
+    /*----------------------------------------------- */
+
+    .social-media
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        background-color:#f5f5f5;
+    }
+
+    .social-media-icons
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .fa 
+    {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .fa-facebook
+    {
+        color:gray;
+        
+    }
+
+    .fa-instagram
+    {
+        color: gray;
+    }
+
+    .fa-twitter
+    {
+        color: gray;
+    }
+
+    .fa-envelope
+    {
+        color: gray;
+    }
+
+    .fa-facebook:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-twitter:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-instagram:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-envelope:hover
+    {
+        opacity: 0.7;
+    }
+    
+    /*------------------------------------------------*/
+            /* HOME SOCIAL MEDIA  */
+    /*----------------------------------------------- */
+    /*------------------------------------------------*/
+                /* HOME SERVICES  */
+    /*----------------------------------------------- */
+
+    .services > h1
+    {
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /*------------------------------------------------*/
+            /* HOME SERVICES  */
+    /*----------------------------------------------- */
+}

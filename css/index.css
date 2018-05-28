@@ -88,7 +88,7 @@
     {
         margin: 0px;
         padding: 0px;
-        transition: 0.3s;
+        transition: 0.4s;
     }
 
     #navbar-menu-icon-accordion
@@ -116,6 +116,7 @@
         background-color: #5f9e43;
         border-radius: 1px;
         margin: 4px 0;
+        transition: .4s;
     }
 
     .grid > button 
@@ -415,6 +416,56 @@
             /* HOME DESCRIPTION  */
 /*----------------------------------------------- */
 
+/*------------------------------------------------*/
+            /* HOME WHAT TO EXPECT  */
+/*----------------------------------------------- */
+
+.what-to-expect
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+}
+
+.what-to-expect > img 
+{
+    width: 100%;
+    height: auto;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.what-to-expect-content
+{
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.what-to-expect-content > div
+{
+    border: 1px solid white;
+    padding: 5px;
+    transition: .4s;
+}
+
+.what-to-expect-content > div:hover
+{
+    background-color: white;
+    color: black;
+}
+
+/*------------------------------------------------*/
+        /* HOME WHAT TO EXPECT  */
+/*----------------------------------------------- */
+/*------------------------------------------------*/
+            /* HOME SOCIAL MEDIA  */
+/*----------------------------------------------- */
+
     .social-media
     {
         display: grid;
@@ -480,7 +531,7 @@
         opacity: 0.7;
     }
 /*------------------------------------------------*/
-            /* HOME DESCRIPTION  */
+            /* HOME SOCIAL MEDIA  */
 /*----------------------------------------------- */
 /*------------------------------------------------*/
             /* HOME SERVICES  */
@@ -495,51 +546,5 @@
 /*------------------------------------------------*/
             /* HOME SERVICES  */
 /*----------------------------------------------- */
-/*------------------------------------------------*/
-            /* HOME WHAT TO EXPECT  */
-/*----------------------------------------------- */
 
-    .what-to-expect
-    {
-        display: grid;
-        grid-template-columns: 1fr;
-        color: white;
-    }
-
-    .what-to-expect > img 
-    {
-        width: 100%;
-        height: auto;
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-    }
-
-    .what-to-expect-content
-    {
-        align-self: center;
-        justify-self: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-    }
-
-    .what-to-expect-content > div
-    {
-        border: 1px solid white;
-        padding: 5px;
-        transition: .4s;
-    }
-
-    .what-to-expect-content > div:hover
-    {
-        background-color: white;
-        color: black;
-    }
-
-
-/*------------------------------------------------*/
-            /* HOME WHAT TO EXPECT  */
-/*----------------------------------------------- */
 }
