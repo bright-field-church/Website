@@ -23,7 +23,7 @@
 
     main
     {
-        background-color: #eeee;
+        background-color: white;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -55,7 +55,94 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+/*------------------------------------------------*/
+                /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+    .header_image
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+        overflow: hidden;
+    }
 
+    .header_image > img
+    {
+        width: 100%;
+    }
+/*------------------------------------------------*/
+                /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+/*------------------------------------------------*/
+                /* MENU */
+/*----------------------------------------------- */ 
+    .menu
+    {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        background-color: #5f9e43;
+        justify-items: center;
+        grid-gap: 10px;
+    }
+
+    .menu > h1
+    {
+        color: white;
+    }
+    
+    .menu > div
+    {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 10px;
+    }
+
+    .menu > div > a 
+    {
+        text-decoration: none;
+        color: white;
+        padding: 5px 15px 5px 15px;
+        border: 1px solid white;
+        width: 100%;
+        text-align: center;
+    }
+
+    #creed
+    {
+        grid-column: 1 / -1;
+        width: 90%;
+    }
+/*------------------------------------------------*/
+                /* MENU */
+/*----------------------------------------------- */ 
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
+    .content
+    {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .content > h1
+    {
+        font-style: italic;
+        font-size: 170%;
+    }
+
+    .content > p 
+    {
+        font-size: 115%;
+    }
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
 /*----------------------------------------------- */ 
