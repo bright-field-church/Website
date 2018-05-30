@@ -83,20 +83,20 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         background-color: #5f9e43;
-        justify-items: center;
-        grid-gap: 10px;
+        grid-gap: 20px;
     }
 
     .menu > h1
     {
         color: white;
+        justify-self: center;
     }
     
     .menu > div
     {
         grid-column: 1 / -1;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         justify-items: center;
         grid-gap: 10px;
     }
@@ -111,11 +111,12 @@
         text-align: center;
     }
 
-    #creed
+    .menu > div> a:hover
     {
-        grid-column: 1 / -1;
-        width: 90%;
+        background-color: white;
+        color: black;
     }
+
 /*------------------------------------------------*/
                 /* MENU */
 /*----------------------------------------------- */ 
