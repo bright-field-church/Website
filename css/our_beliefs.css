@@ -23,7 +23,7 @@
 
     main
     {
-        background-color: #eeee;
+        background-color: white;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -55,7 +55,100 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+/*------------------------------------------------*/
+                /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
 
+    .header_image
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+        overflow: hidden;
+    }
+
+    .header_image > img
+    {
+        width: 100%;
+    }
+
+/*------------------------------------------------*/
+                /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+/*------------------------------------------------*/
+                /* MENU */
+/*----------------------------------------------- */ 
+
+    .menu
+    {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        background-color: #5f9e43;
+        grid-gap: 20px;
+    }
+
+    .menu > h1
+    {
+        color: white;
+        justify-self: center;
+    }
+    
+    .menu > div
+    {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-gap: 10px;
+    }
+
+    .menu > div > a 
+    {
+        text-decoration: none;
+        color: white;
+        padding: 5px 15px 5px 15px;
+        border: 1px solid white;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu > div> a:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+/*------------------------------------------------*/
+                /* MENU */
+/*----------------------------------------------- */ 
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
+
+    .content
+    {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .content > h1
+    {
+        font-style: italic;
+        font-size: 170%;
+    }
+
+    .content > p 
+    {
+        font-size: 115%;
+    }
+    
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
 /*----------------------------------------------- */ 
