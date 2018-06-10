@@ -74,7 +74,7 @@
         margin: 0px;
     }
 
-    .bright-field-logo > img
+    .bright-field-logo > a > img
     {
         max-height: 100px;
         width: auto;
