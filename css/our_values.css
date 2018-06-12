@@ -157,6 +157,7 @@ a
     {
         color: white;
         justify-self: center;
+        font-size: 225%;
     }
     
     .menu > div
@@ -456,7 +457,7 @@ a
     {
         grid-column: 1 / -1;
         grid-row: 1 / -1;
-        color: #5f9e43;
+        color: black;
         text-align: center;
         padding: 10px;
         justify-self: center;
@@ -815,7 +816,7 @@ a
     {
         grid-column: 1 / -1;
         grid-row: 1 / -1;
-        color: #5f9e43;
+        color: black;
         text-align: center;
         padding: 10px;
         justify-self: center;
