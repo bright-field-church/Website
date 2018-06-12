@@ -481,7 +481,7 @@ a
     {
         text-align: center;
         font-size: 110%;
-        padding: 11px 50px;
+        padding: 2% 50px;
     }
 /*------------------------------------------------*/
             /* HOME DESCRIPTION  */
@@ -1003,6 +1003,7 @@ a
         padding: 0px;
         margin: 0px;
         font-style: italic;
+        margin-bottom: 5%;
     }
 
     .description > .content > p

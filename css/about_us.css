@@ -145,7 +145,7 @@ a
 
     .menu
     {
-        padding: 20px;
+        padding: 0px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -161,11 +161,17 @@ a
     
     .menu > div
     {
+        padding: 20px 0px 20px 0px;
         grid-column: 1 / -1;
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
-        grid-gap: 10px;
+    }
+
+    .menu > div > hr 
+    {
+        color: white;
+        height: 1px;
     }
 
     .menu > div > a 
@@ -173,7 +179,7 @@ a
         text-decoration: none;
         color: white;
         padding: 5px 15px 5px 15px;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         width: 100%;
         text-align: center;
     }
@@ -515,12 +521,13 @@ a
 
     .menu > div
     {
-        padding: 10px 20% 10px 20%;
+        padding: 0px 20% 0px 20%;
         grid-column: 1 / -1;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-items: center;
         grid-gap: 10px;
+        background-color: gray;
     }
 
     .menu > div > a 
@@ -528,8 +535,8 @@ a
         font-size: 125%;
         text-decoration: none;
         color: white;
-        padding: 5px 15px 5px 15px;
-        border: 1px solid white;
+        padding: 10px 15px 10px 15px;
+        /* border: 1px solid white; */
         width: 100%;
         text-align: center;
         font-weight: bold;
