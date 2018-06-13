@@ -1,0 +1,831 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+main
+{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    background-color: lightgray;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin: 0px;
+    padding: 0px;
+    grid-gap: 0px;
+}
+
+.image-wrapper
+{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+p
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+    font-family: 'Montserrat-BoldItalic', sans-serif;
+}
+
+a
+{
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    header 
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    main
+    {
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    footer
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+        background-color: lightgray;
+    }
+
+    .grid
+    {
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        margin: 0px;
+        padding: 0px;
+        grid-gap: 0px;
+    }
+
+    .image-wrapper
+    {
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+/*------------------------------------------------*/
+                /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+
+    .header_image
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+        overflow: hidden;
+    }
+
+    .header_image > img
+    {
+        width: 100%;
+    }
+
+/*------------------------------------------------*/
+                /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+/*------------------------------------------------*/
+                /* MENU */
+/*----------------------------------------------- */ 
+
+    .menu
+    {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        background-color: #5f9e43;
+        grid-gap: 20px;
+    }
+
+    .menu > h1
+    {
+        color: white;
+        justify-self: center;
+        font-size: 225%;
+    }
+    
+    .menu > div
+    {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-gap: 10px;
+    }
+
+    .menu > div > a 
+    {
+        text-decoration: none;
+        color: white;
+        padding: 5px 15px 5px 15px;
+        border: 1px solid white;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu > div> a:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+/*------------------------------------------------*/
+                /* MENU */
+/*----------------------------------------------- */ 
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
+
+    .content
+    {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .content > h1
+    {
+        font-style: italic;
+        font-size: 170%;
+    }
+
+    .content > p 
+    {
+        font-size: 115%;
+    }
+    
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
+/*------------------------------------------------*/
+                /* NAVIGATION BAR  */
+/*----------------------------------------------- */ 
+    
+    .navbar
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bright-field-logo
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .bright-field-logo > a > img
+    {
+        max-height: 80px;
+        width: auto;
+        padding: 25px;
+        margin-left: 10px;
+    }
+
+    .accordion
+    {
+        margin: 0px;
+        padding: 0px;
+        transition: 0.4s;
+    }
+
+    #navbar-menu-icon-accordion
+    {
+        margin: 0px;
+        padding: 0px;
+        grid-column: 2 / -1;
+        justify-self: end;
+    }
+
+    #navbar-menu-icon
+    {
+        margin: 30px 30px 30px 0px;
+    }
+
+    #navbar-menu-icon:hover > div
+    {
+        opacity: 0.7;
+    }
+
+    #navbar-menu-icon > div
+    {
+        width: 30px;
+        height: 5px;
+        background-color: #5f9e43;
+        border-radius: 1px;
+        margin: 4px 0;
+        transition: .4s;
+    }
+
+    .grid > button 
+    {
+        grid-column: 1 / -1;
+        border: none;
+        outline: none;
+        background-color: #f5f5f5;
+        padding: 5px;
+        font-size: 100%;
+        color: gray;
+    }
+
+    .grid > a
+    {
+        background-color: #f5f5f5;
+        color: gray;
+        text-decoration: none;
+        grid-column: 1 / -1;
+        padding: 5px;
+        font-size: 105%;
+        text-align: center;
+    }
+
+    .grid > a:link
+    {
+        color: gray;
+    }
+
+    .grid > a:visited
+    {
+        color: gray;
+    }
+
+    .navbar-menu-content-panel
+    {
+        display: none;
+        overflow: hidden;
+        grid-column: 1 / -1;
+        grid-gap: 0px;
+    }
+    .navbar-menu-content-panel > div
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .panel
+    {
+        grid-column: 1 / -1;
+        margin: 0px;
+        padding: 0px;
+        display: none;
+        overflow: hidden;
+        background-color: lightgray;
+    }
+
+    .panel > div
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .panel > div > a 
+    {
+        text-decoration: none;
+        color: white;
+        background-color: lightgray;
+        padding: 5px;
+    }
+
+    /* .panel > div > a:hover
+    {
+        opacity: .7;
+        background-color: gray;
+    } */
+
+    .panel > a:link, a:visited
+    {
+        color: white;
+    }
+
+    /*------------------------------------------------*/
+                /* NAVIGATION BAR  */
+    /*----------------------------------------------- */ 
+    /*------------------------------------------------*/
+                /* HOME SOCIAL MEDIA  */
+    /*----------------------------------------------- */
+
+    .social-media
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        background-color:#f5f5f5;
+    }
+
+    .social-media-icons
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .fa 
+    {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .fa-facebook
+    {
+        color:gray;
+        
+    }
+
+    .fa-instagram
+    {
+        color: gray;
+    }
+
+    .fa-twitter
+    {
+        color: gray;
+    }
+
+    .fa-envelope
+    {
+        color: gray;
+    }
+
+    .fa-facebook:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-twitter:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-instagram:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-envelope:hover
+    {
+        opacity: 0.7;
+    }
+    
+    /*------------------------------------------------*/
+            /* HOME SOCIAL MEDIA  */
+    /*----------------------------------------------- */
+    /*------------------------------------------------*/
+                /* HOME SERVICES  */
+    /*----------------------------------------------- */
+
+    .services
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(0px, 150px);
+        overflow: hidden;
+    }
+
+    .services > img
+    {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        width: 100%;
+        height: auto;
+    }
+
+    .services > h1
+    {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        color: black;;
+        text-align: center;
+        padding: 10px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    /*------------------------------------------------*/
+            /* HOME SERVICES  */
+    /*----------------------------------------------- */
+}
+
+@media only screen and (min-width: 1024px)
+{
+
+/*------------------------------------------------*/
+            /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+
+    .header_image
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(0px, 400px);
+        overflow: hidden;
+    }
+
+    .header_image > img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    /*------------------------------------------------*/
+                /* HEADER IMAGE  */
+    /*----------------------------------------------- */ 
+    /*------------------------------------------------*/
+                /* MENU */
+    /*----------------------------------------------- */ 
+
+    .menu
+    {
+        padding: 20px 0px 20px 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        background-color: #5f9e43;
+        grid-gap: 20px;
+    }
+
+    .menu > h1
+    {
+        color: white;
+        justify-self: center;
+        font-size: 250%;
+    }
+
+    .menu > div
+    {
+        padding: 10px 5% 10px 5%;
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        grid-gap: 10px;
+    }
+
+    .menu > div > a 
+    {
+        font-size: 125%;
+        text-decoration: none;
+        color: white;
+        padding: 5px 15px 5px 15px;
+        border: 1px solid white;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .menu > div> a:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    /*------------------------------------------------*/
+                /* MENU */
+    /*----------------------------------------------- */ 
+    /*------------------------------------------------*/
+                /* CONTENT */
+    /*----------------------------------------------- */
+
+    .content
+    {
+        padding: 100px 15% 100px 15%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .content > h1
+    {
+        font-style: italic;
+        font-size: 200%;
+    }
+
+    .content > p 
+    {
+        font-size: 150%;
+    }
+
+    /*------------------------------------------------*/
+                /* CONTENT */
+    /*----------------------------------------------- */
+    /*------------------------------------------------*/
+                /* NAVIGATION BAR  */
+    /*----------------------------------------------- */ 
+
+    .navbar
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bright-field-logo
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .bright-field-logo > a > img
+    {
+        max-height: 100px;
+        width: auto;
+        padding: 25px;
+        margin-left: 10px;
+    }
+
+    .accordion
+    {
+        margin: 0px;
+        padding: 0px;
+        transition: 0.4s;
+    }
+
+    #navbar-menu-icon-accordion
+    {
+        margin: 0px;
+        padding: 0px;
+        grid-column: 2 / -1;
+        justify-self: end;
+    }
+
+    #navbar-menu-icon
+    {
+        margin: 30px 30px 30px 0px;
+    }
+
+    #navbar-menu-icon:hover > div
+    {
+        opacity: 0.7;
+    }
+
+    #navbar-menu-icon > div
+    {
+        width: 30px;
+        height: 5px;
+        background-color: #5f9e43;
+        border-radius: 1px;
+        margin: 4px 0;
+        transition: .4s;
+    }
+
+    .grid > button 
+    {
+        grid-column: 1 / -1;
+        border: none;
+        outline: none;
+        background-color: #f5f5f5;
+        padding: 5px;
+        font-size: 100%;
+        color: gray;
+    }
+
+    .grid > a
+    {
+        background-color: #f5f5f5;
+        color: gray;
+        text-decoration: none;
+        grid-column: 1 / -1;
+        padding: 5px;
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .grid > a:link
+    {
+        color: gray;
+    }
+
+    .grid > a:visited
+    {
+        color: gray;
+    }
+
+    .navbar-menu-content-panel
+    {
+        display: none;
+        overflow: hidden;
+        grid-column: 1 / -1;
+        grid-gap: 0px;
+    }
+    .navbar-menu-content-panel > div
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .panel
+    {
+        grid-column: 1 / -1;
+        margin: 0px;
+        padding: 0px;
+        display: none;
+        overflow: hidden;
+        background-color: lightgray;
+    }
+
+    .panel > div
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .panel > div > a 
+    {
+        text-decoration: none;
+        color: white;
+        background-color: lightgray;
+        padding: 5px;
+    }
+
+    /* .panel > div > a:hover
+    {
+        opacity: .7;
+        background-color: gray;
+    } */
+
+    .panel > a:link, a:visited
+    {
+        color: white;
+    }
+
+    /*------------------------------------------------*/
+                /* NAVIGATION BAR  */
+    /*----------------------------------------------- */ 
+    /*------------------------------------------------*/
+                /* HOME SOCIAL MEDIA  */
+    /*----------------------------------------------- */
+
+    .social-media
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        background-color:#f5f5f5;
+    }
+
+    .social-media-icons
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .fa 
+    {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .fa-facebook
+    {
+        color:gray;
+        
+    }
+
+    .fa-instagram
+    {
+        color: gray;
+    }
+
+    .fa-twitter
+    {
+        color: gray;
+    }
+
+    .fa-envelope
+    {
+        color: gray;
+    }
+
+    .fa-facebook:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-twitter:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-instagram:hover
+    {
+        opacity: 0.7;
+    }
+
+    .fa-envelope:hover
+    {
+        opacity: 0.7;
+    }
+
+    /*------------------------------------------------*/
+            /* HOME SOCIAL MEDIA  */
+    /*----------------------------------------------- */
+    /*------------------------------------------------*/
+                /* HOME SERVICES  */
+    /*----------------------------------------------- */
+
+    .services
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(0px, 450px);
+        overflow: hidden;
+    }
+
+    .services > img
+    {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .services > h1
+    {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        justify-self: center;
+        align-self: center;
+        font-size: 300%;
+    }
+
+    /*------------------------------------------------*/
+            /* HOME SERVICES  */
+    /*----------------------------------------------- */
+}
