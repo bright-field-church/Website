@@ -197,22 +197,41 @@ a
         padding: 8% 20px 8% 20px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 20px;
+        grid-gap: 4%;
+        padding-top: 60px;
     }
 
-    .content > p 
+    .staff_card
     {
-        font-size: 115%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 325px;
+        grid-gap: 1%;
     }
 
     .staff_image
     {
-        width: 100%;
+        justify-self: center;
+        width: 80%;
         height: auto;
         border-radius: 50%;
     }
 
-    
+    .staff_name
+    {
+        font-size: 175%;
+        color: #5f9e43;
+    }
+
+    .staff_title
+    {
+        font-size: 135%;
+    }
+
+    .staff_description 
+    {
+        font-size: 115%;
+    }
 
 
 /*------------------------------------------------*/
