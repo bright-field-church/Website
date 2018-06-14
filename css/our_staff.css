@@ -132,13 +132,13 @@ a
     {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 200px;
         overflow: hidden;
     }
 
     .header_image > img
     {
         width: 100%;
+        height: auto;
     }
 
 /*------------------------------------------------*/
@@ -202,15 +202,15 @@ a
         padding: 8% 20px 8% 20px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 4%;
         padding-top: 60px;
+        grid-gap: 70px;
     }
 
     .staff_card
     {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 4%;
+        grid-gap: 30px;
     }
 
     .staff_image
@@ -228,18 +228,26 @@ a
         margin: 0px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 1%;
     }
 
-    .staff_headings > .staff_name
+    .staff_headings_subwrapper
     {
-        font-size: 175%;
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+
+    .staff_headings_subwrapper > .staff_name
+    {
+        font-size: 180%;
         color: #5f9e43;
     }
 
-    .staff_headings > .staff_title
+    .staff_headings_subwrapper > .staff_title
     {
-        font-size: 135%;
+        font-size: 132%;
     }
 
     .staff_description 
@@ -260,6 +268,9 @@ a
         margin: 0px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        position: fixed;
+        background-color: white;
+        width: 100%;
     }
 
     .bright-field-logo
@@ -322,10 +333,10 @@ a
         color: gray;
     }
 
-    .grid > a
+    .navbar-menu-content-panel > .grid > a
     {
-        background-color: #f5f5f5;
-        color: gray;
+        background-color: #5f9e43;
+        color: white;
         text-decoration: none;
         grid-column: 1 / -1;
         padding: 5px;
@@ -335,12 +346,12 @@ a
 
     .grid > a:link
     {
-        color: gray;
+        color: white;
     }
 
     .grid > a:visited
     {
-        color: gray;
+        color: white;
     }
 
     .navbar-menu-content-panel
@@ -588,8 +599,8 @@ a
         padding: 8% 15% 8% 15%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 4%;
         padding-top: 60px;
+        grid-gap: 125px;
     }
 
     .staff_card
@@ -597,8 +608,8 @@ a
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-row-gap: 10px;
-        grid-column-gap: 1%;
+        grid-column-gap: 5px;
+        grid-row-gap: 20px;
     }
 
     .staff_image
@@ -621,8 +632,6 @@ a
         margin: 0px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 1px;
-
     }
 
     .staff_headings_subwrapper
@@ -633,6 +642,7 @@ a
         grid-gap: 5px;
         padding: 0px;
         margin: 0px;
+        grid-gap: 1px;
     }
 
     .staff_headings_subwrapper > .staff_name

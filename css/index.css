@@ -45,6 +45,7 @@ footer
     margin: 0px;
     padding: 0px;
     grid-gap: 0px;
+    z-index: 1;
 }
 
 .image-wrapper
@@ -132,6 +133,10 @@ a
         margin: 0px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        z-index: 2;
     }
 
     .bright-field-logo
@@ -191,13 +196,13 @@ a
         background-color: #f5f5f5;
         padding: 5px;
         font-size: 100%;
-        color: gray;
+        color: white;
     }
 
     .navbar-menu-content-panel > .grid > a
     {
-        background-color: #f5f5f5;
-        color: gray;
+        background-color: #5f9e43;
+        color: white;
         text-decoration: none;
         grid-column: 1 / -1;
         padding: 5px;
@@ -207,12 +212,12 @@ a
 
     .grid > a:link
     {
-        color: gray;
+        color: white;
     }
 
     .grid > a:visited
     {
-        color: gray;
+        color: white;
     }
 
     .navbar-menu-content-panel
@@ -276,7 +281,7 @@ a
 
     .slideshow-container
     {
-        margin: 0px;
+        margin-top: 84px;
         padding: 0px;
         display: grid;
         grid-template-columns: auto 1fr auto;
@@ -415,10 +420,14 @@ a
 
     .home-information > .image-wrapper > img 
     {
+        padding: 0px;
+        margin: 0px;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         width: 100%;
         overflow: hidden;
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
     }
 
     .image-wrapper
@@ -437,6 +446,7 @@ a
         color: white;
         font-size: 26px;
         text-decoration: none;
+        z-index: 1;
         
     }
 
