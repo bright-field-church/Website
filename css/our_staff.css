@@ -45,6 +45,7 @@ footer
     margin: 0px;
     padding: 0px;
     grid-gap: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .image-wrapper
@@ -184,7 +185,7 @@ a
         text-align: center;
     }
 
-    .menu > div> a:hover
+    .menu > div > a:hover
     {
         background-color: white;
         color: black;
@@ -220,6 +221,7 @@ a
         max-width: 450px;
         height: auto;
         border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
     .staff_headings
@@ -271,6 +273,7 @@ a
         position: fixed;
         background-color: white;
         width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
     .bright-field-logo
@@ -339,7 +342,7 @@ a
         color: white;
         text-decoration: none;
         grid-column: 1 / -1;
-        padding: 5px;
+        padding: 7px;
         font-size: 105%;
         text-align: center;
     }
@@ -352,6 +355,12 @@ a
     .grid > a:visited
     {
         color: white;
+    }
+
+    .grid > a:hover
+    {
+        background: white;
+        color: #5f9e43;
     }
 
     .navbar-menu-content-panel

@@ -45,6 +45,7 @@ footer
     margin: 0px;
     padding: 0px;
     grid-gap: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .image-wrapper
@@ -145,7 +146,7 @@ a
 
     .menu
     {
-        padding: 20px;
+        padding: 5%;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -156,8 +157,8 @@ a
     .menu > h1
     {
         color: white;
-        justify-self: center;
-        font-size: 225%;
+        justify-self: center; 
+        font-size: 150%;
     }
     
     .menu > div
@@ -227,6 +228,7 @@ a
         position: fixed;
         background-color: white;
         width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
     .bright-field-logo
@@ -295,7 +297,7 @@ a
         color: white;
         text-decoration: none;
         grid-column: 1 / -1;
-        padding: 5px;
+        padding: 7px;
         font-size: 105%;
         text-align: center;
     }
@@ -308,6 +310,12 @@ a
     .grid > a:visited
     {
         color: white;
+    }
+
+    .grid > a:hover
+    {
+        background: white;
+        color: #5f9e43;
     }
 
     .navbar-menu-content-panel
