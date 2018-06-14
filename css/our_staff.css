@@ -65,6 +65,11 @@ h1
     font-family: 'Montserrat-BoldItalic', sans-serif;
 }
 
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
 a
 {
     font-family: 'Montserrat-Bold', sans-serif;
@@ -195,23 +200,62 @@ a
 
     .content
     {
-        padding: 40px 20px 40px 20px;
+        padding: 50px 20px 50px 20px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 20px;
+        grid-gap: 70px;
     }
 
-    .content > h1
+    .staff_card
     {
-        font-style: italic;
-        font-size: 170%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
     }
 
-    .content > p 
+    .staff_image
     {
-        font-size: 115%;
+        justify-self: center;
+        width: 80%;
+        max-width: 450px;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
-    
+
+    .staff_headings
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .staff_headings_subwrapper
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+
+    .staff_headings_subwrapper > .staff_name
+    {
+        font-size: 180%;
+        color: #5f9e43;
+    }
+
+    .staff_headings_subwrapper > .staff_title
+    {
+        font-size: 132%;
+    }
+
+    .staff_description 
+    {
+        font-size: 110%;
+    }
+
 /*------------------------------------------------*/
                 /* CONTENT */
 /*----------------------------------------------- */
@@ -229,7 +273,6 @@ a
         background-color: white;
         width: 100%;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
     }
 
     .bright-field-logo
@@ -285,7 +328,7 @@ a
         height: 5px;
         background-color: #5f9e43;
         border-radius: 1px;
-        margin: 4px 0;
+        margin: 4px 0px;
         transition: .4s;
     }
 
@@ -491,10 +534,9 @@ a
 
 @media only screen and (min-width: 1024px)
 {
-
-/*------------------------------------------------*/
-            /* HEADER IMAGE  */
-/*----------------------------------------------- */ 
+    /*------------------------------------------------*/
+                /* HEADER IMAGE  */
+    /*----------------------------------------------- */ 
 
     .header_image
     {
@@ -537,10 +579,10 @@ a
 
     .menu > div
     {
-        padding: 10px 5% 10px 5%;
+        padding: 10px 20% 10px 20%;
         grid-column: 1 / -1;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns:  1fr 1fr;
         justify-items: center;
         grid-gap: 10px;
     }
@@ -554,7 +596,6 @@ a
         border: 1px solid white;
         width: 100%;
         text-align: center;
-        font-weight: bold;
     }
 
     .menu > div> a:hover
@@ -575,18 +616,72 @@ a
         padding: 100px 15% 100px 15%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 20px;
+        /* padding-top: 60px; */
+        grid-gap: 125px;
     }
 
-    .content > h1
+    .staff_card
     {
-        font-style: italic;
-        font-size: 200%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 20px;
     }
 
-    .content > p 
+    .staff_image
     {
-        font-size: 150%;
+        align-self: center;
+        justify-self: center;
+        grid-column: 1 / 2;
+        grid-row: 1 / -1;
+        width: 80%;
+        max-width: 450px;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .staff_headings
+    {
+        align-items: top;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .staff_headings_subwrapper
+    {
+        align-self: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        padding: 0px;
+        margin: 0px;
+        grid-gap: 1px;
+    }
+
+    .staff_headings_subwrapper > .staff_name
+    {
+        font-size: 225%;
+        color: #5f9e43;
+    }
+
+    .staff_headings_subwrapper > .staff_title
+    {
+        font-size: 175%;
+    }
+
+    .staff_description 
+    {
+        padding: 0px;
+        margin: 0px;
+        grid-column: 2 / 3;
+        grid-row: 3 / -1;
+        font-size: 125%;
     }
 
     /*------------------------------------------------*/
@@ -627,7 +722,7 @@ a
         opacity: .6;
         transition: .2s;
     }
-
+    
     .accordion
     {
         margin: 0px;
@@ -714,6 +809,7 @@ a
         grid-column: 1 / -1;
         grid-gap: 0px;
     }
+
     .navbar-menu-content-panel > div
     {
         padding: 0px;
@@ -837,35 +933,36 @@ a
                 /* HOME SERVICES  */
     /*----------------------------------------------- */
 
-    .services
-    {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: minmax(0px, 450px);
-        overflow: hidden;
-    }
+        .services
+        {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: minmax(0px, 450px);
+            overflow: hidden;
+        }
 
-    .services > img
-    {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-        width: 100%;
-        height: auto;
-        margin: 0px;
-        padding: 0px;
-    }
+        .services > img
+        {
+            grid-column: 1 / -1;
+            grid-row: 1 / -1;
+            width: 100%;
+            height: auto;
+            margin: 0px;
+            padding: 0px;
+        }
 
-    .services > h1
-    {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-        color: black;
-        text-align: center;
-        padding: 10px;
-        justify-self: center;
-        align-self: center;
-        font-size: 300%;
-    }
+        .services > h1
+        {
+            grid-column: 1 / -1;
+            grid-row: 1 / -1;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            justify-self: center;
+            align-self: center;
+            font-size: 300%;
+        }
+
     /*------------------------------------------------*/
             /* HOME SERVICES  */
     /*----------------------------------------------- */
