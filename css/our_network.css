@@ -156,7 +156,8 @@ a
     .menu > h1
     {
         color: white;
-        justify-self: center;
+        justify-self: center; 
+        font-size: 150%;
     }
     
     .menu > div
@@ -189,7 +190,7 @@ a
 /*----------------------------------------------- */ 
 /*------------------------------------------------*/
                 /* CONTENT */
-    /*----------------------------------------------- */
+/*----------------------------------------------- */
 
     .content
     {
@@ -197,12 +198,6 @@ a
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 20px;
-    }
-
-    .content > h1
-    {
-        font-style: italic;
-        font-size: 200%;
     }
 
     .content > p 
@@ -223,7 +218,7 @@ a
         grid-column: 2 / 3;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 80px;
+        grid-gap: 60px;
         padding: 0px;
         margin: 0px;
     }
@@ -247,9 +242,14 @@ a
         margin: 0px;
     }
 
-    /*------------------------------------------------*/
+    .image_container > a > p 
+    {
+        color: black;
+    }
+
+/*------------------------------------------------*/
                 /* CONTENT */
-    /*----------------------------------------------- */
+/*----------------------------------------------- */
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
 /*----------------------------------------------- */ 
@@ -307,7 +307,7 @@ a
         height: 5px;
         background-color: #5f9e43;
         border-radius: 1px;
-        margin: 4px 0;
+        margin: 4px 0px;
         transition: .4s;
     }
 
@@ -493,7 +493,7 @@ a
     {
         grid-column: 1 / -1;
         grid-row: 1 / -1;
-        color: #5f9e43;
+        color: black;
         text-align: center;
         padding: 10px;
         justify-self: center;
@@ -894,7 +894,7 @@ a
         {
             grid-column: 1 / -1;
             grid-row: 1 / -1;
-            color: #5f9e43;
+            color: black;
             text-align: center;
             padding: 10px;
             justify-self: center;

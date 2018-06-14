@@ -69,7 +69,7 @@ a
     font-family: 'Montserrat-Bold', sans-serif;
 }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 1024px)
 {
     body
     {
@@ -179,7 +179,7 @@ a
         height: 5px;
         background-color: #5f9e43;
         border-radius: 1px;
-        margin: 4px 0;
+        margin: 4px 0px;
         transition: .4s;
     }
 
@@ -481,7 +481,7 @@ a
     {
         text-align: center;
         font-size: 110%;
-        padding: 11px 50px;
+        padding: 2% 50px;
     }
 /*------------------------------------------------*/
             /* HOME DESCRIPTION  */
@@ -628,7 +628,7 @@ a
     {
         grid-column: 1 / -1;
         grid-row: 1 / -1;
-        color: #5f9e43;
+        color: black;
         text-align: center;
         padding: 10px;
         justify-self: center;
@@ -643,7 +643,7 @@ a
                 /* NAVIGATION BAR  */
 /*----------------------------------------------- */ 
 
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 1024px)
 {
     .navbar
     {
@@ -1003,6 +1003,7 @@ a
         padding: 0px;
         margin: 0px;
         font-style: italic;
+        margin-bottom: 5%;
     }
 
     .description > .content > p
@@ -1159,7 +1160,7 @@ a
     {
         grid-column: 1 / -1;
         grid-row: 1 / -1;
-        color: #5f9e43;
+        color: black;
         text-align: center;
         padding: 10px;
         justify-self: center;

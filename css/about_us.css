@@ -69,7 +69,7 @@ a
     font-family: 'Montserrat-Bold', sans-serif;
 }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 1024px)
 {
     body
     {
@@ -157,6 +157,7 @@ a
     {
         color: white;
         justify-self: center;
+        font-size: 225%;
     }
     
     .menu > div
@@ -178,7 +179,7 @@ a
         text-align: center;
     }
 
-    .menu > div> a:hover
+    .menu > div > a:hover
     {
         background-color: white;
         color: black;
@@ -456,7 +457,7 @@ a
     {
         grid-column: 1 / -1;
         grid-row: 1 / -1;
-        color: #5f9e43;
+        color: black;
         text-align: center;
         padding: 10px;
         justify-self: center;
@@ -468,7 +469,7 @@ a
     /*----------------------------------------------- */
 }
 
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 1024px)
 {
 
 /*------------------------------------------------*/
@@ -515,7 +516,7 @@ a
 
     .menu > div
     {
-        padding: 10px 20% 10px 20%;
+        padding: 10px 5% 10px 5%;
         grid-column: 1 / -1;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -815,7 +816,7 @@ a
     {
         grid-column: 1 / -1;
         grid-row: 1 / -1;
-        color: #5f9e43;
+        color: black;
         text-align: center;
         padding: 10px;
         justify-self: center;
