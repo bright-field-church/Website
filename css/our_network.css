@@ -195,7 +195,7 @@ a
 
     .content
     {
-        padding: 8% 20px 8% 20px;
+        padding: 40px 20px 40px 20px;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 20px;
@@ -277,8 +277,13 @@ a
     {
         max-height: 80px;
         width: auto;
-        padding: 25px;
-        margin-left: 10px;
+        padding: 22px 15px 22px 15px;
+    }
+
+    .bright-field-logo > a:hover
+    {
+        opacity: .6;
+        transition: .2s;
     }
 
     .accordion
@@ -294,11 +299,14 @@ a
         padding: 0px;
         grid-column: 2 / -1;
         justify-self: end;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     #navbar-menu-icon
     {
-        margin: 30px 30px 30px 0px;
+        align-self: center;
+        padding-right: 15px;
     }
 
     #navbar-menu-icon:hover > div
@@ -533,13 +541,14 @@ a
     {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 200px;
         overflow: hidden;
     }
 
     .header_image > img
     {
         width: 100%;
+        height: auto;
+        margin-top: -250px;
     }
 
     /*------------------------------------------------*/
@@ -551,7 +560,7 @@ a
 
     .menu
     {
-        padding: 20px 0px 20px 0px;
+        padding: 3%;
         margin: 0px;
         display: grid;
         grid-template-columns: 1fr;
@@ -677,6 +686,10 @@ a
         margin: 0px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
     .bright-field-logo
@@ -693,6 +706,12 @@ a
         margin-left: 10px;
     }
 
+    .bright-field-logo > a:hover
+    {
+        opacity: .6;
+        transition: .2s;
+    }
+
     .accordion
     {
         margin: 0px;
@@ -706,11 +725,15 @@ a
         padding: 0px;
         grid-column: 2 / -1;
         justify-self: end;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: .2s;
     }
 
     #navbar-menu-icon
     {
-        margin: 30px 30px 30px 0px;
+        align-self: center;
+        padding: 30px;
     }
 
     #navbar-menu-icon:hover > div
@@ -741,23 +764,31 @@ a
 
     .grid > a
     {
-        background-color: #f5f5f5;
-        color: gray;
+        background-color: #5f9e43;
+        color: white;
         text-decoration: none;
         grid-column: 1 / -1;
-        padding: 5px;
+        padding: 15px;
         font-size: 150%;
         text-align: center;
+        transition: .2s;
     }
 
     .grid > a:link
     {
-        color: gray;
+        color: white;
     }
 
     .grid > a:visited
     {
-        color: gray;
+        color: white;
+    }
+
+    .grid > a:hover
+    {
+        background: white;
+        color: #5f9e43;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
     .navbar-menu-content-panel
@@ -767,6 +798,7 @@ a
         grid-column: 1 / -1;
         grid-gap: 0px;
     }
+
     .navbar-menu-content-panel > div
     {
         padding: 0px;
