@@ -64,6 +64,11 @@ h1
     font-family: 'Montserrat-BoldItalic', sans-serif;
 }
 
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
 a
 {
     font-family: 'Montserrat-Bold', sans-serif;
@@ -145,7 +150,7 @@ a
 
     .menu
     {
-        padding: 6%;
+        padding: 5%;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -205,34 +210,42 @@ a
     {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 325px;
-        grid-gap: 1%;
+        grid-gap: 4%;
     }
 
     .staff_image
     {
         justify-self: center;
         width: 80%;
+        max-width: 450px;
         height: auto;
         border-radius: 50%;
     }
 
-    .staff_name
+    .staff_headings
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1%;
+    }
+
+    .staff_headings > .staff_name
     {
         font-size: 175%;
         color: #5f9e43;
     }
 
-    .staff_title
+    .staff_headings > .staff_title
     {
         font-size: 135%;
     }
 
     .staff_description 
     {
-        font-size: 115%;
+        font-size: 110%;
     }
-
 
 /*------------------------------------------------*/
                 /* CONTENT */
@@ -572,65 +585,74 @@ a
 
     .content
     {
-        padding: 3% 15% 3% 15%;
+        padding: 8% 15% 8% 15%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 20px;
+        grid-gap: 4%;
+        padding-top: 60px;
     }
 
-    .content > h1
-    {
-        font-style: italic;
-        font-size: 200%;
-    }
-
-    .content > p 
-    {
-        font-size: 150%;
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .logo_grid
-    {
-        padding: 0px;
-        margin: 0px;
-        display: grid;
-        grid-template-columns: 2% 1fr 2%; 
-    }
-
-    .image_container
-    {
-        grid-column: 2 / 3;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 80px;
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .image_container > a
+    .staff_card
     {
         display: grid;
-        padding: 0px;
-        margin: 0px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        text-align: center;
-        text-decoration: none;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 10px;
+        grid-column-gap: 1%;
     }
 
-    .image_container > a > img
+    .staff_image
     {
-        width: 100%;
+        justify-self: center;
+        grid-column: 1 / 2;
+        grid-row: 1 / -1;
+        width: 80%;
+        max-width: 450px;
         height: auto;
+        border-radius: 50%;
+    }
+
+    .staff_headings
+    {
+        align-items: top;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1px;
+
+    }
+
+    .staff_headings_subwrapper
+    {
+        align-self: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
         padding: 0px;
         margin: 0px;
     }
 
-    .image_container > a > p
+    .staff_headings_subwrapper > .staff_name
     {
-        color: black;
+        font-size: 225%;
+        color: #5f9e43;
+    }
+
+    .staff_headings_subwrapper > .staff_title
+    {
+        font-size: 175%;
+    }
+
+    .staff_description 
+    {
+        padding: 0px;
+        margin: 0px;
+        grid-column: 2 / 3;
+        grid-row: 3 / -1;
+        font-size: 125%;
     }
 
     /*------------------------------------------------*/
