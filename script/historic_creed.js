@@ -14,12 +14,10 @@ $(document).ready(function()
            if(panel.style.display === "block")
            {
                panel.style.display = "none";
-               this.style.backgroundColor = "#f5f5f5";
            } 
            else
            {
                panel.style.display = "block";
-               this.style.backgroundColor = "darkgray";
                
            }
         });
