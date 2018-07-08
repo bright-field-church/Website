@@ -114,9 +114,14 @@ a
 
         .accordion
         {
-            margin: 0px;
-            padding: 0px;
             transition: 0.4s;
+            background-color: #5f9e43;
+            color: white;
+            text-decoration: none;
+            grid-column: 1 / -1;
+            padding: 7px;
+            font-size: 105%;
+            text-align: center;
         }
 
         #navbar-menu-icon-accordion
@@ -152,13 +157,12 @@ a
 
         .grid > button 
         {
-            grid-column: 1 / -1;
-            border: none;
-            outline: none;
-            background-color: #f5f5f5;
-            padding: 5px;
-            font-size: 100%;
+            background-color: #5f9e43;
             color: white;
+            grid-column: 1 / -1;
+            padding: 7px;
+            font-size: 105%;
+            text-align: center;
         }
 
         .navbar-menu-content-panel > .grid > a
