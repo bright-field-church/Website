@@ -35,6 +35,7 @@
             grid-template-rows: 1fr;
             background-color: #5f9e43;
             grid-gap: 20px;
+            margin-top: 104.4px;
         }
 
         .menu > h1

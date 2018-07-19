@@ -112,6 +112,7 @@
             grid-template-columns: 1fr;
             grid-template-rows: 500px;
             overflow: hidden;
+            margin-top: 104.4px;
         }
 
         .header_image > img

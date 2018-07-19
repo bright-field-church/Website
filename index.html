@@ -11,7 +11,8 @@
         <link rel="stylesheet" type="text/css" href="css/index.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="script/index.js"></script>
+        <script src="script/bf_navbar.js"></script>
+        <script src="script/bf_slideshow.js"></script>
     </head>
     <body>
         <header>
@@ -20,6 +21,27 @@
                     <a href="index.html">
                         <img src="images/Secondary_Lockup_2Color.png" id="logo">
                     </a>
+                </div>
+                <div class="navbar-desktop-menu">
+                    <div class="dropdown">
+                        <a href="#">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="menu_about_us/our_staff.html">Our Staff</a>
+                            <a href="menu_about_us/our_beliefs.html">Our Beliefs</a>
+                            <a href="menu_about_us/our_values.html">Our Values</a>
+                            <a href="menu_about_us/historic_creed.html">Historic Creeds</a>
+                            <a href="menu_about_us/our_network.html">Our Network</a>
+                        </div>
+                    </div>
+                    <a href="what_to_expect.html">Sundays</a>
+                    <div class="dropdown">
+                        <a href="#">Connecting</a>
+                        <div class="dropdown-content">
+                            <a href="small_groups.html">Small Groups</a>
+                            <a href="college_students.html">College Students</a>
+                        </div>
+                    </div>
+                    <a href="#">Kids</a>
                 </div>
                 <div id="navbar-menu-icon-accordion">
                     <div id="navbar-menu-icon">
@@ -30,31 +52,32 @@
                 </div>
                 <div class="navbar-menu-content-panel">
                     <div class="grid">
-                        <a href="our_staff.html">Our Staff</a>
+                        <!-- <a href="our_staff.html">Our Staff</a>
                         <a href="about_us.html">About Us</a>
                         <a href="our_beliefs.html">Our Beliefs</a>
                         <a href="our_values.html">Our Values</a>
                         <a href="historic_creed.html">Historic Creeds</a>
-                        <a href="our_network.html">Our Network</a>
+                        <a href="our_network.html">Our Network</a> -->
                         <button class="accordion">About Us</button>
                         <div class="panel">
                             <div>
-                                <a href="our_staff.html">Our Staff</a>
-                                <a href="our_beliefs.html">Our Beliefs</a>
-                                <a href="our_values.html">Our Values</a>
-                                <a href="historic_creeds.html">Historic Creeds</a>
-                                <a href="our_network.html">Our Network</a>
+                                <a href="menu_about_us/our_staff.html">Our Staff</a>
+                                <a href="menu_about_us/our_beliefs.html">Our Beliefs</a>
+                                <a href="menu_about_us/our_values.html">Our Values</a>
+                                <a href="menu_about_us/historic_creed.html">Historic Creeds</a>
+                                <a href="menu_about_us/our_network.html">Our Network</a>
                             </div>
                         </div>
-                        <button class="accordion">Services</button>
+                        <a href="what_to_expect.html">Sundays</a>
+                        <!-- <button class="accordion">Sundays</button>
                         <div class="panel">
                             <div>
                                 <a href="what_to_expect.html">What To Expect</a>
-                                <a href="time_and_directions.html">Time and Directions</a>
-                                <a href="student_rides.html">Student Rides</a>
+                                <!-- <a href="time_and_directions.html">Time and Directions</a>
+                                <a href="student_rides.html">Student Rides</a> 
                             </div>
-                        </div>
-                        <button class="accordion">Connecting</button>
+                        </div> -->
+                        <!-- <button class="accordion">Connecting</button>
                         <div class="panel">
                             <div>
                                 <a href="events_calendar.html">Events Calendar</a>
@@ -62,18 +85,21 @@
                                 <a href="bright_field_series.html">Bright Field Series</a>
                                 <a href="membership.html">Membership</a>
                             </div>
-                        </div>
-                        <button class="accordion">Small Groups</button>
+                        </div> -->
+                        <button class="accordion">Connecting</button>
                         <div class="panel">
                             <div>
-                                <a href="what_are_small_groups.html">What Are Small Groups?</a>
-                                <a href="tuesday_small_groups.html">Tuesday Small Groups</a>
+                                <a href="./menu_connecting/small_groups.html">Small Groups</a>
+                                <a href="./menu_connecting/college_students.html">College Students</a>
+                                <a href="./menu_connecting/serving.html">Serving</a>
+                                <a href="./menu_connecting/giving.html">Giving</a>
+                                <!-- <a href="tuesday_small_groups.html">Tuesday Small Groups</a>
                                 <a href="wednesday_small_gropus.html">Wednesday Small Groups</a>
-                                <a href="historic_creeds.html">Thursday Small Groups</a>
+                                <a href="thursday_small_groups.html">Thursday Small Groups</a> -->
                             </div>
                         </div>
                         <a href="#kids">Kids</a>
-                        <a href="#youth">Youth</a>
+                        <!-- <a href="#youth">Youth</a> -->
                     </div>
                 </div>
             </div>
@@ -85,19 +111,19 @@
                         <img src="images/bfwelcome.jpg">
                     </div>
                 </div>
-                <!-- <div class="slides">
+                <div class="slides">
                     <div class="image-wrapper">
                         <img src="images/small-groups.jpg">
                     </div>
                 </div>
                 <div class="slides">
                     <div class="image-wrapper">
-                        <img src="images/RideTeam.jpg">
+                        <img src="images/network_map.jpg">
                     </div>
                 </div>
                 <div class="slides">
                     <div class="image-wrapper">
-                        <img src="images/revolution.jpg">
+                        <img src="images/kids_program.jpg">
                     </div>
                 </div>
                 <a class="prev">&#10094;</a>
@@ -113,24 +139,24 @@
                 <div class="image-wrapper">
                     <img src="images/home-aboutus.jpg">
                     <div class="info-text">
-                        <a href="about_us.html">About Us</a>
+                        <a href="menu_about_us/about_us.html">About Us</a>
                         <hr/>
                     </div>
                 </div>
-                <!-- <div class="image-wrapper">
+                <div class="image-wrapper">
                     <img src="images/home-smallgroups.jpg">
                     <div class="info-text">
-                        <a href="#something">Get involved</a>
+                        <a href="small_groups.html">Get Involved</a>
                         <hr/>
                     </div>
-                </div> -->
-                <!-- <div class="image-wrapper">
+                </div>
+                <div class="image-wrapper">
                     <img src="images/home-kids.jpg">
                     <div class="info-text">
-                        <a href="#kids">Kids & Youth</a>
+                        <a href="kids_program.html">Kids & Youth</a>
                         <hr/>
                     </div>
-                </div>    -->
+                </div>  
             </div>
             <div class="description">
                 <div class="content">
@@ -144,28 +170,25 @@
                     </p>
                 </div>
             </div>
-            <!-- <div class="what-to-expect">
-                <img src="images/what-to-expect.jpg">
-                <div class="what-to-expect-content">
-                    <h1>WHAT TO EXPECT</h1>
-                    <div>
-                        <p>What are services like?</p>
+            <div class="what-to-expect">
+                <div class="image-wrapper">
+                    <img src="images/what-to-expect.jpg">
+                    <div class="what-to-expect-content">
+                        <h1>WHAT TO EXPECT</h1>
+                        <a href="#">What are services like?</a> 
+                        <a href="menu_about_us/our_beliefs.html">What does Bright Field believe?</a>           
                     </div>
-                    <div>
-                        <p>What does Bright Field believe?</p>
-                    </div>       
                 </div>
-            </div> -->
+            </div>
         </main>
         <footer>
-            <!-- <div class="social-media">
+            <div class="social-media">
                 <div class="social-media-icons">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-envelope"></a>
+                    <a href="https://www.facebook.com/brightfieldchurch/" class="fa fa-facebook"> &nbsp;&nbsp;Facebook</a>
+                    <a href="https://www.instagram.com/brightfieldchurch/?hl=en" class="fa fa-instagram"> &nbsp;&nbsp;Instagram</a>
+                    <a href="mailto:Contact@brightfieldchurch.org" class="fa fa-envelope"> &nbsp;&nbsp;Contact</a>
                 </div>
-            </div> -->
+            </div>
             <div class="services">
                 <img src="images/bfwelcome_img_stock.jpg">
                 <h1><i>Sunday Services Begin August 2018</i></h1>

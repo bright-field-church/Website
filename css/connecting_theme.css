@@ -1,0 +1,215 @@
+@media only screen and (min-width: 1024px)
+{
+    /*------------------------------------------------*/
+                /* HEADER IMAGE  */
+    /*---------------------------------------------- */ 
+
+        .header_image
+        {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: minmax(0px, 625px);
+            overflow: hidden;
+        }
+
+        .header_image > img
+        {
+            width: 100%;
+            height: auto;
+            margin-top: -400px;
+        }
+
+    /*------------------------------------------------*/
+                /* HEADER IMAGE  */
+    /*----------------------------------------------- */ 
+    /*------------------------------------------------*/
+                /* MENU */
+    /*----------------------------------------------- */ 
+
+        .menu
+        {
+            padding: 2%;
+            margin: 0px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            background-color: #5f9e43;
+            grid-gap: 20px;
+        }
+
+        .desktop-menu
+        {
+            padding: 2%;
+            margin: 0px;
+            display: grid;
+            grid-template-columns: 10% 1fr 1fr 1fr 1fr 10%;
+            grid-template-rows: 1fr;
+        }
+
+        .menu > h1
+        {
+            color: white;
+            justify-self: center;
+            font-size: 250%;
+        }
+
+        .menu > div
+        {
+            padding: 10px 20% 10px 20%;
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns:  1fr 1fr;
+            justify-items: center;
+            grid-gap: 10px;
+        }
+
+        .menu > div > a 
+        {
+            font-size: 125%;
+            text-decoration: none;
+            color: white;
+            padding: 5px 15px 5px 15px;
+            border: 1px solid white;
+            width: 100%;
+            text-align: center;
+        }
+
+        .menu > div> a:hover
+        {
+            background-color: white;
+            color: black;
+        }
+
+    /*------------------------------------------------*/
+                /* MENU */
+    /*----------------------------------------------- */
+}
+
+@media only screen and (max-width: 1024px)
+{
+    /*------------------------------------------------*/
+                    /* HEADER IMAGE  */
+    /*----------------------------------------------- */ 
+
+        .header_image
+        {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            overflow: hidden;
+        }
+
+        .header_image > img
+        {
+            width: 100%;
+            height: auto;
+        }
+
+    /*------------------------------------------------*/
+                    /* HEADER IMAGE  */
+    /*----------------------------------------------- */ 
+
+    /*------------------------------------------------*/
+                    /* MENU */
+    /*----------------------------------------------- */ 
+
+        .menu
+        {
+            padding: 5%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            background-color: #5f9e43;
+            /* grid-gap: 20px; */
+        }
+
+        .menu > h1
+        {
+            color: white;
+            justify-self: center; 
+            font-size: 150%;
+        }
+
+    /*------------------------------------------------*/
+                    /* MENU */
+    /*----------------------------------------------- */ 
+    /*------------------------------------------------*/
+                    /* CONTENT */
+    /*----------------------------------------------- */
+
+        .small_group_description
+        {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .small_group_description > p
+        {
+            font-size: 110%;
+        }
+        
+        .content
+        {
+            padding: 50px 20px 50px 20px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 70px;
+        }
+
+        .staff_card
+        {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 30px;
+        }
+
+        .staff_image
+        {
+            justify-self: center;
+            width: 80%;
+            max-width: 450px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+
+        .leader_headings
+        {
+            padding: 0px;
+            margin: 0px;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        .leader_headings_subwrapper
+        {
+            padding: 0px;
+            margin: 0px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 5px;
+        }
+
+        .leader_headings_subwrapper > .staff_name
+        {
+            font-size: 180%;
+            color: #5f9e43;
+        }
+
+        .leader_headings_subwrapper > .staff_title
+        {
+            font-size: 132%;
+        }
+
+        .staff_description 
+        {
+            font-size: 110%;
+        }
+
+    /*------------------------------------------------*/
+                    /* CONTENT */
+    /*----------------------------------------------- */ 
+}
