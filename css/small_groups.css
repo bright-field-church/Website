@@ -3,8 +3,16 @@
     /*------------------------------------------------*/
                 /* CONTENT */
     /*----------------------------------------------- */
+        #small_groups > a 
+        {
+        color: #5f9e43;
+        }
 
-
+        #small_groups > hr
+        {
+            background-color: #5f9e43;
+        }
+        
         .content
         {
             padding: 100px 15% 100px 15%;

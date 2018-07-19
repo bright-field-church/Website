@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1024px)
+{
+    #college_students > a 
+    {
+       color: #5f9e43;
+    }
+
+    #college_students > hr
+    {
+        background-color: #5f9e43;
+    }
+}
+
+@media only screen and (max-width: 1024px)
+{
+
+}

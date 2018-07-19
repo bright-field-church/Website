@@ -28,56 +28,64 @@
 
         .menu
         {
-            padding: 2%;
-            margin: 0px;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-            background-color: #5f9e43;
-            grid-gap: 20px;
-        }
-
-        .desktop-menu
-        {
-            padding: 2%;
-            margin: 0px;
-            display: grid;
-            grid-template-columns: 10% 1fr 1fr 1fr 1fr 10%;
-            grid-template-rows: 1fr;
+            display: none;
         }
 
         .menu > h1
         {
-            color: white;
-            justify-self: center;
-            font-size: 250%;
+            display: none;
         }
 
-        .menu > div
+        .desktop-menu
         {
-            padding: 10px 20% 10px 20%;
-            grid-column: 1 / -1;
+            padding: 0px;
+            margin: 0px;
             display: grid;
-            grid-template-columns:  1fr 1fr;
-            justify-items: center;
-            grid-gap: 10px;
-        }
-
-        .menu > div > a 
-        {
-            font-size: 125%;
-            text-decoration: none;
-            color: white;
-            padding: 5px 15px 5px 15px;
-            border: 1px solid white;
-            width: 100%;
-            text-align: center;
-        }
-
-        .menu > div> a:hover
-        {
+            grid-template-columns: 1fr 18fr 1fr;
+            grid-template-rows: 1fr;
             background-color: white;
-            color: black;
+            align-items: center;
+        }
+
+        .menu-subgroup
+        {
+            grid-column: 2 / 3;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-gap: 0px;
+            padding: 0px;
+            margin: 0px;
+            align-items: center;
+        }
+
+        .subgroup-wrapper
+        {
+            width: auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            align-items: center;
+            padding: 7% 0px 7% 0px;
+        }
+
+        .subgroup-wrapper > a
+        {
+            color: lightgray;
+            font-size: 150%;
+            padding: 0px;
+            margin: 0px;
+            text-decoration: none;
+        }
+
+        .subgroup-wrapper > hr
+        {
+            background-color: lightgray;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 1px;
+            width: 100%;
         }
 
     /*------------------------------------------------*/
@@ -128,6 +136,21 @@
             color: white;
             justify-self: center; 
             font-size: 150%;
+        }
+
+        .desktop-menu
+        {
+            display: none;
+        }
+
+        .menu-subgroup
+        {
+            display: none;
+        }
+
+        .subgroup-wrapper
+        {
+            display: none;
         }
 
     /*------------------------------------------------*/
