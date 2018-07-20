@@ -14,12 +14,10 @@ $(document).ready(function()
            if(panel.style.display === "block")
            {
                panel.style.display = "none";
-               this.style.backgroundColor = "#f5f5f5";
            } 
            else
            {
                panel.style.display = "block";
-               this.style.backgroundColor = "darkgray";
                
            }
         });
@@ -34,7 +32,6 @@ $(document).ready(function()
 
             for(i = 0; i < accordion.length; i++)
             {
-                accordion[i].style.backgroundColor = "#f5f5f5";
                 var panel = accordion[i].nextElementSibling;
                 panel.style.display = "none";
             }
@@ -44,4 +41,24 @@ $(document).ready(function()
             panel.style.display = "block";
         }
     });
+
+    // window.onscroll = function() {myFunction()};
+
+    // var menu = document.getElementsByClassName("menu")[0];
+    // var sticky = menu.offsetTop;
+    // var content = document.getElementsByClassName("content")[0];
+
+    // function myFunction() 
+    // {
+    //     if (window.pageYOffset >= sticky - 86) 
+    //     {
+    //         menu.classList.add("sticky");
+    //         content.style.paddingTop = inherit + 184;
+    //     } 
+    //     else 
+    //     {
+    //         menu.classList.remove("sticky");
+    //         content.style.paddingTop = initial;
+    //     }
+    // }
 });
