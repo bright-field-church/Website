@@ -103,24 +103,27 @@
 
 @media only screen and (min-width: 1024px)
 {
+        .header_image
+        {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: minmax(0px, 625px);
+            overflow: hidden;
+        }
 
-    #our_values > a 
-    {
-       color: #5f9e43;
-    }
-
-    #our_values > hr
-    {
-        background-color: #5f9e43;
-    }
-
+        .header_image > img
+        {
+            width: 100%;
+            height: auto;
+            margin-top: -400px;
+        }
     /*------------------------------------------------*/
                 /* MENU */
     /*----------------------------------------------- */ 
 
         .menu
         {
-            padding: 3%;
+            padding: 2%;
             margin: 0px;
             display: grid;
             grid-template-columns: 1fr;
