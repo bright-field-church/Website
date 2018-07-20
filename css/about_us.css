@@ -41,32 +41,6 @@
             justify-self: center; 
             font-size: 150%;
         }
-        
-        .menu > div
-        {
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: 1fr;
-            justify-items: center;
-            grid-gap: 10px;
-        }
-
-        .menu > div > a 
-        {
-            text-decoration: none;
-            color: white;
-            padding: 5px 15px 5px 15px;
-            border: 1px solid white;
-            width: 100%;
-            text-align: center;
-        }
-
-        .menu > div > a:hover
-        {
-            background-color: white;
-            color: black;
-        }
-
     /*------------------------------------------------*/
                     /* MENU */
     /*----------------------------------------------- */ 
@@ -102,29 +76,16 @@
 @media only screen and (min-width: 1024px)
 {
 
-    /*------------------------------------------------*/
-                /* HEADER IMAGE  */
-    /*----------------------------------------------- */ 
-
-        .header_image
+        #about_us > a 
         {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 500px;
-            overflow: hidden;
-            margin-top: 104.4px;
+        color: #5f9e43;
         }
 
-        .header_image > img
+        #about_us > hr
         {
-            width: 100%;
-            height: auto;
-            margin-top: -350px;
+            background-color: #5f9e43;
         }
 
-        /*------------------------------------------------*/
-                    /* HEADER IMAGE  */
-        /*----------------------------------------------- */ 
         /*------------------------------------------------*/
                     /* MENU */
         /*----------------------------------------------- */ 
@@ -145,34 +106,6 @@
             color: white;
             justify-self: center;
             font-size: 250%;
-        }
-
-        .menu > div
-        {
-            padding: 10px 5% 10px 5%;
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            justify-items: center;
-            grid-gap: 10px;
-        }
-
-        .menu > div > a 
-        {
-            font-size: 125%;
-            text-decoration: none;
-            color: white;
-            padding: 5px 15px 5px 15px;
-            border: 1px solid white;
-            width: 100%;
-            text-align: center;
-            font-weight: bold;
-        }
-
-        .menu > div> a:hover
-        {
-            background-color: white;
-            color: black;
         }
 
         /*------------------------------------------------*/

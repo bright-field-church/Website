@@ -104,20 +104,15 @@
 
 /*------------------------------------------------*/
             /* HEADER IMAGE  */
-/*----------------------------------------------- */ 
-
-    .header_image
+/*----------------------------------------------- */    
+    #our_beliefs > a 
     {
-        display: grid;
-        grid-template-columns: 1fr;
-        overflow: hidden;
+    color: #5f9e43;
     }
 
-    .header_image > img
+    #our_beliefs > hr
     {
-        width: 100%;
-        height: auto;
-        margin-top: -250px;
+        background-color: #5f9e43;
     }
 
     /*------------------------------------------------*/

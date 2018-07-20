@@ -193,14 +193,14 @@ a
     {
         background: white;
         color: #5f9e43;
-        font-weight: bold;
+        /* font-weight: bold; */
     }
 
     .grid > button:hover
     {
         background: white;
         color: #5f9e43;
-        font-weight: bold;
+        /* font-weight: bold; */
     }
 
     .navbar-menu-content-panel
@@ -248,7 +248,7 @@ a
         background-color: #5f9e43;
         opacity: .7;
         color: white;
-        font-weight: bold;
+        /* font-weight: bold; */
     }
 
     .panel > a:link, a:visited
