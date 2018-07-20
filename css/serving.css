@@ -1,0 +1,54 @@
+@media only screen and (min-width: 1024px)
+{
+    #serving > a 
+    {
+       color: #5f9e43;
+    }
+
+    #serving > hr
+    {
+        background-color: #5f9e43;
+    }
+
+    .content
+    {
+        padding: 100px 15% 100px 15%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .content > h1
+    {
+        font-style: italic;
+        font-size: 200%;
+    }
+
+    .content > p 
+    {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 1024px)
+{
+    
+    .content
+    {
+        padding: 40px 20px 40px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .content > h1
+    {
+        font-style: italic;
+        font-size: 170%;
+    }
+
+    .content > p 
+    {
+        font-size: 115%;
+    }
+}
