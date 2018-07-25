@@ -276,7 +276,12 @@ a
             /* font-weight: bold; */
         }
 
-        .panel > a:link, a:visited
+        .panel > a:link
+        {
+            color: white;
+        }
+
+        .panel > a:visted
         {
             color: white;
         }

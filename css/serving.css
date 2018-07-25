@@ -28,6 +28,10 @@
     {
         font-size: 125%;
     }
+
+    .content > .serving-login > a {
+        text-decoration: none;
+    }
 }
 
 @media only screen and (max-width: 1024px)
@@ -50,5 +54,9 @@
     .content > p
     {
         font-size: 115%;
+    }
+
+    .content > .serving-login > a {
+        text-decoration: none;
     }
 }
