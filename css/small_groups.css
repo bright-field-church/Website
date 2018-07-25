@@ -109,6 +109,7 @@
             padding: 0px;
             font-size: 130%;
             color: black;
+            width: 100%;
         }
 
         .fa > a
@@ -210,6 +211,7 @@
             padding: 0px;
             font-size: 120%;
             color: black;
+            width: 100%;
         }
 
         .fa > a
