@@ -113,6 +113,11 @@
             width: 100%;
         }
 
+        .small_group_email > .group_specific_description
+        {
+            margin-top: 7px;
+        }
+
         .fa > a
         {
             padding: 0px;
@@ -214,6 +219,11 @@
             font-size: 120%;
             color: black;
             width: 100%;
+        }
+
+        .small_group_email > .group_specific_description
+        {
+            margin-top: 7px;
         }
 
         .fa > a
