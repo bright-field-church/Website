@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1024px)
 {
-    #serving > a 
+    #serving > a
     {
        color: #5f9e43;
     }
@@ -24,15 +24,15 @@
         font-size: 200%;
     }
 
-    .content > p 
+    .content > p
     {
-        font-size: 150%;
+        font-size: 125%;
     }
 }
 
 @media only screen and (max-width: 1024px)
 {
-    
+
     .content
     {
         padding: 40px 20px 40px 20px;
@@ -47,7 +47,7 @@
         font-size: 170%;
     }
 
-    .content > p 
+    .content > p
     {
         font-size: 115%;
     }

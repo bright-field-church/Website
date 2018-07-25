@@ -4,7 +4,7 @@
                 /* MENU */
     /*----------------------------------------------- */
 
-        #small_groups > a 
+        #small_groups > a
         {
         color: #5f9e43;
         }
@@ -20,7 +20,7 @@
     /*------------------------------------------------*/
                 /* CONTENT */
     /*----------------------------------------------- */
-          
+
         .content
         {
             padding: 100px 15% 100px 15%;
@@ -38,7 +38,7 @@
 
         .small_group_description > p
         {
-            font-size: 150%;
+            font-size: 125%;
         }
 
         .leader_card
@@ -103,7 +103,7 @@
         }
 
 
-        .small_group_email > .fa 
+        .small_group_email > .fa
         {
             margin: 0px;
             padding: 0px;
@@ -111,7 +111,7 @@
             color: black;
         }
 
-        .fa > a 
+        .fa > a
         {
             padding: 0px;
             margin: 0px;
@@ -120,12 +120,12 @@
             color: black;
         }
 
-        .fa > a:link 
+        .fa > a:link
         {
             text-decoration: none;
         }
 
-        .fa > a:visited 
+        .fa > a:visited
         {
             text-decoration: none;
         }
@@ -137,7 +137,7 @@
 
 @media only screen and (max-width: 1024px)
 {
-    
+
     /*------------------------------------------------*/
                     /* CONTENT */
     /*----------------------------------------------- */
@@ -150,7 +150,7 @@
             margin: 0px;
             padding: 0px;
         }
-        
+
         .content
         {
             padding: 50px 20px 50px 20px;
@@ -190,7 +190,7 @@
             color: #5f9e43;
         }
 
-        .leader_description 
+        .leader_description
         {
             font-size: 85%;
         }
@@ -204,7 +204,7 @@
         }
 
 
-        .small_group_email > .fa 
+        .small_group_email > .fa
         {
             margin: 0px;
             padding: 0px;
@@ -212,7 +212,7 @@
             color: black;
         }
 
-        .fa > a 
+        .fa > a
         {
             padding: 0px;
             margin: 0px;
@@ -221,12 +221,12 @@
             color: black;
         }
 
-        .fa > a:link 
+        .fa > a:link
         {
             text-decoration: none;
         }
 
-        .fa > a:visited 
+        .fa > a:visited
         {
             text-decoration: none;
         }
@@ -237,5 +237,5 @@
         }
     /*------------------------------------------------*/
                     /* CONTENT */
-    /*----------------------------------------------- */ 
+    /*----------------------------------------------- */
 }
