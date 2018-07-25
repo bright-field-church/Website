@@ -1,3 +1,8 @@
+@font-face {
+  font-family: AcherusGrotesque Medium;
+  src: url('../fonts/AcherusGrotesque-Medium.woff2');
+}
+
 *
 {
     box-sizing: border-box;
@@ -13,7 +18,7 @@ body
     grid-template-columns: 1fr;
 }
 
-header 
+header
 {
     margin: 0px;
     padding: 0px;
@@ -57,26 +62,32 @@ footer
 
 p
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "AcherusGrotesque Medium",sans-serif;
 }
 
 h1
 {
-    font-family: 'Montserrat-BoldItalic', sans-serif;
+    font-family: "minion-pro-condensed",serif;
+    font-weight: 500;
+}
+
+h2
+{
+    font-family: "minion-pro-condensed",serif;
 }
 
 a
 {
-    font-family: 'Montserrat-Bold', sans-serif;
+    font-family: "minion-pro-condensed",serif;
 }
 
 @media only screen and (max-width: 1024px)
-{   
+{
 
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
-/*----------------------------------------------- */ 
-    
+/*----------------------------------------------- */
+
     .navbar
     {
         padding: 0px;
@@ -156,7 +167,7 @@ a
         transition: .4s;
     }
 
-    .grid > button 
+    .grid > button
     {
         grid-column: 1 / -1;
         border: none;
@@ -225,16 +236,16 @@ a
         overflow: hidden;
         background-color: white;
     }
-    
+
     .panel > div
     {
         padding: 0px;
         margin: 0px;
         display: grid;
-        grid-template-columns: 1fr;  
+        grid-template-columns: 1fr;
     }
 
-    .panel > div > a 
+    .panel > div > a
     {
         text-decoration: none;
         color: #5f9e43;
@@ -255,10 +266,10 @@ a
     {
         color: white;
     }
-    
+
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
-/*----------------------------------------------- */ 
+/*----------------------------------------------- */
 
 /*------------------------------------------------*/
                 /* SLIDESHOW  */
@@ -273,7 +284,7 @@ a
         grid-auto-rows: minmax(1fr, 400px);
         grid-gap: 0px;
         overflow: hidden;
-        
+
     }
 
     .slides
@@ -284,7 +295,7 @@ a
         grid-column: 1 / -1;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
-    
+
     .image-wrapper
     {
         display: grid;
@@ -317,7 +328,7 @@ a
         color: white;
     }
 
-    .prev:hover, .next:hover 
+    .prev:hover, .next:hover
     {
         background-color: rgba(0,0,0,0.8);
     }
@@ -356,13 +367,13 @@ a
         display: inline-block;
     }
 
-    .active 
+    .active
     {
         background-color: #5f9e43;
     }
 
     /* Fading animation */
-    .fade 
+    .fade
     {
         -webkit-animation-name: fade;
         -webkit-animation-duration: 1.5s;
@@ -370,15 +381,15 @@ a
         animation-duration: 1.5s;
     }
 
-    @-webkit-keyframes fade 
+    @-webkit-keyframes fade
     {
-        from {opacity: .4} 
+        from {opacity: .4}
         to {opacity: 1}
     }
-        
-    @keyframes fade 
+
+    @keyframes fade
     {
-        from {opacity: .4} 
+        from {opacity: .4}
         to {opacity: 1}
     }
 /*------------------------------------------------*/
@@ -396,7 +407,7 @@ a
         grid-auto-rows: minmax(0px, 150px);
         grid-gap: 0px;
     }
-    
+
     .home-information > .image-wrapper
     {
         padding: 0px;
@@ -405,7 +416,7 @@ a
         overflow: hidden;
     }
 
-    .home-information > .image-wrapper > img 
+    .home-information > .image-wrapper > img
     {
         padding: 0px;
         margin: 0px;
@@ -434,10 +445,10 @@ a
         color: white;
         font-size: 26px;
         text-decoration: none;
-        z-index: 1; 
+        z-index: 1;
     }
 
-    .info-text > hr 
+    .info-text > hr
     {
         color: white;
         background-color: white;
@@ -467,7 +478,7 @@ a
         margin: 0px;
         padding: 0px;
     }
-    
+
     .description > .content > h1
     {
         text-align: center;
@@ -507,7 +518,7 @@ a
     }
 
 
-    .what-to-expect > .image-wrapper > img 
+    .what-to-expect > .image-wrapper > img
     {
         width: 100%;
         height: auto;
@@ -538,10 +549,10 @@ a
     {
         border: 3px solid white;
         padding: 5px;
-        transition: .2s; 
+        transition: .2s;
         text-decoration: none;
         font-size: 110%;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "AcherusGrotesque Medium",sans-serif;
     }
 
     .what-to-expect-content > a:link
@@ -587,14 +598,14 @@ a
         grid-gap: 5px;
     }
 
-    .fa 
+    .fa
     {
         width: 100%;
         text-decoration: none;
         padding: 26px 16px 26px 16px;
     }
 
-    .social-media-icons > a 
+    .social-media-icons > a
     {
         font-size: 100%;
         color: darkgray;
@@ -659,7 +670,7 @@ a
 
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
-/*----------------------------------------------- */ 
+/*----------------------------------------------- */
 
 @media only screen and (min-width: 1024px)
 {
@@ -678,7 +689,7 @@ a
         display: none;
     }
 
-    .grid > button 
+    .grid > button
     {
         display: none;
     }
@@ -735,18 +746,18 @@ a
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         justify-items: center;
-        align-items: center; 
+        align-items: center;
         grid-gap: 0px;
     }
 
-    .navbar-desktop-menu > a 
+    .navbar-desktop-menu > a
     {
         padding: 40px 20px 40px 20px;
         margin: 0px;
         color: #5f9e43;
         font-size: 145%;
         text-decoration: none;
-        transition: .2s;  
+        transition: .2s;
     }
 
     .navbar-desktop-menu > a:link
@@ -772,14 +783,14 @@ a
         display: inline-block;
     }
 
-    .dropdown > a 
+    .dropdown > a
     {
         padding: 41px 20px 41px 20px;
         margin: 0px;
         color: #5f9e43;
         font-size: 145%;
         text-decoration: none;
-        transition: .2s; 
+        transition: .2s;
     }
 
     .dropdown > a:link
@@ -798,12 +809,12 @@ a
         color: white;
     }
 
-    .dropdown:hover > .dropdown-content 
+    .dropdown:hover > .dropdown-content
     {
         display: block;
     }
 
-    .dropdown-content 
+    .dropdown-content
     {
         display: none;
         position: absolute;
@@ -814,7 +825,7 @@ a
         margin-top: 20px;
     }
 
-    .dropdown-content > a 
+    .dropdown-content > a
     {
         color: black;
         text-decoration: none;
@@ -823,16 +834,16 @@ a
         padding: 12px 20px 12px 20px;
     }
 
-    .dropdown-content > a:hover 
+    .dropdown-content > a:hover
     {
         background-color: #5f9e43;
         color: white;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
-    
+
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
-/*----------------------------------------------- */ 
+/*----------------------------------------------- */
 
 /*------------------------------------------------*/
                 /* SLIDESHOW  */
@@ -857,7 +868,7 @@ a
         grid-row: 1 / -1;
         grid-column: 1 / -1;
     }
-    
+
     .image-wrapper
     {
         display: grid;
@@ -905,7 +916,7 @@ a
         color: white;
     }
 
-    .prev:hover, .next:hover 
+    .prev:hover, .next:hover
     {
         background-color: rgba(0,0,0,0.8);
     }
@@ -944,13 +955,13 @@ a
         display: inline-block;
     }
 
-    .active 
+    .active
     {
         background-color: #5f9e43;
     }
 
     /* Fading animation */
-    .fade 
+    .fade
     {
         -webkit-animation-name: fade;
         -webkit-animation-duration: 1.5s;
@@ -958,15 +969,15 @@ a
         animation-duration: 1.5s;
     }
 
-    @-webkit-keyframes fade 
+    @-webkit-keyframes fade
     {
-        from {opacity: .4} 
+        from {opacity: .4}
         to {opacity: 1}
     }
-      
-    @keyframes fade 
+
+    @keyframes fade
     {
-        from {opacity: .4} 
+        from {opacity: .4}
         to {opacity: 1}
     }
 /*------------------------------------------------*/
@@ -986,7 +997,7 @@ a
         grid-gap: 0px;
 
     }
-    
+
     .home-information > .image-wrapper
     {
         padding: 0px;
@@ -995,7 +1006,7 @@ a
         overflow: hidden;
     }
 
-    .home-information > .image-wrapper > img 
+    .home-information > .image-wrapper > img
     {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
@@ -1022,7 +1033,7 @@ a
         align-items: center;
     }
 
-     .info-text > a 
+     .info-text > a
     {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
@@ -1032,9 +1043,10 @@ a
         font-size: 200%;
         text-decoration: none;
         z-index: 1;
+        margin-bottom: 30px;
     }
 
-    .info-text > hr 
+    .info-text > hr
     {
         color: white;
         background-color: white;
@@ -1071,7 +1083,7 @@ a
         padding: 0px;
         margin: 0px;
         font-style: italic;
-        margin-bottom: 5%;
+        margin-bottom: 20px;
     }
 
     .description > .content > p
@@ -1079,7 +1091,12 @@ a
         padding: 0px;
         margin: 0px;
         text-align: center;
-        font-size: 200%;
+        font-size: 125%;
+    }
+
+    .description > .content > p
+    {
+      margin-bottom: 30px;
     }
 /*------------------------------------------------*/
             /* HOME DESCRIPTION  */
@@ -1107,7 +1124,7 @@ a
         width: 100%;
     }
 
-    .what-to-expect > .image-wrapper > img 
+    .what-to-expect > .image-wrapper > img
     {
         width: 100%;
         height: auto;
@@ -1138,11 +1155,11 @@ a
     .what-to-expect-content > a
     {
         border: 3px solid white;
-        transition: .2s; 
+        transition: .2s;
         text-decoration: none;
         font-size: 150%;
-        font-family: 'Montserrat', sans-serif;
-        grid-column: 1 / 2; 
+        font-family: "AcherusGrotesque Medium",sans-serif;
+        grid-column: 1 / 2;
         text-align: center;
         padding: 10px;
     }
@@ -1190,20 +1207,27 @@ a
         justify-items: center;
     }
 
-    .fa 
+    .fa
     {
         width: 225px;
         text-decoration: none;
         padding: 25px 20px 25px 20px;
     }
 
-    .social-media-icons > a 
+    .social-media-icons > a
     {
          font-size: 160%;
          color: darkgray;
          text-align: center;
     }
-    
+
+    .social-media-icons > a > i > span
+    {
+      font-family: "minion-pro-condensed",serif;
+      font-size: 20px;
+      font-style: italic;
+    }
+
     .social-media-icons > .fa:hover
     {
         background-color: #5f9e43;
@@ -1261,4 +1285,3 @@ a
             /* HOME SERVICES  */
 /*----------------------------------------------- */
 }
-
