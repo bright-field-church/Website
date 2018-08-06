@@ -38,7 +38,7 @@
 
         .small_group_description > p
         {
-            font-size: 125%;
+            font-size: 100%;
         }
 
         .leader_card
@@ -71,13 +71,13 @@
             grid-row: 2 / 3;
             display: grid;
             grid-template-columns: 1fr;
-            align-self: center;
+            align-self: top;
         }
 
         .leader_name
         {
             color: #5f9e43;
-            font-size: 220%;
+            font-size: 150%;
             padding: 0px;
             margin: 0px;
         }
@@ -170,7 +170,7 @@
         {
             display: grid;
             grid-template-columns: 1fr;
-            grid-gap: 30px;
+            grid-gap: 20px;
         }
 
         .leader_image
@@ -193,7 +193,7 @@
 
         .leader_name
         {
-            font-size: 180%;
+            font-size: 150%;
             color: #5f9e43;
         }
 
@@ -206,7 +206,7 @@
         {
             margin: 0px;
             padding: 0px;
-            font-size: 130%;
+            font-size: 110%;
             color: black;
             width: 100%;
         }
