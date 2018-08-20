@@ -1,6 +1,11 @@
 @font-face {
-  font-family: AcherusGrotesque Medium;
+  font-family: Montserrat;
   src: url('../fonts/AcherusGrotesque-Medium.woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Montserrat')
 }
 
 *
@@ -14,6 +19,7 @@ body
 {
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -62,23 +68,23 @@ footer
 
 p
 {
-    font-family: "AcherusGrotesque Medium",sans-serif;
+    font-family: "Montserrat",sans-serif;
 }
 
 h1
 {
-    font-family: "minion-pro-condensed",serif;
+    font-family: "Montserrat",serif;
     font-weight: 500;
 }
 
 h2
 {
-    font-family: "minion-pro-condensed",serif;
+    font-family: "Montserrat",serif;
 }
 
 a
 {
-    font-family: "minion-pro-condensed",serif;
+    font-family: "Montserrat",serif;
 }
 
 @media only screen and (max-width: 1024px)
@@ -134,7 +140,7 @@ a
         padding: 7px;
         font-size: 105%;
         text-align: center;
-        font-family: "minion-pro-condensed",serif;
+        font-family: "Montserrat",serif;
     }
 
     #navbar-menu-icon-accordion
@@ -553,7 +559,7 @@ a
         transition: .2s;
         text-decoration: none;
         font-size: 110%;
-        font-family: "AcherusGrotesque Medium",sans-serif;
+        font-family: "Montserrat",sans-serif;
     }
 
     .what-to-expect-content > a:link
@@ -756,7 +762,7 @@ a
         padding: 40px 20px 40px 20px;
         margin: 0px;
         color: #5f9e43;
-        font-size: 145%;
+        font-size: 120%;
         text-decoration: none;
         transition: .2s;
     }
@@ -789,7 +795,7 @@ a
         padding: 41px 20px 41px 20px;
         margin: 0px;
         color: #5f9e43;
-        font-size: 145%;
+        font-size: 120%;
         text-decoration: none;
         transition: .2s;
     }
@@ -1159,7 +1165,7 @@ a
         transition: .2s;
         text-decoration: none;
         font-size: 150%;
-        font-family: "AcherusGrotesque Medium",sans-serif;
+        font-family: "Montserrat",sans-serif;
         grid-column: 1 / 2;
         text-align: center;
         padding: 10px;
@@ -1224,7 +1230,7 @@ a
 
     .social-media-icons > a > i > span
     {
-      font-family: "minion-pro-condensed",serif;
+      font-family: "Montserrat",serif;
       font-size: 20px;
       font-style: italic;
     }

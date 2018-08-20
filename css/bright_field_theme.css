@@ -1,6 +1,11 @@
 @font-face {
-  font-family: AcherusGrotesque Medium;
+  font-family: Montserrat;
   src: url('../fonts/AcherusGrotesque-Medium.woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Montserrat')
 }
 
 *
@@ -16,7 +21,7 @@ body
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
-    font-family: "AcherusGrotesque Medium",sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-size: 16px;
 }
 
@@ -64,24 +69,24 @@ footer
 
 p
 {
-    font-family: "AcherusGrotesque Medium",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
 }
 
 h1
 {
-    font-family: "minion-pro-condensed",serif;
+    font-family: "Montserrat",serif;
     font-weight: 500;
 }
 
 h2
 {
-    font-family: "minion-pro-condensed",serif;
+    font-family: "Montserrat",serif;
 }
 
 a
 {
-    font-family: "minion-pro-condensed",serif;
+    font-family: "Montserrat",serif;
 }
 
 .sticky
@@ -147,7 +152,7 @@ a
             padding: 7px;
             font-size: 105%;
             text-align: center;
-            font-family: "minion-pro-condensed",serif;
+            font-family: "Montserrat",serif;
         }
 
         #navbar-menu-icon-accordion
@@ -593,7 +598,7 @@ a
         padding: 40px 20px 40px 20px;
         margin: 0px;
         color: #5f9e43;
-        font-size: 145%;
+        font-size: 120%;
         text-decoration: none;
         transition: .2s;
     }
@@ -623,10 +628,10 @@ a
 
     .dropdown > a
     {
-        padding: 41px 20px 41px 20px;
+        padding: 20px 20px 20px 20px;
         margin: 0px;
         color: #5f9e43;
-        font-size: 145%;
+        font-size: 120%;
         text-decoration: none;
         transition: .2s;
     }
