@@ -6,12 +6,12 @@
 
         #small_groups > a
         {
-        color: #5f9e43;
+        color: #707070;
         }
 
         #small_groups > hr
         {
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
         }
 
     /*------------------------------------------------*/
@@ -59,16 +59,15 @@
             grid-column: 1 / 2;
             grid-row: 1 / -1;
             width: 80%;
-            max-width: 450px;
+            max-width: 250px;
             height: auto;
-            border-radius: 50%;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
 
         .leader_headings
         {
             grid-column: 2 / 3;
-            grid-row: 2 / 3;
+            grid-row: 1 / 2;
             display: grid;
             grid-template-columns: 1fr;
             align-self: top;
@@ -76,7 +75,7 @@
 
         .leader_name
         {
-            color: #5f9e43;
+            color: #707070;
             font-size: 150%;
             padding: 0px;
             margin: 0px;
@@ -85,7 +84,7 @@
         .leader_description
         {
             grid-column: 2 / 3;
-            grid-row: 3 / -1;
+            grid-row: 2 / -1;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 10%;
@@ -98,8 +97,9 @@
         {
             margin: 0px;
             padding: 0px;
-            font-size: 150%;
+            font-size: 120%;
             color: black;
+            font-style: italic;
             width: 100%;
         }
 
@@ -179,7 +179,6 @@
             width: 80%;
             max-width: 450px;
             height: auto;
-            border-radius: 50%;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
 
@@ -194,7 +193,7 @@
         .leader_name
         {
             font-size: 150%;
-            color: #5f9e43;
+            color: #707070;
         }
 
         .leader_description
@@ -206,7 +205,8 @@
         {
             margin: 0px;
             padding: 0px;
-            font-size: 110%;
+            font-size: 120%;
+            font-style: italic;
             color: black;
             width: 100%;
         }
