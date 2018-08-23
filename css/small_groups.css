@@ -59,7 +59,7 @@
             grid-column: 1 / 2;
             grid-row: 1 / -1;
             width: 80%;
-            max-width: 250px;
+            max-width: 450px;
             height: auto;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
