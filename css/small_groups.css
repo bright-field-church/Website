@@ -23,7 +23,7 @@
 
         .content
         {
-            padding: 100px 15% 100px 15%;
+            padding: 100px 5% 100px 5%;
             display: grid;
             grid-template-columns: 1fr;
             padding-top: 60px;
@@ -44,8 +44,8 @@
         .leader_card
         {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr;
             grid-auto-rows: 1fr;
             grid-gap: 0px;
             padding: 0px;
@@ -58,7 +58,7 @@
             justify-self: center;
             grid-column: 1 / 2;
             grid-row: 1 / -1;
-            width: 80%;
+            width: 70%;
             max-width: 450px;
             height: auto;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -90,7 +90,7 @@
             grid-template-rows: 10%;
             padding: 0px;
             margin: 0px;
-            grid-gap: 5px;
+            grid-gap: 10px;
         }
 
         .small_group_time > .fa
@@ -108,8 +108,8 @@
         {
             margin: 0px;
             padding: 0px;
-            font-size: 130%;
-            color: black;
+            font-size: 110%;
+            color: #707070;
             width: 100%;
         }
 
@@ -164,6 +164,7 @@
             display: grid;
             grid-template-columns: 1fr;
             grid-gap: 70px;
+            justify-self: center;
         }
 
         .leader_card
@@ -175,7 +176,7 @@
 
         .leader_image
         {
-            justify-self: center;
+            justify-self: left;
             width: 80%;
             max-width: 450px;
             height: auto;
@@ -198,7 +199,7 @@
 
         .leader_description
         {
-            font-size: 85%;
+            font-size: 100%;
         }
 
         .small_group_time > .fa
@@ -216,8 +217,8 @@
         {
             margin: 0px;
             padding: 0px;
-            font-size: 120%;
-            color: black;
+            font-size: 110%;
+            color: #707070;
             width: 100%;
         }
 
