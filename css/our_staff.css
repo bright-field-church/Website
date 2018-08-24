@@ -31,13 +31,13 @@
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             grid-gap: 20px;
         }
 
         .menu > h1
         {
-            color: white;
+            color: #707070;
             justify-self: center; 
             font-size: 150%;
         }
@@ -54,7 +54,7 @@
         .menu > div > a 
         {
             text-decoration: none;
-            color: white;
+            color: #707070;
             padding: 5px 15px 5px 15px;
             border: 1px solid white;
             width: 100%;
@@ -119,7 +119,7 @@
         .staff_headings_subwrapper > .staff_name
         {
             font-size: 180%;
-            color: #5f9e43;
+            color: #707070;
         }
 
         .staff_headings_subwrapper > .staff_title
@@ -142,12 +142,12 @@
 {
     #our_staff > a 
     {
-       color: #5f9e43;
+       color: #707070;
     }
 
     #our_staff > hr
     {
-        background-color: #5f9e43;
+        background-color: #707070;
     } 
     /*------------------------------------------------*/
                 /* MENU */
@@ -160,13 +160,13 @@
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             grid-gap: 20px;
         }
 
         .menu > h1
         {
-            color: white;
+            color: #707070;
             justify-self: center;
             font-size: 250%;
         }
@@ -185,7 +185,7 @@
         {
             font-size: 125%;
             text-decoration: none;
-            color: white;
+            color: #707070;
             padding: 5px 15px 5px 15px;
             border: 1px solid white;
             width: 100%;
@@ -261,7 +261,7 @@
         .staff_headings_subwrapper > .staff_name
         {
             font-size: 225%;
-            color: #5f9e43;
+            color: #707070;
         }
 
         .staff_headings_subwrapper > .staff_title

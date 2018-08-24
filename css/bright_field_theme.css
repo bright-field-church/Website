@@ -57,7 +57,7 @@ footer
     padding: 0px;
     grid-gap: 0px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: #5f9e43;
+    background-color: #e0e0e0;
 }
 
 .image-wrapper
@@ -145,8 +145,8 @@ a
         .accordion
         {
             transition: 0.4s;
-            background-color: #5f9e43;
-            color: white;
+            background-color: #e0e0e0;
+            color: #707070;
             text-decoration: none;
             grid-column: 1 / -1;
             padding: 7px;
@@ -180,7 +180,7 @@ a
         {
             width: 30px;
             height: 5px;
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             border-radius: 1px;
             margin: 4px 0px;
             transition: .4s;
@@ -188,7 +188,7 @@ a
 
         .grid > button
         {
-            color: white;
+            color: #707070;
             grid-column: 1 / -1;
             padding: 7px;
             font-size: 105%;
@@ -200,7 +200,7 @@ a
 
         .navbar-menu-content-panel > .grid > a
         {
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             color: white;
             text-decoration: none;
             grid-column: 1 / -1;
@@ -211,25 +211,25 @@ a
 
         .grid > a:link
         {
-            color: white;
+            color: #707070;
         }
 
         .grid > a:visited
         {
-            color: white;
+            color: #707070;
         }
 
         .grid > a:hover
         {
             background: white;
-            color: #5f9e43;
+            color: #707070;
             /* font-weight: bold; */
         }
 
         .grid > button:hover
         {
-            background: white;
-            color: #5f9e43;
+            background: #e0e0e0;
+            color: white;
             /* font-weight: bold; */
         }
 
@@ -268,7 +268,7 @@ a
         .panel > div > a
         {
             text-decoration: none;
-            color: #5f9e43;
+            color: #707070;
             background-color: white;
             padding: 7px;
             font-size: 80%;
@@ -276,7 +276,7 @@ a
 
         .panel > div > a:hover
         {
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             opacity: .7;
             color: white;
             /* font-weight: bold; */
@@ -458,7 +458,7 @@ a
 
         .social-media-icons > .fa:hover
         {
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             color: white;
             transition: .2s;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -597,7 +597,7 @@ a
     {
         padding: 40px 20px 40px 20px;
         margin: 0px;
-        color: #5f9e43;
+        color: #707070;
         font-size: 120%;
         text-decoration: none;
         transition: .2s;
@@ -605,17 +605,17 @@ a
 
     .navbar-desktop-menu > a:link
     {
-        color: #5f9e43;
+        color: #707070;
     }
 
     .navbar-desktop-menu > a:visited
     {
-        color: #5f9e43;
+        color: #707070;
     }
 
     .navbar-desktop-menu > a:hover
     {
-        background-color: #5f9e43;
+        background-color: #e0e0e0;
         color: white;
     }
 
@@ -630,7 +630,7 @@ a
     {
         padding: 20px 20px 20px 20px;
         margin: 0px;
-        color: #5f9e43;
+        color: #707070;
         font-size: 120%;
         text-decoration: none;
         transition: .2s;
@@ -638,17 +638,17 @@ a
 
     .dropdown > a:link
     {
-        color: #5f9e43;
+        color: #707070;
     }
 
     .dropdown > a:visited
     {
-        color: #5f9e43;
+        color: #707070;
     }
 
     .dropdown > a:hover
     {
-        background-color: #5f9e43;
+        background-color: #e0e0e0;
         color: white;
     }
 
@@ -679,7 +679,7 @@ a
 
     .dropdown-content > a:hover
     {
-        background-color: #5f9e43;
+        background-color: #e0e0e0;
         color: white;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
@@ -851,7 +851,7 @@ a
 
         .social-media-icons > .fa:hover
         {
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             color: white;
             transition: .2s;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

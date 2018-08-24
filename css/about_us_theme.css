@@ -127,13 +127,13 @@
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
-            background-color: #5f9e43;
+            background-color: white;
             /* grid-gap: 20px; */
         }
 
         .menu > h1
         {
-            color: white;
+            color: #707070;
             justify-self: center; 
             font-size: 150%;
         }

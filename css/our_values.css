@@ -32,7 +32,7 @@
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             grid-gap: 20px;
         }
 
@@ -106,12 +106,12 @@
 
     #our_values > a
     {
-       color: #5f9e43;
+       color: #707070;
     }
 
     #our_values > hr
     {
-        background-color: #5f9e43;
+        background-color: #e0e0e0;
     }
 
     /*------------------------------------------------*/
@@ -125,7 +125,7 @@
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             grid-gap: 20px;
         }
 
