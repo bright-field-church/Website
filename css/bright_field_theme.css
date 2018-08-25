@@ -276,9 +276,7 @@ a
 
         .panel > div > a:hover
         {
-            background-color: #5f9e43;
-            opacity: .7;
-            color: white;
+
             /* font-weight: bold; */
         }
 
@@ -597,7 +595,7 @@ a
     {
         padding: 40px 20px 40px 20px;
         margin: 0px;
-        color: #5f9e43;
+        /* color: #5f9e43; */
         font-size: 120%;
         text-decoration: none;
         transition: .2s;
@@ -605,18 +603,18 @@ a
 
     .navbar-desktop-menu > a:link
     {
-        color: #5f9e43;
+        /* color: #5f9e43; */
     }
 
     .navbar-desktop-menu > a:visited
     {
-        color: #5f9e43;
+        /* color: #5f9e43; */
     }
 
     .navbar-desktop-menu > a:hover
     {
-        background-color: #5f9e43;
-        color: white;
+        /* background-color: #5f9e43; */
+        /* color: white; */
     }
 
     .dropdown
@@ -630,7 +628,7 @@ a
     {
         padding: 20px 20px 20px 20px;
         margin: 0px;
-        color: #5f9e43;
+        /* color: #5f9e43; */
         font-size: 120%;
         text-decoration: none;
         transition: .2s;
@@ -638,18 +636,18 @@ a
 
     .dropdown > a:link
     {
-        color: #5f9e43;
+        /* color: #5f9e43; */
     }
 
     .dropdown > a:visited
     {
-        color: #5f9e43;
+        /* color: #5f9e43; */
     }
 
     .dropdown > a:hover
     {
-        background-color: #5f9e43;
-        color: white;
+        /* background-color: #5f9e43; */
+        /* color: white; */
     }
 
     .dropdown:hover > .dropdown-content
@@ -679,8 +677,8 @@ a
 
     .dropdown-content > a:hover
     {
-        background-color: #5f9e43;
-        color: white;
+        /* background-color: #5f9e43; */
+        /* color: white; */
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 

@@ -134,8 +134,8 @@ a
     .accordion
     {
         transition: 0.4s;
-        background-color: #cfd3ce;
-        color: white;
+        /* background-color: #cfd3ce; */
+        /* color: white; */
         grid-column: 1 / -1;
         padding: 7px;
         font-size: 105%;
@@ -159,11 +159,6 @@ a
         padding-right: 15px;
     }
 
-    #navbar-menu-icon:hover > div
-    {
-        opacity: 0.7;
-    }
-
     #navbar-menu-icon > div
     {
         width: 30px;
@@ -174,6 +169,12 @@ a
         transition: .4s;
     }
 
+    #navbar-menu-icon:hover > div
+    {
+        background-color: #cfd3ce;
+    }
+
+    
     .grid > button
     {
         grid-column: 1 / -1;
@@ -181,15 +182,16 @@ a
         outline: none;
         padding: 7px;
         font-size: 105%;
-        color: #6f726e;
+        background-color: #6f726e;
+        color: #cfd3ce;
         text-align: center;
         transition: .02s;
     }
 
     .navbar-menu-content-panel > .grid > a
     {
-        background-color: #cfd3ce;
-        color:#6f726e;
+        background-color: #6f726e;
+        color: #cfd3ce;
         text-decoration: none;
         grid-column: 1 / -1;
         padding: 7px;
@@ -197,14 +199,9 @@ a
         text-align: center;
     }
 
-    .grid > a:link
+    .grid > a:link, a:visited
     {
-        color: #6f726e;
-    }
-
-    .grid > a:visited
-    {
-        color: #6f726e;
+        color: #cfd3ce;
     }
 
     .grid > a:hover
@@ -242,7 +239,6 @@ a
         padding: 0px;
         display: none;
         overflow: hidden;
-        background-color: white;
     }
 
     .panel > div
@@ -256,24 +252,23 @@ a
     .panel > div > a
     {
         text-decoration: none;
-        color: #6f726e;
-        background-color: white;
+        background-color: #cfd3ce;
+        color: white;
         padding: 7px;
         font-size: 80%;
     }
 
-    .panel > div > a:hover
+    .panel > div > a:link, a:visited
     {
-        background-color: #414440;
-        opacity: .7;
         color: white;
-        /* font-weight: bold; */
     }
 
-    .panel > a:link, a:visited
+    .panel > div > a:hover
     {
-        color: #6f726e;
-    }
+        background-color: white;
+        color: #414440;
+        /* font-weight: bold; */
+    } 
 
 /*------------------------------------------------*/
                 /* NAVIGATION BAR  */
@@ -771,26 +766,21 @@ a
     {
         padding: 40px 20px 40px 20px;
         margin: 0px;
-        color: #5f9e43;
+        color: #6f726e;
         font-size: 120%;
         text-decoration: none;
         transition: .2s;
     }
 
-    .navbar-desktop-menu > a:link
+    .navbar-desktop-menu > a:link, a:visited
     {
-        color: #5f9e43;
-    }
-
-    .navbar-desktop-menu > a:visited
-    {
-        color: #5f9e43;
+        color: #6f726e;
     }
 
     .navbar-desktop-menu > a:hover
     {
-        background-color: #5f9e43;
-        color: white;
+        background-color: white;
+        color: #414440;
     }
 
     .dropdown
@@ -804,26 +794,21 @@ a
     {
         padding: 41px 20px 41px 20px;
         margin: 0px;
-        color: #5f9e43;
+        color: #6f726e;
         font-size: 120%;
         text-decoration: none;
         transition: .2s;
     }
 
-    .dropdown > a:link
+    .dropdown > a:link, a:visited
     {
-        color: #5f9e43;
-    }
-
-    .dropdown > a:visited
-    {
-        color: #5f9e43;
+        color: #6f726e;
     }
 
     .dropdown > a:hover
     {
-        background-color: #5f9e43;
-        color: white;
+        background-color: white;
+        color: #414440;
     }
 
     .dropdown:hover > .dropdown-content
@@ -835,7 +820,7 @@ a
     {
         display: none;
         position: absolute;
-        background-color: #f9f9f9;
+        background-color: #cfd3ce;
         min-width: 180px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 3;
@@ -844,17 +829,22 @@ a
 
     .dropdown-content > a
     {
-        color: black;
+        color: #6f726e;
         text-decoration: none;
         display: block;
         text-align: left;
         padding: 12px 20px 12px 20px;
     }
 
+    .dropdown-content > a:visited, a:link
+    {
+        color: #6f726e;
+    }
+
     .dropdown-content > a:hover
     {
-        background-color: #5f9e43;
-        color: white;
+        background-color: white;
+        color: #414440;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
