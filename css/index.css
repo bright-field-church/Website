@@ -670,6 +670,17 @@ a
         justify-self: center;
         align-self: center;
     }
+
+    .services > h2
+    {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        justify-self: center;
+        align-self: center;
+    }
 /*------------------------------------------------*/
             /* HOME SERVICES  */
 /*----------------------------------------------- */
@@ -1287,6 +1298,18 @@ a
         justify-self: center;
         align-self: center;
         font-size: 300%;
+    }
+
+    .services > h2
+    {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        justify-self: center;
+        align-self: center;
+        font-size: 200%;
     }
 /*------------------------------------------------*/
             /* HOME SERVICES  */
