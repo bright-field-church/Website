@@ -57,7 +57,7 @@ footer
     padding: 0px;
     grid-gap: 0px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: #5f9e43;
+    background-color: #e0e0e0;
 }
 
 .image-wrapper
@@ -145,8 +145,13 @@ a
         .accordion
         {
             transition: 0.4s;
+<<<<<<< HEAD
             background-color: #414440;
             color: #fafaf9;
+=======
+            background-color: #e0e0e0;
+            color: #707070;
+>>>>>>> master
             text-decoration: none;
             grid-column: 1 / -1;
             padding: 7px;
@@ -180,7 +185,11 @@ a
         {
             width: 30px;
             height: 5px;
+<<<<<<< HEAD
             background-color: #414440;
+=======
+            background-color: #e0e0e0;
+>>>>>>> master
             border-radius: 1px;
             margin: 4px 0px;
             transition: .4s;
@@ -188,7 +197,7 @@ a
 
         .grid > button
         {
-            color: white;
+            color: #707070;
             grid-column: 1 / -1;
             padding: 7px;
             font-size: 105%;
@@ -200,8 +209,13 @@ a
 
         .navbar-menu-content-panel > .grid > a
         {
+<<<<<<< HEAD
             background-color: #414440;
             color: #fafaf9;
+=======
+            background-color: #e0e0e0;
+            color: white;
+>>>>>>> master
             text-decoration: none;
             grid-column: 1 / -1;
             padding: 7px;
@@ -211,25 +225,34 @@ a
 
         .grid > a:link
         {
-            color: white;
+            color: #707070;
         }
 
         .grid > a:visited
         {
-            color: white;
+            color: #707070;
         }
 
         .grid > a:hover
         {
             background: white;
+<<<<<<< HEAD
             color: #414440
+=======
+            color: #707070;
+>>>>>>> master
             /* font-weight: bold; */
         }
 
         .grid > button:hover
         {
+<<<<<<< HEAD
             background: white;
             color: #414440
+=======
+            background: #e0e0e0;
+            color: white;
+>>>>>>> master
             /* font-weight: bold; */
         }
 
@@ -268,7 +291,11 @@ a
         .panel > div > a
         {
             text-decoration: none;
+<<<<<<< HEAD
             color: #fafaf9;
+=======
+            color: #707070;
+>>>>>>> master
             background-color: white;
             padding: 7px;
             font-size: 80%;
@@ -276,7 +303,13 @@ a
 
         .panel > div > a:hover
         {
+<<<<<<< HEAD
 
+=======
+            background-color: #e0e0e0;
+            opacity: .7;
+            color: white;
+>>>>>>> master
             /* font-weight: bold; */
         }
 
@@ -456,7 +489,7 @@ a
 
         .social-media-icons > .fa:hover
         {
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             color: white;
             transition: .2s;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -498,6 +531,16 @@ a
         }
 
         .services > h1
+        {
+            grid-column: 1 / -1;
+            grid-row: 1 / -1;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            justify-self: center;
+            align-self: center;
+        }
+        .services > h2
         {
             grid-column: 1 / -1;
             grid-row: 1 / -1;
@@ -595,7 +638,11 @@ a
     {
         padding: 40px 20px 40px 20px;
         margin: 0px;
+<<<<<<< HEAD
         /* color: #5f9e43; */
+=======
+        color: #707070;
+>>>>>>> master
         font-size: 120%;
         text-decoration: none;
         transition: .2s;
@@ -603,18 +650,31 @@ a
 
     .navbar-desktop-menu > a:link
     {
+<<<<<<< HEAD
         /* color: #5f9e43; */
+=======
+        color: #707070;
+>>>>>>> master
     }
 
     .navbar-desktop-menu > a:visited
     {
+<<<<<<< HEAD
         /* color: #5f9e43; */
+=======
+        color: #707070;
+>>>>>>> master
     }
 
     .navbar-desktop-menu > a:hover
     {
+<<<<<<< HEAD
         /* background-color: #5f9e43; */
         /* color: white; */
+=======
+        background-color: #e0e0e0;
+        color: white;
+>>>>>>> master
     }
 
     .dropdown
@@ -628,7 +688,11 @@ a
     {
         padding: 20px 20px 20px 20px;
         margin: 0px;
+<<<<<<< HEAD
         /* color: #5f9e43; */
+=======
+        color: #707070;
+>>>>>>> master
         font-size: 120%;
         text-decoration: none;
         transition: .2s;
@@ -636,18 +700,31 @@ a
 
     .dropdown > a:link
     {
+<<<<<<< HEAD
         /* color: #5f9e43; */
+=======
+        color: #707070;
+>>>>>>> master
     }
 
     .dropdown > a:visited
     {
+<<<<<<< HEAD
         /* color: #5f9e43; */
+=======
+        color: #707070;
+>>>>>>> master
     }
 
     .dropdown > a:hover
     {
+<<<<<<< HEAD
         /* background-color: #5f9e43; */
         /* color: white; */
+=======
+        background-color: #e0e0e0;
+        color: white;
+>>>>>>> master
     }
 
     .dropdown:hover > .dropdown-content
@@ -677,8 +754,13 @@ a
 
     .dropdown-content > a:hover
     {
+<<<<<<< HEAD
         /* background-color: #5f9e43; */
         /* color: white; */
+=======
+        background-color: #e0e0e0;
+        color: white;
+>>>>>>> master
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
@@ -849,7 +931,7 @@ a
 
         .social-media-icons > .fa:hover
         {
-            background-color: #5f9e43;
+            background-color: #e0e0e0;
             color: white;
             transition: .2s;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -901,6 +983,17 @@ a
             justify-self: center;
             align-self: center;
             font-size: 300%;
+        }
+        .services > h2
+        {
+            grid-column: 1 / -1;
+            grid-row: 1 / -1;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            justify-self: center;
+            align-self: center;
+            font-size: 200%;
         }
 
     /*------------------------------------------------*/

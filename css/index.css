@@ -56,7 +56,7 @@ footer
     padding: 0px;
     grid-gap: 0px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: #5f9e43;
+    background-color: #e0e0e0;
 }
 
 .image-wrapper
@@ -134,8 +134,13 @@ a
     .accordion
     {
         transition: 0.4s;
+<<<<<<< HEAD
         /* background-color: #cfd3ce; */
         /* color: white; */
+=======
+        background-color: #e0e0e0;
+        color: #707070;
+>>>>>>> master
         grid-column: 1 / -1;
         padding: 7px;
         font-size: 105%;
@@ -163,7 +168,11 @@ a
     {
         width: 30px;
         height: 5px;
+<<<<<<< HEAD
         background-color: #6f726e;
+=======
+        background-color: #e0e0e0;
+>>>>>>> master
         border-radius: 1px;
         margin: 4px 0px;
         transition: .4s;
@@ -182,16 +191,25 @@ a
         outline: none;
         padding: 7px;
         font-size: 105%;
+<<<<<<< HEAD
         background-color: #6f726e;
         color: #cfd3ce;
+=======
+        color: #707070;
+>>>>>>> master
         text-align: center;
         transition: .02s;
     }
 
     .navbar-menu-content-panel > .grid > a
     {
+<<<<<<< HEAD
         background-color: #6f726e;
         color: #cfd3ce;
+=======
+        background-color: #e0e0e0;
+        color: white;
+>>>>>>> master
         text-decoration: none;
         grid-column: 1 / -1;
         padding: 7px;
@@ -201,21 +219,39 @@ a
 
     .grid > a:link, a:visited
     {
+<<<<<<< HEAD
         color: #cfd3ce;
+=======
+        color: #707070;
+    }
+
+    .grid > a:visited
+    {
+        color: #707070;
+>>>>>>> master
     }
 
     .grid > a:hover
     {
         background: white;
+<<<<<<< HEAD
         color: #414440;
 
+=======
+        color: #707070;
+>>>>>>> master
         /* font-weight: bold; */
     }
 
     .grid > button:hover
     {
+<<<<<<< HEAD
         background: white;
         color: #414440;
+=======
+        background: #e0e0e0;
+        color: #707070;
+>>>>>>> master
         /* font-weight: bold; */
     }
 
@@ -252,14 +288,24 @@ a
     .panel > div > a
     {
         text-decoration: none;
+<<<<<<< HEAD
         background-color: #cfd3ce;
         color: white;
+=======
+        color: #707070;
+        background-color: white;
+>>>>>>> master
         padding: 7px;
         font-size: 80%;
     }
 
     .panel > div > a:link, a:visited
     {
+<<<<<<< HEAD
+=======
+        background-color: #e0e0e0;
+        opacity: .7;
+>>>>>>> master
         color: white;
     }
 
@@ -372,7 +418,7 @@ a
 
     .active
     {
-        background-color: #5f9e43;
+        background-color: #e0e0e0;
     }
 
     /* Fading animation */
@@ -574,7 +620,11 @@ a
     .what-to-expect-content > a:hover
     {
         background-color: white;
+<<<<<<< HEAD
         color: #414440;
+=======
+        color: #707070;
+>>>>>>> master
     }
 
 /*------------------------------------------------*/
@@ -626,8 +676,13 @@ a
 
     .social-media-icons > .fa:hover
     {
+<<<<<<< HEAD
         background-color: white;
         color: #414440;
+=======
+        background-color: #e0e0e0;
+        color: white;
+>>>>>>> master
         transition: .2s;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
@@ -666,6 +721,17 @@ a
     }
 
     .services > h1
+    {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .services > h2
     {
         grid-column: 1 / -1;
         grid-row: 1 / -1;
@@ -766,7 +832,11 @@ a
     {
         padding: 40px 20px 40px 20px;
         margin: 0px;
+<<<<<<< HEAD
         color: #6f726e;
+=======
+        color: #707070;
+>>>>>>> master
         font-size: 120%;
         text-decoration: none;
         transition: .2s;
@@ -774,13 +844,27 @@ a
 
     .navbar-desktop-menu > a:link, a:visited
     {
+<<<<<<< HEAD
         color: #6f726e;
+=======
+        color: #707070;
+    }
+
+    .navbar-desktop-menu > a:visited
+    {
+        color: #707070;
+>>>>>>> master
     }
 
     .navbar-desktop-menu > a:hover
     {
+<<<<<<< HEAD
         background-color: white;
         color: #414440;
+=======
+        background-color: #e0e0e0;
+        color: white;
+>>>>>>> master
     }
 
     .dropdown
@@ -794,7 +878,11 @@ a
     {
         padding: 41px 20px 41px 20px;
         margin: 0px;
+<<<<<<< HEAD
         color: #6f726e;
+=======
+        color: #707070;
+>>>>>>> master
         font-size: 120%;
         text-decoration: none;
         transition: .2s;
@@ -802,13 +890,27 @@ a
 
     .dropdown > a:link, a:visited
     {
+<<<<<<< HEAD
         color: #6f726e;
+=======
+        color: #707070;
+    }
+
+    .dropdown > a:visited
+    {
+        color: #707070;
+>>>>>>> master
     }
 
     .dropdown > a:hover
     {
+<<<<<<< HEAD
         background-color: white;
         color: #414440;
+=======
+        background-color: #e0e0e0;
+        color: white;
+>>>>>>> master
     }
 
     .dropdown:hover > .dropdown-content
@@ -843,8 +945,13 @@ a
 
     .dropdown-content > a:hover
     {
+<<<<<<< HEAD
         background-color: white;
         color: #414440;
+=======
+        background-color: #e0e0e0;
+        color: white;
+>>>>>>> master
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
@@ -964,7 +1071,7 @@ a
 
     .active
     {
-        background-color: #5f9e43;
+        background-color: #e0e0e0;
     }
 
     /* Fading animation */
@@ -1186,7 +1293,7 @@ a
     .what-to-expect-content > a:hover
     {
         background-color: white;
-        color: #5f9e43;
+        color: #707070;
     }
 
 /*------------------------------------------------*/
@@ -1237,7 +1344,7 @@ a
 
     .social-media-icons > .fa:hover
     {
-        background-color: #5f9e43;
+        background-color: #e0e0e0;
         color: white;
         transition: .2s;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -1287,6 +1394,18 @@ a
         justify-self: center;
         align-self: center;
         font-size: 300%;
+    }
+
+    .services > h2
+    {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        justify-self: center;
+        align-self: center;
+        font-size: 200%;
     }
 /*------------------------------------------------*/
             /* HOME SERVICES  */
