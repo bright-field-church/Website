@@ -145,13 +145,8 @@ a
         .accordion
         {
             transition: 0.4s;
-<<<<<<< HEAD
-            background-color: #414440;
-            color: #fafaf9;
-=======
             background-color: #e0e0e0;
             color: #707070;
->>>>>>> master
             text-decoration: none;
             grid-column: 1 / -1;
             padding: 7px;
@@ -185,11 +180,7 @@ a
         {
             width: 30px;
             height: 5px;
-<<<<<<< HEAD
-            background-color: #414440;
-=======
             background-color: #e0e0e0;
->>>>>>> master
             border-radius: 1px;
             margin: 4px 0px;
             transition: .4s;
@@ -209,13 +200,8 @@ a
 
         .navbar-menu-content-panel > .grid > a
         {
-<<<<<<< HEAD
-            background-color: #414440;
-            color: #fafaf9;
-=======
             background-color: #e0e0e0;
             color: white;
->>>>>>> master
             text-decoration: none;
             grid-column: 1 / -1;
             padding: 7px;
@@ -236,23 +222,14 @@ a
         .grid > a:hover
         {
             background: white;
-<<<<<<< HEAD
-            color: #414440
-=======
             color: #707070;
->>>>>>> master
             /* font-weight: bold; */
         }
 
         .grid > button:hover
         {
-<<<<<<< HEAD
-            background: white;
-            color: #414440
-=======
             background: #e0e0e0;
             color: white;
->>>>>>> master
             /* font-weight: bold; */
         }
 
@@ -291,11 +268,7 @@ a
         .panel > div > a
         {
             text-decoration: none;
-<<<<<<< HEAD
-            color: #fafaf9;
-=======
             color: #707070;
->>>>>>> master
             background-color: white;
             padding: 7px;
             font-size: 80%;
@@ -303,13 +276,9 @@ a
 
         .panel > div > a:hover
         {
-<<<<<<< HEAD
-
-=======
             background-color: #e0e0e0;
             opacity: .7;
             color: white;
->>>>>>> master
             /* font-weight: bold; */
         }
 
@@ -609,10 +578,10 @@ a
 
     .bright-field-logo > a > img
     {
-        max-height: 100px;
+        max-height: 80px;
         width: auto;
-        padding: 25px;
-        margin-left: 10px;
+        padding: 16px;
+        margin-left: 30px;
     }
 
     .bright-field-logo > a:hover
@@ -623,58 +592,38 @@ a
 
     .navbar-desktop-menu
     {
-        padding: 0px;
-        margin: 0px;
-        align-self: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        justify-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
         align-items: center;
-        grid-gap: 0px;
+        margin-left: 30%;
+        margin-right: 20%;
     }
 
-    .navbar-desktop-menu > a
+    .navbar-desktop-menu > div >  a
     {
-        padding: 40px 20px 40px 20px;
+        padding: 34px 10px 34px 10px;
         margin: 0px;
-<<<<<<< HEAD
-        /* color: #5f9e43; */
-=======
         color: #707070;
->>>>>>> master
-        font-size: 120%;
+        font-size: 90%;
         text-decoration: none;
         transition: .2s;
     }
 
     .navbar-desktop-menu > a:link
     {
-<<<<<<< HEAD
-        /* color: #5f9e43; */
-=======
         color: #707070;
->>>>>>> master
     }
 
     .navbar-desktop-menu > a:visited
     {
-<<<<<<< HEAD
-        /* color: #5f9e43; */
-=======
         color: #707070;
->>>>>>> master
     }
 
-    .navbar-desktop-menu > a:hover
+    .navbar-desktop-menu > div > a:hover
     {
-<<<<<<< HEAD
-        /* background-color: #5f9e43; */
-        /* color: white; */
-=======
-        background-color: #e0e0e0;
+        background-color: #cfd3ce;
         color: white;
->>>>>>> master
     }
 
     .dropdown
@@ -686,45 +635,28 @@ a
 
     .dropdown > a
     {
-        padding: 20px 20px 20px 20px;
+        /* padding: 41px 20px 41px 20px; */
         margin: 0px;
-<<<<<<< HEAD
-        /* color: #5f9e43; */
-=======
         color: #707070;
->>>>>>> master
-        font-size: 120%;
+        font-size: 90%;
         text-decoration: none;
         transition: .2s;
     }
 
     .dropdown > a:link
     {
-<<<<<<< HEAD
-        /* color: #5f9e43; */
-=======
         color: #707070;
->>>>>>> master
     }
 
     .dropdown > a:visited
     {
-<<<<<<< HEAD
-        /* color: #5f9e43; */
-=======
         color: #707070;
->>>>>>> master
     }
 
     .dropdown > a:hover
     {
-<<<<<<< HEAD
-        /* background-color: #5f9e43; */
-        /* color: white; */
-=======
-        background-color: #e0e0e0;
+        background-color: #cfd3ce;
         color: white;
->>>>>>> master
     }
 
     .dropdown:hover > .dropdown-content
@@ -745,22 +677,18 @@ a
 
     .dropdown-content > a
     {
-        color: black;
+        color: #6f726e;
         text-decoration: none;
         display: block;
         text-align: left;
+        font-size: 75%;
         padding: 12px 20px 12px 20px;
     }
 
     .dropdown-content > a:hover
     {
-<<<<<<< HEAD
-        /* background-color: #5f9e43; */
-        /* color: white; */
-=======
-        background-color: #e0e0e0;
+        background-color: #cfd3ce;
         color: white;
->>>>>>> master
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
@@ -774,14 +702,13 @@ a
 
         .slideshow-container
         {
-            margin: 0px;
+            margin-top: 85.2px;
             padding: 0px;
             display: grid;
             grid-template-columns: auto 1fr auto;
             grid-auto-rows: minmax(1fr, 400px);
             grid-gap: 0px;
             overflow: hidden;
-            margin-top: 104.4px;
         }
 
         .slides
@@ -790,6 +717,7 @@ a
             padding: 0px;
             grid-row: 1 / -1;
             grid-column: 1 / -1;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
 
         .image-wrapper
@@ -809,7 +737,7 @@ a
             height: auto;
         }
 
-        .prev, .next
+        .prev
         {
             cursor: pointer;
             grid-row: 1 / -1;
@@ -820,7 +748,22 @@ a
             width: auto;
             font-weight: bold;
             font-size: 200%;
-            padding: 10% 30% 10% 30%;
+            padding: 15px 25px 15px 20px;
+            color: white;
+        }
+
+        .next
+        {
+            cursor: pointer;
+            grid-row: 1 / -1;
+            grid-column: 1 / -1;
+            align-self: center;
+            margin: 0px;
+            padding: 0px;
+            width: auto;
+            font-weight: bold;
+            font-size: 200%;
+            padding: 15px 20px 15px 25px;
             color: white;
         }
 
@@ -862,6 +805,18 @@ a
             transition: background-color 0.6s ease;
             display: inline-block;
         }
+
+        /* .dot
+        {
+            text-align: center;
+            height: 15px;
+            width: 15px;
+            margin: 4% 5px;
+            background-color: white;
+            border-radius: 50%;
+            transition: background-color 0.6s ease;
+            display: inline-block;
+        } */
 
         .active
         {
@@ -929,7 +884,7 @@ a
             text-align: center;
         }
 
-        .social-media-icons > .fa:hover
+        .social-media-icons > a:hover
         {
             background-color: #e0e0e0;
             color: white;
@@ -937,12 +892,7 @@ a
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
 
-        .social-media-icons > a:link
-        {
-            text-decoration: none;
-        }
-
-        .social-media-icons > a:visited
+        .social-media-icons > a:link, a:visited
         {
             text-decoration: none;
         }

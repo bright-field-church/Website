@@ -134,13 +134,8 @@ a
     .accordion
     {
         transition: 0.4s;
-<<<<<<< HEAD
-        /* background-color: #cfd3ce; */
-        /* color: white; */
-=======
         background-color: #e0e0e0;
         color: #707070;
->>>>>>> master
         grid-column: 1 / -1;
         padding: 7px;
         font-size: 105%;
@@ -168,11 +163,7 @@ a
     {
         width: 30px;
         height: 5px;
-<<<<<<< HEAD
-        background-color: #6f726e;
-=======
         background-color: #e0e0e0;
->>>>>>> master
         border-radius: 1px;
         margin: 4px 0px;
         transition: .4s;
@@ -191,25 +182,15 @@ a
         outline: none;
         padding: 7px;
         font-size: 105%;
-<<<<<<< HEAD
-        background-color: #6f726e;
-        color: #cfd3ce;
-=======
         color: #707070;
->>>>>>> master
         text-align: center;
         transition: .02s;
     }
 
     .navbar-menu-content-panel > .grid > a
     {
-<<<<<<< HEAD
-        background-color: #6f726e;
-        color: #cfd3ce;
-=======
         background-color: #e0e0e0;
         color: white;
->>>>>>> master
         text-decoration: none;
         grid-column: 1 / -1;
         padding: 7px;
@@ -219,39 +200,25 @@ a
 
     .grid > a:link, a:visited
     {
-<<<<<<< HEAD
-        color: #cfd3ce;
-=======
         color: #707070;
     }
 
     .grid > a:visited
     {
         color: #707070;
->>>>>>> master
     }
 
     .grid > a:hover
     {
         background: white;
-<<<<<<< HEAD
-        color: #414440;
-
-=======
         color: #707070;
->>>>>>> master
         /* font-weight: bold; */
     }
 
     .grid > button:hover
     {
-<<<<<<< HEAD
-        background: white;
-        color: #414440;
-=======
         background: #e0e0e0;
         color: #707070;
->>>>>>> master
         /* font-weight: bold; */
     }
 
@@ -288,24 +255,16 @@ a
     .panel > div > a
     {
         text-decoration: none;
-<<<<<<< HEAD
-        background-color: #cfd3ce;
-        color: white;
-=======
         color: #707070;
         background-color: white;
->>>>>>> master
         padding: 7px;
         font-size: 80%;
     }
 
     .panel > div > a:link, a:visited
     {
-<<<<<<< HEAD
-=======
         background-color: #e0e0e0;
         opacity: .7;
->>>>>>> master
         color: white;
     }
 
@@ -620,11 +579,7 @@ a
     .what-to-expect-content > a:hover
     {
         background-color: white;
-<<<<<<< HEAD
-        color: #414440;
-=======
         color: #707070;
->>>>>>> master
     }
 
 /*------------------------------------------------*/
@@ -676,13 +631,8 @@ a
 
     .social-media-icons > .fa:hover
     {
-<<<<<<< HEAD
-        background-color: white;
-        color: #414440;
-=======
         background-color: #e0e0e0;
         color: white;
->>>>>>> master
         transition: .2s;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
@@ -746,357 +696,9 @@ a
 /*----------------------------------------------- */
 }
 
-/*------------------------------------------------*/
-                /* NAVIGATION BAR  */
-/*----------------------------------------------- */
-
 @media only screen and (min-width: 1024px)
-{
-    .accordion
-    {
-        display: none;
-    }
+{  
 
-    #navbar-menu-icon-accordion
-    {
-        display: none;
-    }
-
-    #navbar-menu-icon
-    {
-        display: none;
-    }
-
-    .grid > button
-    {
-        display: none;
-    }
-
-    .navbar-menu-content-panel
-    {
-        display: none;
-    }
-
-    .panel
-    {
-        display: none;
-    }
-
-    .navbar
-    {
-        padding: 0px;
-        margin: 0px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        position: fixed;
-        background-color: white;
-        width: 100%;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        z-index: 2;
-    }
-
-    .bright-field-logo
-    {
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .bright-field-logo > a > img
-    {
-        max-height: 100px;
-        width: auto;
-        padding: 25px;
-        margin-left: 10px;
-    }
-
-    .bright-field-logo > a:hover
-    {
-        opacity: .6;
-        transition: .2s;
-    }
-
-    .navbar-desktop-menu
-    {
-        padding: 0px;
-        margin: 0px;
-        align-self: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        justify-items: center;
-        align-items: center;
-        grid-gap: 0px;
-    }
-
-    .navbar-desktop-menu > a
-    {
-        padding: 40px 20px 40px 20px;
-        margin: 0px;
-<<<<<<< HEAD
-        color: #6f726e;
-=======
-        color: #707070;
->>>>>>> master
-        font-size: 120%;
-        text-decoration: none;
-        transition: .2s;
-    }
-
-    .navbar-desktop-menu > a:link, a:visited
-    {
-<<<<<<< HEAD
-        color: #6f726e;
-=======
-        color: #707070;
-    }
-
-    .navbar-desktop-menu > a:visited
-    {
-        color: #707070;
->>>>>>> master
-    }
-
-    .navbar-desktop-menu > a:hover
-    {
-<<<<<<< HEAD
-        background-color: white;
-        color: #414440;
-=======
-        background-color: #e0e0e0;
-        color: white;
->>>>>>> master
-    }
-
-    .dropdown
-    {
-        margin: 0px;
-        padding: 0px;
-        display: inline-block;
-    }
-
-    .dropdown > a
-    {
-        padding: 41px 20px 41px 20px;
-        margin: 0px;
-<<<<<<< HEAD
-        color: #6f726e;
-=======
-        color: #707070;
->>>>>>> master
-        font-size: 120%;
-        text-decoration: none;
-        transition: .2s;
-    }
-
-    .dropdown > a:link, a:visited
-    {
-<<<<<<< HEAD
-        color: #6f726e;
-=======
-        color: #707070;
-    }
-
-    .dropdown > a:visited
-    {
-        color: #707070;
->>>>>>> master
-    }
-
-    .dropdown > a:hover
-    {
-<<<<<<< HEAD
-        background-color: white;
-        color: #414440;
-=======
-        background-color: #e0e0e0;
-        color: white;
->>>>>>> master
-    }
-
-    .dropdown:hover > .dropdown-content
-    {
-        display: block;
-    }
-
-    .dropdown-content
-    {
-        display: none;
-        position: absolute;
-        background-color: #cfd3ce;
-        min-width: 180px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 3;
-        margin-top: 20px;
-    }
-
-    .dropdown-content > a
-    {
-        color: #6f726e;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-        padding: 12px 20px 12px 20px;
-    }
-
-    .dropdown-content > a:visited, a:link
-    {
-        color: #6f726e;
-    }
-
-    .dropdown-content > a:hover
-    {
-<<<<<<< HEAD
-        background-color: white;
-        color: #414440;
-=======
-        background-color: #e0e0e0;
-        color: white;
->>>>>>> master
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-/*------------------------------------------------*/
-                /* NAVIGATION BAR  */
-/*----------------------------------------------- */
-
-/*------------------------------------------------*/
-                /* SLIDESHOW  */
-/*----------------------------------------------- */
-
-    .slideshow-container
-    {
-        margin: 0px;
-        padding: 0px;
-        display: grid;
-        grid-template-columns: auto 1fr auto;
-        grid-auto-rows: minmax(1fr, 400px);
-        grid-gap: 0px;
-        overflow: hidden;
-        margin-top: 104.4px;
-    }
-
-    .slides
-    {
-        margin: 0px;
-        padding: 0px;
-        grid-row: 1 / -1;
-        grid-column: 1 / -1;
-    }
-
-    .image-wrapper
-    {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 0px;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .image-wrapper > img
-    {
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        height: auto;
-    }
-
-    .prev
-    {
-        cursor: pointer;
-        grid-row: 1 / -1;
-        grid-column: 1 / -1;
-        align-self: center;
-        margin: 0px;
-        padding: 0px;
-        width: auto;
-        font-weight: bold;
-        font-size: 200%;
-        padding: 15px 25px 15px 20px;
-        color: white;
-    }
-
-    .next
-    {
-        cursor: pointer;
-        grid-row: 1 / -1;
-        grid-column: 1 / -1;
-        align-self: center;
-        margin: 0px;
-        padding: 0px;
-        width: auto;
-        font-weight: bold;
-        font-size: 200%;
-        padding: 15px 20px 15px 25px;
-        color: white;
-    }
-
-    .prev:hover, .next:hover
-    {
-        background-color: rgba(0,0,0,0.8);
-    }
-
-    .prev
-    {
-        grid-column: 1 / 2;
-        justify-self: center;
-    }
-
-    .next
-    {
-        grid-column: 3/ 4;
-        justify-self: center;
-    }
-
-    .dot-container
-    {
-        margin: 0px;
-        padding: 0px;
-        grid-row: 1 / -1;
-        grid-column: 1 / -1;
-        align-self: end;
-        justify-self: center;
-    }
-
-    .dot
-    {
-        text-align: center;
-        height: 15px;
-        width: 15px;
-        margin: 4% 5px;
-        background-color: white;
-        border-radius: 50%;
-        transition: background-color 0.6s ease;
-        display: inline-block;
-    }
-
-    .active
-    {
-        background-color: #e0e0e0;
-    }
-
-    /* Fading animation */
-    .fade
-    {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade
-    {
-        from {opacity: .4}
-        to {opacity: 1}
-    }
-
-    @keyframes fade
-    {
-        from {opacity: .4}
-        to {opacity: 1}
-    }
-/*------------------------------------------------*/
-                /* SLIDESHOW  */
-/*----------------------------------------------- */
 /*------------------------------------------------*/
             /* HOME INFORMATION  */
 /*----------------------------------------------- */
@@ -1299,69 +901,7 @@ a
 /*------------------------------------------------*/
         /* HOME WHAT TO EXPECT  */
 /*----------------------------------------------- */
-/*------------------------------------------------*/
-            /* HOME SOCIAL MEDIA  */
-/*----------------------------------------------- */
 
-    .social-media
-    {
-        display: grid;
-        grid-template-columns: 1fr;
-        background-color:#f5f5f5;
-        align-items: center;
-        justify-items: center;
-    }
-
-    .social-media-icons
-    {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        align-items: center;
-        justify-items: center;
-    }
-
-    .fa
-    {
-        width: 225px;
-        text-decoration: none;
-        padding: 25px 20px 25px 20px;
-    }
-
-    .social-media-icons > a
-    {
-         font-size: 160%;
-         color: darkgray;
-         text-align: center;
-    }
-
-    .social-media-icons > a > i > span
-    {
-      font-family: "Montserrat",serif;
-      font-size: 20px;
-      font-style: italic;
-    }
-
-    .social-media-icons > .fa:hover
-    {
-        background-color: #e0e0e0;
-        color: white;
-        transition: .2s;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
-
-    .social-media-icons > a:link
-    {
-        text-decoration: none;
-    }
-
-    .social-media-icons > a:visited
-    {
-        text-decoration: none;
-    }
-/*------------------------------------------------*/
-            /* HOME SOCIAL MEDIA  */
-/*----------------------------------------------- */
 /*------------------------------------------------*/
             /* HOME SERVICES  */
 /*----------------------------------------------- */
