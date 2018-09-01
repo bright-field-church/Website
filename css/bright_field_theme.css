@@ -129,6 +129,8 @@ a
             max-height: 80px;
             width: auto;
             padding: 22px 15px 22px 15px;
+            margin-left: 2%;
+            align-self: center;
         }
 
         .bright-field-logo > a:hover
@@ -145,8 +147,8 @@ a
         .accordion
         {
             transition: 0.4s;
-            background-color: #e0e0e0;
-            color: #707070;
+            background-color: #cfd3ce;
+            color: #6f726e;
             text-decoration: none;
             grid-column: 1 / -1;
             padding: 7px;
@@ -171,19 +173,19 @@ a
             padding-right: 15px;
         }
 
-        #navbar-menu-icon:hover > div
-        {
-            opacity: 0.7;
-        }
-
         #navbar-menu-icon > div
         {
             width: 30px;
             height: 5px;
-            background-color: #e0e0e0;
+            background-color: #6f726e;
             border-radius: 1px;
             margin: 4px 0px;
             transition: .4s;
+        }
+
+        #navbar-menu-icon:hover > div
+        {
+            background-color: #cfd3ce;
         }
 
         .grid > button
@@ -200,8 +202,8 @@ a
 
         .navbar-menu-content-panel > .grid > a
         {
-            background-color: #e0e0e0;
-            color: white;
+            background-color: #cfd3ce;
+            color: #6f726e;
             text-decoration: none;
             grid-column: 1 / -1;
             padding: 7px;
@@ -209,28 +211,21 @@ a
             text-align: center;
         }
 
-        .grid > a:link
+        .grid > a:link, a:visited
         {
-            color: #707070;
-        }
-
-        .grid > a:visited
-        {
-            color: #707070;
+            color: #6f726e;
         }
 
         .grid > a:hover
         {
             background: white;
-            color: #707070;
-            /* font-weight: bold; */
+            color: #414440;
         }
 
         .grid > button:hover
         {
-            background: #e0e0e0;
-            color: white;
-            /* font-weight: bold; */
+            background: white;
+            color: #414440;
         }
 
         .navbar-menu-content-panel
@@ -276,10 +271,8 @@ a
 
         .panel > div > a:hover
         {
-            background-color: #e0e0e0;
-            opacity: .7;
+            background-color: #cfd3ce;
             color: white;
-            /* font-weight: bold; */
         }
 
         .panel > a:link
@@ -428,7 +421,7 @@ a
         {
             display: grid;
             grid-template-columns: 1fr;
-            background-color:#fafaf9;
+            background-color: #cfd3ce;
             justify-items: center;
             align-items: center;
         }
@@ -452,14 +445,14 @@ a
         .social-media-icons > a
         {
             font-size: 100%;
-            color: #414440;
+            color: #6f726e;
             text-align: center;
         }
 
         .social-media-icons > .fa:hover
         {
-            background-color: #e0e0e0;
-            color: white;
+            background-color: white;
+            color: #414440;
             transition: .2s;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
@@ -581,7 +574,7 @@ a
         max-height: 80px;
         width: auto;
         padding: 16px;
-        margin-left: 30px;
+        margin-left: 2%;
     }
 
     .bright-field-logo > a:hover
@@ -592,22 +585,26 @@ a
 
     .navbar-desktop-menu
     {
+        padding: 0px;
+        margin: 0px;
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-evenly;
         align-items: center;
         margin-left: 30%;
         margin-right: 20%;
+        
     }
 
     .navbar-desktop-menu > div >  a
     {
-        padding: 34px 10px 34px 10px;
+        padding: 34px 10px 33px 10px;
         margin: 0px;
         color: #707070;
         font-size: 90%;
         text-decoration: none;
         transition: .2s;
+        overflow: hidden;
     }
 
     .navbar-desktop-menu > a:link
@@ -688,7 +685,7 @@ a
     .dropdown-content > a:hover
     {
         background-color: #cfd3ce;
-        color: white;
+        color: #414440;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
