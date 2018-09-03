@@ -600,7 +600,7 @@ a
     {
         padding: 34px 10px 33px 10px;
         margin: 0px;
-        color: #707070;
+        color: #6f726e;
         font-size: 90%;
         text-decoration: none;
         transition: .2s;
@@ -609,12 +609,12 @@ a
 
     .navbar-desktop-menu > a:link
     {
-        color: #707070;
+        color: #6f726e;
     }
 
     .navbar-desktop-menu > a:visited
     {
-        color: #707070;
+        color: #6f726e;
     }
 
     .navbar-desktop-menu > div > a:hover
@@ -634,7 +634,7 @@ a
     {
         /* padding: 41px 20px 41px 20px; */
         margin: 0px;
-        color: #707070;
+        color: #6f726e;
         font-size: 90%;
         text-decoration: none;
         transition: .2s;
@@ -642,12 +642,12 @@ a
 
     .dropdown > a:link
     {
-        color: #707070;
+        color: #6f726e;
     }
 
     .dropdown > a:visited
     {
-        color: #707070;
+        color: #6f726e;
     }
 
     .dropdown > a:hover
@@ -665,7 +665,7 @@ a
     {
         display: none;
         position: absolute;
-        background-color: #f9f9f9;
+        background-color: white;
         min-width: 180px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 3;
@@ -685,7 +685,7 @@ a
     .dropdown-content > a:hover
     {
         background-color: #cfd3ce;
-        color: #414440;
+        color: white;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
