@@ -190,7 +190,7 @@ a
 
         .grid > button
         {
-            color: #707070;
+            color: #6f726e;
             grid-column: 1 / -1;
             padding: 7px;
             font-size: 105%;
@@ -220,12 +220,14 @@ a
         {
             background: white;
             color: #414440;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         }
 
         .grid > button:hover
         {
             background: white;
             color: #414440;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         }
 
         .navbar-menu-content-panel
@@ -263,7 +265,7 @@ a
         .panel > div > a
         {
             text-decoration: none;
-            color: #707070;
+            color: #6f726e;
             background-color: white;
             padding: 7px;
             font-size: 80%;
@@ -271,18 +273,18 @@ a
 
         .panel > div > a:hover
         {
-            background-color: #cfd3ce;
-            color: white;
+            color: #414440;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         }
 
         .panel > a:link
         {
-            color: white;
+            color: #6f726e;
         }
 
         .panel > a:visted
         {
-            color: white;
+            color: #6f726e;
         }
 
     /*------------------------------------------------*/
@@ -619,8 +621,8 @@ a
 
     .navbar-desktop-menu > div > a:hover
     {
-        background-color: #cfd3ce;
-        color: white;
+        color: #414440;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
     .dropdown
@@ -652,8 +654,8 @@ a
 
     .dropdown > a:hover
     {
-        background-color: #cfd3ce;
-        color: white;
+        color: #414440;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
     .dropdown:hover > .dropdown-content
@@ -684,8 +686,7 @@ a
 
     .dropdown-content > a:hover
     {
-        background-color: #cfd3ce;
-        color: white;
+        color: #414440;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
