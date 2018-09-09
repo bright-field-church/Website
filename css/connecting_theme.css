@@ -128,7 +128,7 @@
 
         .menu
         {
-            padding: 5%;
+            padding: 3%;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
