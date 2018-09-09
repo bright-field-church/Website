@@ -129,7 +129,7 @@
 
         .menu
         {
-            padding: 4%;
+            padding: 5%;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
@@ -140,7 +140,7 @@
         {
             color: #6f726e;
             justify-self: center; 
-            font-size: 180%;
+            font-size: 160%;
         }
 
         .desktop-menu
