@@ -128,19 +128,20 @@
 
         .menu
         {
-            padding: 3%;
+            padding: 2%;
+            margin: 0px;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
-            background-color: white;
-            /* grid-gap: 20px; */
+            background-color: #cfd3ce;
+            grid-gap: 20px;
         }
 
         .menu > h1
         {
             color: #6f726e;
-            justify-self: center; 
-            font-size: 160%;
+            justify-self: center;
+            font-size: 250%;
         }
 
         .desktop-menu
