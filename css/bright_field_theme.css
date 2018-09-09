@@ -880,8 +880,8 @@ a
 
         .social-media-icons > a:hover
         {
-            background-color:#414440;
-            color: white;
+            background-color:white;
+            color: #414440;
             transition: .2s;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
