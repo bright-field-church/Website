@@ -419,7 +419,7 @@ a
         {
             display: grid;
             grid-template-columns: 1fr;
-            background-color: white;
+            background-color: #cfd3ce;
             justify-items: center;
             align-items: center;
         }
@@ -850,7 +850,7 @@ a
         {
             display: grid;
             grid-template-columns: 1fr;
-            background-color:white;
+            background-color:#cfd3ce;
             align-items: center;
             justify-items: center;
         }
