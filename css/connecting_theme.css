@@ -16,7 +16,7 @@
         {
             width: 100%;
             height: auto;
-            margin-top: -400px;
+            margin-top: -600px;
         }
 
     /*------------------------------------------------*/
@@ -71,16 +71,21 @@
 
         .subgroup-wrapper > a
         {
-            color: lightgray;
+            color: #cfd3ce;
             font-size: 150%;
             padding: 0px;
             margin: 0px;
             text-decoration: none;
         }
 
+        .subgroup-wrapper > a:hover
+        {
+            color: #6f726e;
+        }
+
         .subgroup-wrapper > hr
         {
-            background-color: lightgray;
+            background-color: #cfd3ce;
             border: none;
             outline: none;
             color: white;
@@ -123,7 +128,7 @@
 
         .menu
         {
-            padding: 5%;
+            padding: 3%;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
@@ -133,9 +138,9 @@
 
         .menu > h1
         {
-            color: #707070;
+            color: #6f726e;
             justify-self: center; 
-            font-size: 150%;
+            font-size: 160%;
         }
 
         .desktop-menu
@@ -219,7 +224,7 @@
         .leader_headings_subwrapper > .staff_name
         {
             font-size: 180%;
-            color: #707070;
+            color: #6f726e;
         }
 
         .leader_headings_subwrapper > .staff_title

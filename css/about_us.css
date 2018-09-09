@@ -31,7 +31,6 @@
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
-            background-color: #e0e0e0;
             grid-gap: 20px;
         }
 
@@ -78,12 +77,12 @@
 
         #about_us > a
         {
-        color: #707070;
+            color: #414440;
         }
 
         #about_us > hr
         {
-            background-color: #e0e0e0;
+            background-color: #414440;
         }
 
         /*------------------------------------------------*/
@@ -97,7 +96,6 @@
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
-            background-color: #e0e0e0;
             grid-gap: 20px;
         }
 
