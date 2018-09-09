@@ -128,13 +128,12 @@
 
         .menu
         {
-            padding: 2%;
+            padding: 3%;
             margin: 0px;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
             background-color: #cfd3ce;
-            grid-gap: 20px;
         }
 
         .menu > h1
