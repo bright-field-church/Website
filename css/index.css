@@ -56,7 +56,6 @@ footer
     padding: 0px;
     grid-gap: 0px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: #e0e0e0;
 }
 
 .image-wrapper
@@ -456,7 +455,7 @@ a
         padding: 0px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: minmax(0px, 300px);
+        grid-template-rows: 1fr;
         grid-gap: 0px;
 
     }
@@ -465,48 +464,37 @@ a
     {
         padding: 0px;
         margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         width: 100%;
-        overflow: hidden;
     }
 
     .home-information > .image-wrapper > img
     {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
+        margin: 0px;
+        padding: 0px;
         width: 100%;
-        overflow: hidden;
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+        height: auto;
     }
 
-    .image-wrapper
-    {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 0px;
-    }
 
     .info-text
     {
-        margin-top: -220px;
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-        align-items: center;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    
+        justify-self: center;
+        align-self: center;
     }
 
      .info-text > a
     {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-        justify-self: center;
-        align-self: center;
         color: white;
         font-size: 200%;
         text-decoration: none;
-        z-index: 1;
-        margin-bottom: 30px;
     }
 
     .info-text > hr
@@ -517,10 +505,9 @@ a
         padding: 3px;
         border: none;
         width: 30%;
-        z-index: 1;
-        margin-top: -220px;
+
     }
-/*------------------------------------------------*/
+
             /* HOME INFORMATION  */
 /*----------------------------------------------- */
 /*------------------------------------------------*/
@@ -535,7 +522,6 @@ a
         background-color: white;
         margin: 0px;
         padding: 8% 15% 8% 15%;
-        margin-top: -5%;
     }
 
 
