@@ -1,199 +1,53 @@
-
-@media only screen and (max-width: 1024px)
-{
-
-    /*------------------------------------------------*/
-                    /* HEADER IMAGE  */
-    /*----------------------------------------------- */
-
-        .header_image
-        {
-            display: grid;
-            grid-template-columns: 1fr;
-            overflow: hidden;
-        }
-
-        .header_image > img
-        {
-            width: 100%;
-            height: auto;
-        }
-
-    /*------------------------------------------------*/
-                    /* HEADER IMAGE  */
-    /*----------------------------------------------- */
-
-    /*------------------------------------------------*/
-                    /* MENU */
-    /*----------------------------------------------- */
-
-        .menu
-        {
-            padding: 5%;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-            background-color: #e0e0e0;
-            grid-gap: 20px;
-        }
-
-        .menu > h1
-        {
-            color: white;
-            justify-self: center;
-            font-size: 150%;
-        }
-
-        .menu > div
-        {
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: 1fr;
-            justify-items: center;
-            grid-gap: 10px;
-        }
-
-        .menu > div > a
-        {
-            text-decoration: none;
-            color: white;
-            padding: 5px 15px 5px 15px;
-            border: 1px solid white;
-            width: 100%;
-            text-align: center;
-        }
-
-        .menu > div> a:hover
-        {
-            background-color: white;
-            color: black;
-        }
-
-    /*------------------------------------------------*/
-                    /* MENU */
-    /*----------------------------------------------- */
-
-    /*------------------------------------------------*/
-                    /* CONTENT */
-    /*----------------------------------------------- */
-
-        .content
-        {
-            padding: 40px 20px 40px 20px;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 20px;
-        }
-
-        .content > h1
-        {
-            font-style: italic;
-            font-size: 170%;
-        }
-
-        .content > p
-        {
-            font-size: 115%;
-        }
-
-    /*------------------------------------------------*/
-                    /* CONTENT */
-    /*----------------------------------------------- */
-
-}
-
 @media only screen and (min-width: 1024px)
 {
-
-    #historic_creeds > a
+    #historic_creeds> a
     {
-       color: #707070;
+       color: #414440;
     }
 
     #historic_creeds > hr
     {
-        background-color: #e0e0e0;
+        background-color: #414440;
     }
 
-    /*------------------------------------------------*/
-                /* MENU */
-    /*----------------------------------------------- */
+    .content
+    {
+        padding: 100px 15% 100px 15%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
 
-        .menu
-        {
-            padding: 3%;
-            margin: 0px;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-            background-color: #e0e0e0;
-            grid-gap: 20px;
-        }
+    .content > h1
+    {
+        font-style: italic;
+        font-size: 200%;
+    }
 
-        .menu > h1
-        {
-            color: white;
-            justify-self: center;
-            font-size: 250%;
-        }
+    .content > p
+    {
+        font-size: 125%;
+    }
+}
 
-        .menu > div
-        {
-            padding: 10px 5% 10px 5%;
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            justify-items: center;
-            grid-gap: 10px;
-        }
+@media only screen and (max-width: 1024px)
+{
+    .content
+    {
+        padding: 40px 20px 40px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
 
-        .menu > div > a
-        {
-            font-size: 125%;
-            text-decoration: none;
-            color: white;
-            padding: 5px 15px 5px 15px;
-            border: 1px solid white;
-            width: 100%;
-            text-align: center;
-            font-weight: bold;
-        }
+    .content > h1
+    {
+        font-style: italic;
+        font-size: 170%;
+    }
 
-        .menu > div> a:hover
-        {
-            background-color: white;
-            color: black;
-        }
-
-    /*------------------------------------------------*/
-                /* MENU */
-    /*----------------------------------------------- */
-
-    /*------------------------------------------------*/
-                /* CONTENT */
-    /*----------------------------------------------- */
-
-        .content
-        {
-            padding: 100px 15% 100px 15%;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 20px;
-        }
-
-        .content > h1
-        {
-            font-style: italic;
-            font-size: 200%;
-        }
-
-        .content > p
-        {
-            font-size: 125%;
-        }
-
-    /*------------------------------------------------*/
-                /* CONTENT */
-    /*----------------------------------------------- */
-
+    .content > p
+    {
+        font-size: 115%;
+    }
 }

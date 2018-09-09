@@ -189,7 +189,7 @@ a
 
     .active
     {
-        background-color: #e0e0e0;
+        background-color: #6f726e;
     }
 
     /* Fading animation */
@@ -326,7 +326,7 @@ a
         display: grid;
         grid-template-columns: 1fr;
         grid-auto-rows: minmax(0px, 199px);
-        color: #;
+        color: white;
         overflow: hidden;
     }
 
@@ -373,7 +373,6 @@ a
         transition: .2s;
         text-decoration: none;
         font-size: 110%;
-        font-family: "Montserrat",sans-serif;
     }
 
     .what-to-expect-content > a:link
@@ -643,7 +642,7 @@ a
     .what-to-expect-content > a:hover
     {
         background-color: white;
-        color: #707070;
+        color: #414440;
     }
 
 /*------------------------------------------------*/
