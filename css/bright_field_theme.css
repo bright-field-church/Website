@@ -603,6 +603,7 @@ a
         text-decoration: none;
         transition: .2s;
         overflow: hidden;
+        /* font-weight: bold; */
     }
 
     .navbar-desktop-menu > a:link
