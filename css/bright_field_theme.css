@@ -849,48 +849,71 @@ a
 
         .social-media
         {
+
+            padding-left: 20%;
+            padding-right: 20%;
+            grid-gap: 0px;
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
             background-color:#cfd3ce;
             align-items: center;
             justify-items: center;
         }
 
-        .social-media-icons
+        .social-media-icon > a 
         {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr;
-            align-items: center;
-            justify-items: center;
-        }
-
-        .fa
-        {
-            width: 225px;
-            text-decoration: none;
-            padding: 25px 20px 25px 20px;
-        }
-
-        .social-media-icons > a
-        {
+            padding: 0px 15px 0px 15px;
             font-size: 160%;
-            color: #6f726e;
-            text-align: center;
-        }
-
-        .social-media-icons > a:hover
-        {
-            background-color:white;
-            color: #414440;
-            transition: .2s;
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            text-decoration: none;
         }
 
         .social-media-icons > a:link, a:visited
         {
             text-decoration: none;
         }
+        
+        .social-media-icon
+        {
+            padding: 20px;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .fa
+        {
+            font-size: 100%;
+        }
+
+        /* .fa
+        {
+            width: 225px;
+            text-decoration: none;
+            padding: 25px 20px 25px 20px;
+        } */
+
+        /* .social-media-icons > a
+        {
+            font-size: 160%;
+            color: #6f726e;
+            text-align: center;
+            font-family: "Montserrat",sans-serif;
+        } */
+
+        /* .social-media-icons > a:hover
+        {
+            background-color:white;
+            color: #414440;
+            transition: .2s;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        } */
+
+        /* .social-media-icons > a:link, a:visited
+        {
+            text-decoration: none;
+        } */
 
     /*------------------------------------------------*/
                 /*  SOCIAL MEDIA  */
