@@ -792,10 +792,10 @@ a
         .dot
         {
             text-align: center;
-            height: 11px;
-            width: 11px;
+            height: 14px;
+            width: 14px;
             margin: 4% 2px;
-            background-color: gray;
+            background-color: #6f726e;
             border-radius: 50%;
             transition: background-color 0.6s ease;
             display: inline-block;
@@ -815,7 +815,7 @@ a
 
         .active
         {
-            background-color: darkslategray;
+            background-color: #414440;
         }
 
         /* Fading animation */
