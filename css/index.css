@@ -1,6 +1,7 @@
-@font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url('https://fonts.googleapis.com/css?family=Montserrat')
+@font-face 
+{
+    font-family: 'Montserrat';
+    src: url('../fonts/AcherusGrotesque-Medium.woff2');
 }
 
 *
@@ -8,15 +9,14 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'Montserrat', sans-serif;
-    /* color: #414440; */
+    font-family: 'Montserrat';
 }
 
 body
 {
     margin: 0px;
     padding: 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -64,22 +64,22 @@ footer
 
 p
 {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat";
 }
 
 h1
 {
-    font-family: "Montserrat",serif;
+    font-family: "Montserrat";
 }
 
 h2
 {
-    font-family: "Montserrat",serif;
+    font-family: "Montserrat";
 }
 
 a
 {
-    font-family: "Montserrat",serif;
+    font-family: "Montserrat";
 }
 
 /*------------------------------------------------*/
@@ -396,56 +396,8 @@ a
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
-    
-    
-
 /*------------------------------------------------*/
         /* HOME WHAT TO EXPECT  */
-/*----------------------------------------------- */
-/*------------------------------------------------*/
-            /* HOME SERVICES  */
-/*----------------------------------------------- */
-
-    .services
-    {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: minmax(0px, 150px);
-        overflow: hidden;
-    }
-
-    .services > img
-    {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-        width: 100%;
-        height: auto;
-        margin-top: -25px;
-    }
-
-    .services > h1
-    {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .services > h2
-    {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        justify-self: center;
-        align-self: center;
-    }
-/*------------------------------------------------*/
-            /* HOME SERVICES  */
 /*----------------------------------------------- */
 
 
@@ -464,7 +416,7 @@ a
 
     .info-text > a
     {
-        font-size: 200%;
+        font-size: 225%;
     }
 
 /*------------------------------------------------*/
@@ -476,17 +428,17 @@ a
 
     .description
     {
-        padding: 5% 15%;
+        padding: 5% 25%;
     }
 
     .description > h1
     {
-        font-size: 200%;
+        font-size: 225%;
     }
 
     .description > p
     {
-        font-size: 115%;
+        font-size: 125%;
     }
 /*------------------------------------------------*/
             /* HOME DESCRIPTION  */
@@ -522,68 +474,18 @@ a
 
     .what-to-expect-content > h1
     {
-        font-size: 200%;
+        font-size: 225%;
         grid-column: 1 / -1;
         grid-row: 1 / 2;
     }
 
     .what-to-expect-content > a
     {
-        font-size: 115%;
+        font-size: 125%;
         grid-column: 1 / 2;
     }
 
-
 /*------------------------------------------------*/
         /* HOME WHAT TO EXPECT  */
-/*----------------------------------------------- */
-
-/*------------------------------------------------*/
-            /* HOME SERVICES  */
-/*----------------------------------------------- */
-
-    .services
-    {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: minmax(0px, 300px);
-        overflow: hidden;
-    }
-
-    .services > img
-    {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-        width: 100%;
-        height: auto;
-        margin-top: -250px;
-        padding: 0px;
-    }
-
-    .services > h1
-    {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        justify-self: center;
-        align-self: center;
-        font-size: 300%;
-    }
-
-    .services > h2
-    {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        justify-self: center;
-        align-self: center;
-        font-size: 200%;
-    }
-/*------------------------------------------------*/
-            /* HOME SERVICES  */
 /*----------------------------------------------- */
 }
