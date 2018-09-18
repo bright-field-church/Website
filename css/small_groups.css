@@ -119,10 +119,7 @@
         .content
         {
             padding: 100px 5% 100px 5%;
-            display: grid;
-            grid-template-columns: 1fr;
-            padding-top: 60px;
-            grid-gap: 125px;
+            grid-gap: 100px;
         }
 
         .small_group_description
@@ -133,7 +130,7 @@
 
         .small_group_description > p
         {
-            font-size: 100%;
+            font-size: 125%;
         }
 
         .leader_card
