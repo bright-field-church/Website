@@ -1,3 +1,98 @@
+/*------------------------------------------------*/
+            /* CONTENT */
+/*----------------------------------------------- */
+.content
+{
+    padding: 10% 20px 15% 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px;
+    color: #414440;
+}
+
+.small_group_description
+{
+    font-size: 110%;
+}
+
+.leader_card
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.leader_image
+{
+    justify-self: center;
+    width: 80%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.leader_headings
+{
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.leader_name
+{
+    font-size: 150%;
+}
+
+.small_group_time
+{
+    font-size: 125%;
+    color: #6f726e;
+}
+
+.group_specific_description
+{
+    font-size: 110%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+}
+
+.small_group_email
+{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.small_group_email > .fa
+{
+    padding: 0px 2% 0px 0px;
+    margin: 0px;
+    margin-top: 2px;
+    font-size: 110%;
+}
+.small_group_email > a
+{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 110%;
+} 
+
+.small_group_email > a:visited, a:link
+{
+    color: #414440;
+}
+
+/*------------------------------------------------*/
+            /* CONTENT */
+/*----------------------------------------------- */
+
 @media only screen and (min-width: 1024px)
 {
     /*------------------------------------------------*/
@@ -142,115 +237,4 @@
 
 }
 
-@media only screen and (max-width: 1024px)
-{
 
-    /*------------------------------------------------*/
-                    /* CONTENT */
-    /*----------------------------------------------- */
-
-        .leader_description
-        {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 20px;
-            margin: 0px;
-            padding: 0px;
-        }
-
-        .content
-        {
-            padding: 50px 20px 50px 20px;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 70px;
-            justify-self: center;
-        }
-
-        .leader_card
-        {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 20px;
-        }
-
-        .leader_image
-        {
-            justify-self: left;
-            width: 80%;
-            max-width: 450px;
-            height: auto;
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        }
-
-        .leader_headings
-        {
-            padding: 0px;
-            margin: 0px;
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-
-        .leader_name
-        {
-            font-size: 150%;
-            color: #707070;
-        }
-
-        .leader_description
-        {
-            font-size: 100%;
-        }
-
-        .small_group_time > .fa
-        {
-            margin: 0px;
-            padding: 0px;
-            font-size: 120%;
-            font-style: italic;
-            color: black;
-            width: 100%;
-        }
-
-
-        .small_group_email > .fa
-        {
-            margin: 0px;
-            padding: 0px;
-            font-size: 110%;
-            color: #707070;
-            width: 100%;
-        }
-
-        .small_group_email > .group_specific_description
-        {
-            margin-top: 7px;
-        }
-
-        .fa > a
-        {
-            padding: 0px;
-            margin: 0px;
-            text-decoration: none;
-            font-size: 100%;
-            color: black;
-        }
-
-        .fa > a:link
-        {
-            text-decoration: none;
-        }
-
-        .fa > a:visited
-        {
-            text-decoration: none;
-        }
-
-        .small_group_description
-        {
-            font-size: 110%;
-        }
-    /*------------------------------------------------*/
-                    /* CONTENT */
-    /*----------------------------------------------- */
-}

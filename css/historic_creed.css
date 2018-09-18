@@ -1,5 +1,45 @@
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
+
+.content
+{
+    padding: 10% 20px 15% 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px;
+    color: #414440;
+}
+
+.content > div
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.content > div > h1
+{
+    font-style: italic;
+    font-size: 150%;
+}
+
+.content > div > p
+{
+    font-size: 110%;
+}
+
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
+
+
 @media only screen and (min-width: 1024px)
 {
+/*------------------------------------------------*/
+                 /* DESKTOP MENU */
+/*----------------------------------------------- */
+
     #historic_creeds> a
     {
        color: #414440;
@@ -10,44 +50,31 @@
         background-color: #414440;
     }
 
+/*------------------------------------------------*/
+                 /* DESKTOP MENU */
+/*----------------------------------------------- */
+/*------------------------------------------------*/
+            /* CONTENT */
+/*----------------------------------------------- */
+
     .content
     {
         padding: 100px 15% 100px 15%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
+        grid-gap: 100px;
     }
 
-    .content > h1
+    .content > div > h1
     {
-        font-style: italic;
-        font-size: 200%;
+        font-size: 225%;
     }
 
-    .content > p
+    .content > div > p
     {
         font-size: 125%;
     }
+
+/*------------------------------------------------*/
+            /* CONTENT */
+/*----------------------------------------------- */
 }
 
-@media only screen and (max-width: 1024px)
-{
-    .content
-    {
-        padding: 40px 20px 40px 20px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
-
-    .content > h1
-    {
-        font-style: italic;
-        font-size: 170%;
-    }
-
-    .content > p
-    {
-        font-size: 115%;
-    }
-}

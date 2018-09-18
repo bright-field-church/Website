@@ -494,6 +494,7 @@ a
 
 .services > .serviceDetails
 {
+    padding: 1% 0px 1% 0px;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     display: grid;
@@ -507,17 +508,17 @@ a
 
 #joinUs
 {
-    font-size: 110%;
+    font-size: 115%;
 }
 
 #serviceTime
 {
-    font-size: 150%;
+    font-size: 225%;
 }
 
 #serviceLocation
 {
-    font-size: 110%;
+    font-size: 115%;
 }
 
 /*------------------------------------------------*/
