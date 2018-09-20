@@ -143,7 +143,7 @@
             grid-template-columns: 1fr 1fr;
             grid-template-rows:  30% 15% 15% 40%;
             grid-column-gap: 5px;
-            grid-row-gap: 40px;
+            grid-row-gap: 25px;
         }
 
         .leader_image

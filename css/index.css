@@ -469,6 +469,7 @@ a
     margin: 0px;
     grid-area: event_title;
     font-size: 150%;
+    color: #6f726e;
 }
 
 .event > .event_description
@@ -621,7 +622,6 @@ a
         margin: 0px;
         grid-area: event_title;
         font-size: 200%;
-        color: #6f726e;
     }
 
     .event > .event_description
