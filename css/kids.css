@@ -26,7 +26,8 @@
 
 .menu
 {
-    padding: 3%;
+    margin: 5% 0px 5% 0px;
+    padding: 2% 0px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -57,12 +58,12 @@
         color: #414440;
     }
 
-    .content > h1
+    .content > div > h1
     {
         font-size: 150%;
     }
 
-    .content > p
+    .content > div > p
     {
         font-size: 110%;
     }
