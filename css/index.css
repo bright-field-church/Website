@@ -55,13 +55,6 @@ footer
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-/* .image-wrapper
-{
-    width: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-} */
-
 p
 {
     font-family: "Montserrat";
@@ -299,7 +292,6 @@ a
     text-align: center;
     font-size: 150%;
     color: #414440;
-    font-style: italic;
 }
 
 .description > p
@@ -374,7 +366,6 @@ a
     transition: .2s;
     text-decoration: none;
     font-size: 110%;
-    font-style: italic;
     color: #6f726e;
 }
 
@@ -405,23 +396,12 @@ a
 /*----------------------------------------------- */
 .upcoming_events
 {
-    padding: 20% 3% 25% 3%;
+    padding: 15% 3% 25% 3%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-gap: 60px;
     color: #414440;
-}
-
-.upcoming_events > .event
-{
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: 1fr 6fr;
-    grid-template-areas: 
-    "event_date         event_title"        
-    "event_date         event_description"
-    "event_date         event_description";
 }
 
 .upcoming_events > .title
@@ -432,12 +412,25 @@ a
     font-size: 200%;
 }
 
+.upcoming_events > .event
+{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: 
+    "event_date         event_title"        
+    "event_date         event_description"
+    "...........        event_description";
+}
+
 .event_date
 { 
+    grid-area: event_date;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-gap: 1px;
+    margin-top: 8px;
 }
 
 .event_date > hr
