@@ -396,7 +396,7 @@ a
 /*----------------------------------------------- */
 .upcoming_events
 {
-    padding: 15% 3% 25% 3%;
+    padding: 15% 3% 20% 3%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -469,7 +469,6 @@ a
     margin: 0px;
     grid-area: event_title;
     font-size: 150%;
-    color: #6f726e;
 }
 
 .event > .event_description
@@ -572,5 +571,68 @@ a
 
 /*------------------------------------------------*/
         /* HOME WHAT TO EXPECT  */
+/*----------------------------------------------- */
+/*------------------------------------------------*/
+            /* UPCOMING EVENTS */
+/*----------------------------------------------- */
+    .upcoming_events
+    {
+        padding: 5% 10%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .upcoming_events > .title
+    {
+        justify-self: center;
+        grid-column: 1 / -1;
+        font-size: 225%;
+    }
+
+    .upcoming_events > .title > br
+    {
+        display: none;
+    }
+
+    .event_date > hr
+    {
+        height: 6px;
+        width: 38px;
+
+    }
+
+    .event_date > .event_weekday
+    {
+        font-size: 100%;
+    }
+
+    .event_date > .event_month
+    {
+        font-size: 90%;
+    }
+
+    .event_date > .event_numerical_day
+    {
+        font-size: 200%;
+    }
+
+    .event > .event_title
+    {
+        padding: 0px;
+        margin: 0px;
+        grid-area: event_title;
+        font-size: 200%;
+        color: #6f726e;
+    }
+
+    .event > .event_description
+    {
+        padding: 0px;
+        margin: 0px;
+        grid-area: event_description;
+        font-size: 125%;
+    }
+
+/*------------------------------------------------*/
+            /* UPCOMING EVENTS */
 /*----------------------------------------------- */
 }
