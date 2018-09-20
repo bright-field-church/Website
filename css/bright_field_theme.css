@@ -887,8 +887,8 @@ a
 
     .serviceDetails
     {
-        padding-top: 3%;
-        padding-bottom: 3%;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     #joinUs 
@@ -898,7 +898,7 @@ a
 
     #serviceTime 
     {
-        font-size: 400%;
+        font-size: 600%;
     }
 
     #serviceLocation

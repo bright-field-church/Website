@@ -142,10 +142,17 @@
         text-decoration: none;
     }
 
+    .subgroup-wrapper > a:visited, a:link
+    {
+        color: #cfd3ce;
+    }
+
     .subgroup-wrapper > a:hover
     {
         color: #6f726e;
     }
+
+    
 
     .subgroup-wrapper > hr
     {

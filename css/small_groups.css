@@ -52,6 +52,16 @@
     color: #6f726e;
 }
 
+.group_info
+{
+    padding: 0px;
+    margin: 0px;
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 8px;
+}
+
 .group_specific_description
 {
     font-size: 110%;
@@ -118,14 +128,8 @@
 
         .content
         {
-            padding: 100px 5% 100px 5%;
+            padding: 100px 15% 100px 15%;
             grid-gap: 100px;
-        }
-
-        .small_group_description
-        {
-            padding: 0px;
-            margin: 0px;
         }
 
         .small_group_description > p
@@ -136,12 +140,10 @@
         .leader_card
         {
             display: grid;
-            grid-template-columns: 1fr 2fr;
-            grid-template-rows: 1fr;
-            grid-auto-rows: 1fr;
-            grid-gap: 0px;
-            padding: 0px;
-            margin: 0px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows:  30% 15% 15% 40%;
+            grid-column-gap: 5px;
+            grid-row-gap: 40px;
         }
 
         .leader_image
@@ -158,76 +160,49 @@
 
         .leader_headings
         {
+            align-items: top;
             grid-column: 2 / 3;
-            grid-row: 1 / 2;
-            display: grid;
-            grid-template-columns: 1fr;
-            align-self: top;
+            grid-row: 2 / 3;
+            grid-template-rows: 1fr;
         }
 
         .leader_name
         {
-            color: #707070;
-            font-size: 150%;
-            padding: 0px;
-            margin: 0px;
+            font-size: 225%;
         }
 
-        .leader_description
+
+        .small_group_time 
+        {
+            font-size: 175%;
+        }
+
+        .group_info
         {
             grid-column: 2 / 3;
-            grid-row: 2 / -1;
+            grid-row: 3 / 4;
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 10%;
-            padding: 0px;
-            margin: 0px;
+            grid-template-rows: 1fr 1fr;
             grid-gap: 10px;
         }
 
-        .small_group_time > .fa
+        .group_specific_description 
         {
-            margin: 0px;
-            padding: 0px;
-            font-size: 120%;
-            color: black;
-            font-style: italic;
-            width: 100%;
+            font-size: 125%;
         }
 
-
-        .small_group_email > .fa
+        .small_group_email > a
         {
-            margin: 0px;
-            padding: 0px;
-            font-size: 110%;
-            color: #707070;
-            width: 100%;
+            font-size: 125%;
+        } 
+
+        .small_group_email > .fa 
+        {
+            padding: 0px 2% 0px 0px;
+            font-size: 125%;
         }
 
-        .small_group_email > .group_specific_description
-        {
-            margin-top: 7px;
-        }
-
-        .fa > a
-        {
-            padding: 0px;
-            margin: 0px;
-            text-decoration: none;
-            font-size: 100%;
-            color: black;
-        }
-
-        .fa > a:link
-        {
-            text-decoration: none;
-        }
-
-        .fa > a:visited
-        {
-            text-decoration: none;
-        }
     /*------------------------------------------------*/
                 /* CONTENT */
     /*----------------------------------------------- */
