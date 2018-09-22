@@ -601,11 +601,9 @@ a
         margin: 0px;
         display: flex;
         flex-wrap: nowrap;
-        justify-content: space-evenly;
+        justify-content: flex-end;
         align-items: center;
-        margin-left: 30%;
-        margin-right: 20%;
-        
+        margin-right: 20%;   
     }
 
     .navbar-desktop-menu > div >  a
@@ -617,7 +615,6 @@ a
         text-decoration: none;
         transition: .2s;
         overflow: hidden;
-        /* font-weight: bold; */
     }
 
     .navbar-desktop-menu > a:link
