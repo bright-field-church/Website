@@ -692,6 +692,11 @@ a
         padding: 12px 20px 12px 20px;
     }
 
+    .dropdown-content > a:link, a:visited
+    {
+        color: #6f726e;
+    }
+
     .dropdown-content > a:hover
     {
         color: #414440;
