@@ -1,202 +1,87 @@
-@media only screen and (max-width: 1024px)
+/*------------------------------------------------*/
+            /* CONTENT */
+/*----------------------------------------------- */
+
+.content
 {
-    /*------------------------------------------------*/
-                    /* HEADER IMAGE  */
-    /*----------------------------------------------- */ 
-
-        .header_image
-        {
-            display: grid;
-            grid-template-columns: 1fr;
-            overflow: hidden;
-        }
-
-        .header_image > img
-        {
-            width: 100%;
-            height: auto;
-        }
-
-    /*------------------------------------------------*/
-                    /* HEADER IMAGE  */
-    /*----------------------------------------------- */ 
-
-    /*------------------------------------------------*/
-                    /* MENU */
-    /*----------------------------------------------- */ 
-
-        .menu
-        {
-            padding: 5%;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-            background-color: #e0e0e0;
-            grid-gap: 20px;
-        }
-
-        .menu > h1
-        {
-            color: #707070;
-            justify-self: center; 
-            font-size: 150%;
-        }
-        
-        .menu > div
-        {
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns: 1fr;
-            justify-items: center;
-            grid-gap: 10px;
-        }
-
-        .menu > div > a 
-        {
-            text-decoration: none;
-            color: #707070;
-            padding: 5px 15px 5px 15px;
-            border: 1px solid white;
-            width: 100%;
-            text-align: center;
-        }
-
-        .menu > div > a:hover
-        {
-            background-color: white;
-            color: black;
-        }
-
-    /*------------------------------------------------*/
-                    /* MENU */
-    /*----------------------------------------------- */ 
-    /*------------------------------------------------*/
-                    /* CONTENT */
-    /*----------------------------------------------- */
-
-        .content
-        {
-            padding: 50px 20px 50px 20px;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 70px;
-        }
-
-        .staff_card
-        {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 30px;
-        }
-
-        .staff_image
-        {
-            justify-self: center;
-            width: 80%;
-            max-width: 450px;
-            height: auto;
-            border-radius: 50%;
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        }
-
-        .staff_headings
-        {
-            padding: 0px;
-            margin: 0px;
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-
-        .staff_headings_subwrapper
-        {
-            padding: 0px;
-            margin: 0px;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 5px;
-        }
-
-        .staff_headings_subwrapper > .staff_name
-        {
-            font-size: 180%;
-            color: #707070;
-        }
-
-        .staff_headings_subwrapper > .staff_title
-        {
-            font-size: 132%;
-        }
-
-        .staff_description 
-        {
-            font-size: 110%;
-        }
-
-    /*------------------------------------------------*/
-                    /* CONTENT */
-    /*----------------------------------------------- */ 
-
+    padding: 10% 20px 15% 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px;
+    color: #414440;
 }
+
+.staff_card
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.staff_image
+{
+    justify-self: center;
+    width: 80%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.staff_headings
+{
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.staff_headings_subwrapper
+{
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.staff_headings_subwrapper > .staff_name
+{
+    font-size: 150%;
+}
+
+.staff_headings_subwrapper > .staff_title
+{
+    font-size: 125%;
+    color: #6f726e;
+}
+
+.staff_description 
+{
+    font-size: 110%;
+}
+
+/*------------------------------------------------*/
+            /* CONTENT */
+/*----------------------------------------------- */ 
+
+
 
 @media only screen and (min-width: 1024px)
 {
-    #our_staff > a 
-    {
-       color: #414440;
-    }
-
-    #our_staff > hr
-    {
-        background-color: #414440;
-    } 
     /*------------------------------------------------*/
                 /* MENU */
     /*----------------------------------------------- */ 
 
-        .menu
+        #our_staff > a 
         {
-            padding: 3%;
-            margin: 0px;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-            background-color: #e0e0e0;
-            grid-gap: 20px;
+        color: #414440;
         }
 
-        .menu > h1
+        #our_staff > hr
         {
-            color: #707070;
-            justify-self: center;
-            font-size: 250%;
-        }
-
-        .menu > div
-        {
-            padding: 10px 20% 10px 20%;
-            grid-column: 1 / -1;
-            display: grid;
-            grid-template-columns:  1fr 1fr;
-            justify-items: center;
-            grid-gap: 10px;
-        }
-
-        .menu > div > a 
-        {
-            font-size: 125%;
-            text-decoration: none;
-            color: #707070;
-            padding: 5px 15px 5px 15px;
-            border: 1px solid white;
-            width: 100%;
-            text-align: center;
-        }
-
-        .menu > div> a:hover
-        {
-            background-color: white;
-            color: black;
-        }
+            background-color: #414440;
+        } 
 
     /*------------------------------------------------*/
                 /* MENU */
@@ -208,15 +93,11 @@
         .content
         {
             padding: 100px 15% 100px 15%;
-            display: grid;
-            grid-template-columns: 1fr;
-            /* padding-top: 60px; */
-            grid-gap: 125px;
+            grid-gap: 100px;
         }
 
         .staff_card
         {
-            display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr 1fr;
             grid-column-gap: 5px;
@@ -226,14 +107,8 @@
         .staff_image
         {
             align-self: center;
-            justify-self: center;
             grid-column: 1 / 2;
             grid-row: 1 / -1;
-            width: 80%;
-            max-width: 450px;
-            height: auto;
-            border-radius: 50%;
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
 
         .staff_headings
@@ -241,32 +116,22 @@
             align-items: top;
             grid-column: 2 / 3;
             grid-row: 2 / 3;
-            padding: 0px;
-            margin: 0px;
-            display: grid;
-            grid-template-columns: 1fr;
         }
 
         .staff_headings_subwrapper
         {
             align-self: center;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 5px;
-            padding: 0px;
-            margin: 0px;
-            grid-gap: 1px;
         }
 
         .staff_headings_subwrapper > .staff_name
         {
             font-size: 225%;
-            color: #707070;
         }
 
         .staff_headings_subwrapper > .staff_title
         {
             font-size: 175%;
+            color: #6f726e;
         }
 
         .staff_description 

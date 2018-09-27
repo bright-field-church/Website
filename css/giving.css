@@ -1,5 +1,35 @@
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
+
+.content
+{
+    padding: 10% 20px 15% 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    color: #414440;
+}
+
+.content > h1
+{
+    font-size: 150%;
+}
+
+.content > p
+{
+    font-size: 110%;
+}
+
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
+
 @media only screen and (min-width: 1024px)
 {
+/*------------------------------------------------*/
+            /* DESKTOP MENU */
+/*----------------------------------------------- */
     #giving > a
     {
        color: #414440;
@@ -9,45 +39,32 @@
     {
         background-color: #414440;
     }
+/*------------------------------------------------*/
+            /* DESKTOP MENU */
+/*----------------------------------------------- */
+
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
 
     .content
     {
         padding: 100px 15% 100px 15%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
     }
 
     .content > h1
     {
-        font-style: italic;
-        font-size: 200%;
+        font-size: 225%;
     }
 
     .content > p
     {
         font-size: 125%;
     }
+
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
 }
 
-@media only screen and (max-width: 1024px)
-{
-    .content
-    {
-        padding: 40px 20px 40px 20px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
 
-    .content > h1
-    {
-        font-style: italic;
-        font-size: 170%;
-    }
-
-    .content > p
-    {
-        font-size: 115%;
-    }
-}
