@@ -466,7 +466,7 @@ a
     margin: 0px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(0px, 130px);
+    grid-template-rows: minmax(0px, 150px);
     grid-gap: 0px;
 }
 
@@ -489,7 +489,7 @@ a
     grid-row: 1 / 2;
     width: 100%;
     height: auto;
-    margin-top: -25px;
+
 }
 
 .services > .serviceDetails
