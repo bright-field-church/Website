@@ -874,12 +874,12 @@ a
 
     .services 
     {
-        grid-template-rows: minmax(0px, 450px);
+        grid-template-rows: 400px;
     }
 
     .services > .image-wrapper > img 
     {
-        margin-top: -200px;
+        
     }
 
     .serviceDetails
@@ -906,4 +906,13 @@ a
 /*------------------------------------------------*/
             /* SERVICES  */
 /*----------------------------------------------- */
+}
+
+
+@media only screen and (min-width: 1440px)
+{
+    .services > .image-wrapper > img 
+    {
+        margin-top: -200px;
+    }
 }
