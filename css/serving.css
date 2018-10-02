@@ -32,7 +32,12 @@
     color: #5f9e43;
 }
 
-.content > div > .serving-login > a:visited, a:link
+.content > div > .serving-login > a:visited 
+{
+    color: #5f9e43;
+}
+
+.content > div > .serving-login > a:link
 {
     color: #5f9e43;
 }

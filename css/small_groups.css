@@ -94,7 +94,12 @@
     font-size: 110%;
 } 
 
-.small_group_email > a:visited, a:link
+.small_group_email > a:visited
+{
+    color: #414440;
+}
+
+.small_group_email > a:link
 {
     color: #414440;
 }
