@@ -419,20 +419,21 @@ a
 .social-media
 {
     grid-gap: 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    justify-content: space-evenly;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr; */
     background-color:#cfd3ce;
-    align-items: center;
-    justify-items: center;
+    /* align-items: center;
+    justify-items: center; */
 }
 
 .social-media-icon
 {
-    padding: 10% 15%;
+    padding: 5% 5%;
     display: flex;
     flex-wrap: nowrap;
-    /* justify-content: space-between; */
+    justify-content: space-evenly;
     align-items: center;
     font-size: 150%;
     color: #6f726e;
@@ -885,18 +886,19 @@ a
 
     .social-media-icon
     {
-        padding: 6%;
+        padding: 2% 3%;
         font-size: 125%;
     }
 
     .social-media-icon > a 
     {
-        padding: 0px 5% 0px 5%;
+        padding: 0px 5px;
     }
 
     .social-media-icon > .fa
     {
-        padding: 0px 5% 0px 5%;
+        padding: 0px 5px;
+        margin-top: -1.5px;
     }
 
 
