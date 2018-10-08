@@ -1,21 +1,9 @@
-$(document).ready(function()
-{    
-    var icons = document.getElementsByClassName("social-media-icons");
-    function myFunction(x) {
-        if (x.matches) 
-        { // If media query matches
-            for(var i = 0; i < icons.length; i++)
-            {
-                icons[i].innerText = "";
-            }
-        } 
-        else 
-        {
-     
-        }
-    }
+document.addEventListener("DOMContentLoaded", function() 
+{
+    let socialMediaIconArray = document.getElementsByClassName("fa");
+    let facebookButton = socialMediaIconArray[0];
+    let instagramButton = socialMediaIconArray[1];
+    let contactButton = socialMediaIconArray[2];
 
-    var x = window.matchMedia("(max-width: 1024px)")
-    myFunction(x) // Call listener function at run time
-    x.addListener(myFunction)
+    facebookButton.onclick("location.href='https://www.facebook.com/brightfieldchurch'");
 });

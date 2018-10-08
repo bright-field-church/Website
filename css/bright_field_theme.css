@@ -411,7 +411,7 @@ a
             /* HOME SOCIAL MEDIA  */
 /*----------------------------------------------- */
 
-.social-media-icon > a
+.social-media-icon > #socialIconText
 {
     display: none;
 }
@@ -446,10 +446,20 @@ a
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
+.social-media-icon:hover > a
+{
+    color: #414440;
+}
+
 .social-media-icon > a 
 {
     padding: 0px 3% 0px 3%;
     text-decoration: none;
+}
+
+.social-media-icon > a:hover
+{
+    color: #414440;    
 }
 
 .social-media-icon > a:link
@@ -873,7 +883,7 @@ a
             /*  SOCIAL MEDIA  */
 /*----------------------------------------------- */
    
-    .social-media-icon > a
+    .social-media-icon > #socialIconText
     {
         display: block;
     }
