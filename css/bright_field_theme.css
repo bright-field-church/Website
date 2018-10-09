@@ -447,11 +447,6 @@ a
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.social-media-icon:hover > a
-{
-    color: #414440;
-}
-
 .social-media-icon > a 
 {
     padding: 0px 3% 0px 3%;
