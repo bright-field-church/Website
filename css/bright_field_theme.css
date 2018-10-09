@@ -422,11 +422,8 @@ a
     grid-gap: 0px;
     display: flex;
     justify-content: space-evenly;
-    /* grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr; */
+    grid-template-rows: 1fr;
     background-color:#cfd3ce;
-    /* align-items: center;
-    justify-items: center; */
 }
 
 .social-media-icon
