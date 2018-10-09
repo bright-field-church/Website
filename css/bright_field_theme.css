@@ -418,6 +418,7 @@ a
 
 .social-media
 {
+    padding: 0px 12%;
     grid-gap: 0px;
     display: flex;
     justify-content: space-evenly;
