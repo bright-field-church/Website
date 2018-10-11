@@ -450,11 +450,6 @@ a
     text-decoration: none;
 }
 
-.social-media-icon > a:hover
-{
-    color: #414440;    
-}
-
 .social-media-icon > a:link
 {
     color: #6f726e;
@@ -469,7 +464,7 @@ a
 
 .fa
 {
-    padding: 0px 3% 0px 3%;
+    /* padding: 0px 3% 0px 3%; */
 }
 
 /*------------------------------------------------*/
