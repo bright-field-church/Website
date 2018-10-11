@@ -418,7 +418,7 @@ a
 
 .social-media
 {
-    padding: 0px 10%;
+    padding: 0px 16%;
     grid-gap: 0px;
     display: flex;
     justify-content: space-evenly;
@@ -435,6 +435,7 @@ a
     align-items: center;
     font-size: 150%;
     color: #6f726e;
+    width: 100%;
 }
 
 .social-media-icon:hover 
@@ -464,7 +465,7 @@ a
 
 .fa
 {
-    /* padding: 0px 3% 0px 3%; */
+    padding: 0px 3% 0px 3%;
 }
 
 /*------------------------------------------------*/
@@ -884,8 +885,9 @@ a
 
     .social-media-icon
     {
-        padding: 2% 3%;
+        padding: 2% 5%;
         font-size: 125%;
+        width: auto;
     }
 
     .social-media-icon > a 
