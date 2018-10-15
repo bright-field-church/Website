@@ -274,6 +274,105 @@
                     </h1>
                 </div>
             </div>
+            <div id="addressMenu">
+                <div id="officeAndSundayAddress">
+                    <ul>
+                        <li><h1>Offices:</h1></li>
+                        <li>
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=203+E+Locust+St+DeKalb%2C+Illinois+60115&dir_action=navigate">
+                                203 E Locust St<br> 
+                                DeKalb, Illinois 60115
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><h1>Sundays:</h1></li>
+                        <li id="barsema">Barsema Alumni and Visitors Center</li>
+                        <li>
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=231+N+Annie+Glidden+Rd+DeKalb%2C+Illinois+60115&dir_action=navigate"> 
+                                231 N Annie Glidden Rd<br>  
+                                DeKalb, Illinois 60115
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="serving-login">
+                        <a href='https://www.tiny-tinker.com/admin/login.php?c=17' target='__blank'>Serving Login</a>
+                    </p>
+                </div>
+                <div id="footerMenu">
+                    <ul>
+                        <li><h1><a href="">ABOUT US</a></h1></li>
+                        <li><a href="">OUR STAFF</a></li>
+                        <li><a href="">OUR BELIEFS</a></li>
+                        <li><a href="">OUR VALUES</a></li>
+                        <li><a href="">HISTORIC CREEDS</a></li>
+                        <li><a href="">OUR NETWORK</a></li>
+                    </ul>
+                    <ul>
+                        <li><h1><a href="">SUNDAYS</a></h1></li>
+                    </ul>
+                    <ul>
+                        <li><h1><a href="">CONNECTING</a></h1></li>
+                        <li><a href="">SMALL GROUPS</a></li>
+                        <li><a href="">COLLEGE STUDENTS</a></li>
+                        <li><a href="">SERVING</a></li>
+                        <li><a href="">GIVING</a></li>
+                    </ul>
+                    <ul>
+                        <li><h1><a href="">KIDS</a></h1></li>
+                    </ul>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
+<style>
+    #addressMenu > #footerMenu
+    {
+        display: none;
+    }
+
+    #addressMenu
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+  
+    }
+
+    #officeAndSundayAddress
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        grid-gap: 20px;
+    }
+
+    #officeAndSundayAddress > ul
+    {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .serving-login
+    {
+        font-size: 110%;
+    }
+
+    #barsema
+    {
+        font-size: 110%;
+    }
+
+    ul > li > h1
+    {
+        font-size: 150%;
+    }
+
+    ul > li > a
+    {
+        font-size: 110%;
+    }
+</style>
