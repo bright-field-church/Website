@@ -604,6 +604,27 @@ a
     text-decoration: underline;
 }
 
+#officeAndSundayAddress > .giving-login > a
+{
+    color: #5f9e43;
+    text-decoration: none;
+}
+
+#officeAndSundayAddress > .giving-login > a:visited
+{
+    color: #5f9e43;
+}
+
+#officeAndSundayAddress > .giving-login > a:link
+{
+    color: #5f9e43;
+}
+
+#officeAndSundayAddress > .giving-login > a:hover 
+{
+    text-decoration: underline;
+}
+
 #barsema
 {
     margin-bottom: 5px;
@@ -1039,7 +1060,7 @@ a
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
-        padding: 5% 15% 6% 15%;
+        padding: 4% 15% 5% 15%;
         background-color: #414440;
         color: white;
     }
