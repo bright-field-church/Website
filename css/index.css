@@ -256,11 +256,12 @@
 .what-to-expect > .image-wrapper > img
 {
     width: auto;
-    height: 100%;
+    min-height: 199px;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
     overflow: hidden;
-    margin-left: -150px;
+    justify-self: center;
+    align-self: center;
 }
 
 .what-to-expect-content
@@ -470,14 +471,17 @@
     {
         grid-row: 1 / -1;
         grid-column: 1 / -1;
-        /* margin-top: -200px; */
+        width: auto;
+        min-height: 436px;
+        justify-self: center;
+        align-self: center;
     }
 
     .what-to-expect-content
     {
         grid-template-columns: 5fr 1fr;
         grid-template-rows: 3fr 2fr 2fr;
-        justify-self: center;
+        justify-self: right;
     }
 
     .what-to-expect-content > h1
@@ -485,7 +489,6 @@
         font-size: 225%;
         grid-column: 1 / -1;
         grid-row: 1 / 2;
-        color: #414440;
     }
 
     .what-to-expect-content > a
