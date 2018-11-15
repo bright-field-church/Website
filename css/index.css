@@ -255,12 +255,12 @@
 
 .what-to-expect > .image-wrapper > img
 {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
     overflow: hidden;
-    margin-top: -15px;
+    margin-left: -150px;
 }
 
 .what-to-expect-content
@@ -470,7 +470,7 @@
     {
         grid-row: 1 / -1;
         grid-column: 1 / -1;
-        margin-top: -200px;
+        /* margin-top: -200px; */
     }
 
     .what-to-expect-content
@@ -485,6 +485,7 @@
         font-size: 225%;
         grid-column: 1 / -1;
         grid-row: 1 / 2;
+        color: #414440;
     }
 
     .what-to-expect-content > a
