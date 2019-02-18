@@ -48,8 +48,8 @@ a:visited {
 }
 
 .image_container > a > img {
-  width: auto;
-  height: 135px;
+  width: 250px;
+  height: auto;
   padding: 0px;
   margin: 0px;
 }
@@ -100,8 +100,9 @@ a:visited {
   .image_container {
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 80px;
+    grid-template-columns: 250px 250px 250px;
+    grid-auto-rows: 250px;
+    justify-content: space-evenly;
     padding: 0px;
     margin: 0px;
   }
@@ -117,7 +118,7 @@ a:visited {
   }
 
   .image_container > a > img {
-    width: 70%;
+    width: 100%;
     height: auto;
     padding: 0px;
     margin: 0px;
