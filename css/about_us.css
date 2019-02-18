@@ -1,76 +1,82 @@
 /*------------------------------------------------*/
-                /* CONTENT */
+/* CONTENT */
 /*----------------------------------------------- */
 
-    .content
-    {
-        padding: 10% 20px 15% 20px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-        color: #414440;
-    }
+.content {
+  padding: 10% 20px 15% 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  color: #414440;
+}
 
-    .content > h1
-    {
-        font-style: italic;
-        font-size: 150%;
-    }
+.content > h1 {
+  font-style: italic;
+  font-size: 150%;
+}
 
-    .content > p
-    {
-        font-size: 110%;
-    }
+.content > p {
+  font-size: 110%;
+}
+
+#foundation {
+  color: #5f9e43;
+  text-decoration: none;
+}
+
+#foundation:visited {
+  color: #5f9e43;
+}
+
+#foundation:link {
+  color: #5f9e43;
+}
+
+#foundation:hover {
+  text-decoration: underline;
+}
 
 /*------------------------------------------------*/
-                /* CONTENT */
+/* CONTENT */
 /*----------------------------------------------- */
 
+@media only screen and (min-width: 1024px) {
+  /*------------------------------------------------*/
+  /* MENU */
+  /*----------------------------------------------- */
 
-@media only screen and (min-width: 1024px)
-{
+  #about_us > a {
+    color: #414440;
+  }
 
-    /*------------------------------------------------*/
-                /* MENU */
-    /*----------------------------------------------- */
+  #about_us > hr {
+    background-color: #414440;
+  }
 
-    #about_us > a
-    {
-        color: #414440;
-    }
+  /*------------------------------------------------*/
+  /* MENU */
+  /*----------------------------------------------- */
+  /*------------------------------------------------*/
+  /* CONTENT */
+  /*----------------------------------------------- */
 
-    #about_us > hr
-    {
-        background-color: #414440;
-    }
+  .content {
+    padding: 100px 15% 100px 15%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
 
-    /*------------------------------------------------*/
-                /* MENU */
-    /*----------------------------------------------- */
-    /*------------------------------------------------*/
-                /* CONTENT */
-    /*----------------------------------------------- */
+  .content > h1 {
+    font-style: italic;
+    font-size: 225%;
+  }
 
-    .content
-    {
-        padding: 100px 15% 100px 15%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
+  .content > p {
+    font-size: 125%;
+  }
 
-    .content > h1
-    {
-        font-style: italic;
-        font-size: 225%;
-    }
-
-    .content > p
-    {
-        font-size: 125%;
-    }
-
-    /*------------------------------------------------*/
-                /* CONTENT */
-    /*----------------------------------------------- */
+  /*------------------------------------------------*/
+  /* CONTENT */
+  /*----------------------------------------------- */
 }

@@ -54,6 +54,23 @@ a:visited {
   margin: 0px;
 }
 
+#vine {
+  color: #5f9e43;
+  text-decoration: none;
+}
+
+#vine:visited {
+  color: #5f9e43;
+}
+
+#vine:link {
+  color: #5f9e43;
+}
+
+#vine:hover {
+  text-decoration: underline;
+}
+
 /*------------------------------------------------*/
 /* CONTENT */
 /*----------------------------------------------- */
