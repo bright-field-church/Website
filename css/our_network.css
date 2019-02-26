@@ -50,7 +50,7 @@ a:visited {
 .image_container > a > img {
   width: 250px;
   height: auto;
-  padding: 0px;
+  padding: 20px;
   margin: 0px;
 }
 
