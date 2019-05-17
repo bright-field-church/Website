@@ -183,6 +183,7 @@
 /* HOME DESCRIPTION  */
 /*----------------------------------------------- */
 
+
 .description {
   display: grid;
   grid-template-columns: 1fr;
@@ -204,11 +205,64 @@
   color: #414440;
 }
 
+
 .description > p {
   padding: 0px;
   margin: 0px;
   text-align: center;
   font-size: 110%;
+  color: #414440;
+}
+
+.where-we-meet {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+}
+
+.where-we-meet > h1 {
+  font-size: 150%;
+  color: #414440;
+  text-align: center;
+}
+
+.times-of-years {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.times-of-years > h2 {
+  text-align: center;
+  color: #6f726e;
+  font-size: 125%;
+}
+
+.times-of-years > p {
+  text-align: center;
+  color: #414440;
+  font-size: 110%;
+}
+
+.times-of-years > p > a {
+  color: #414440;
+  text-decoration: none;
+}
+
+.times-of-years > p > a:hover {
+  text-decoration: underline;
+}
+
+.times-of-years > p > a:visited {
+  color: #414440;
+}
+
+.times-of-years > p > a:link {
   color: #414440;
 }
 
@@ -404,6 +458,19 @@
   }
 
   .description > p {
+    font-size: 125%;
+  }
+
+  .where-we-meet > h1 {
+    font-size: 225%;
+   
+  }
+
+  .times-of-years > h2 {
+    font-size: 175%;
+  }
+  
+  .times-of-years > p {
     font-size: 125%;
   }
   /*------------------------------------------------*/
