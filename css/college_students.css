@@ -1,4 +1,18 @@
-/*------------------------------------------------*/
+.header_image
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+}
+
+.header_image > img
+{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 85px;
+
+}/*------------------------------------------------*/
                 /* CONTENT */
 /*----------------------------------------------- */
 .content
@@ -25,6 +39,27 @@
 /*----------------------------------------------- */
 @media only screen and (min-width: 1024px)
 {
+/*------------------------------------------------*/
+            /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+    .header_image
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(0px, 625px);
+        overflow: hidden;
+    }
+
+
+    .header_image > img
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+/*------------------------------------------------*/
+        /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
 /*------------------------------------------------*/
                 /* DESKTOP MENU  */
 /*----------------------------------------------- */
