@@ -48,8 +48,10 @@ a:visited {
 }
 
 .image_container > a > img {
-  width: 250px;
+  max-height: 150px;
+  max-width: 250px;
   height: auto;
+  width: auto;
   padding: 20px;
   margin: 0px;
 }
@@ -135,8 +137,6 @@ a:visited {
   }
 
   .image_container > a > img {
-    width: 100%;
-    height: auto;
     padding: 0px;
     margin: 0px;
   }
