@@ -58,6 +58,7 @@
 }
 
 .content > div > p {
+  /*line-height: 0px;*/
   font-size: 110%;
 }
 
@@ -65,6 +66,10 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
+}
+
+.content > div > h3 {
+  line-height: 5px;
 }
 
 /*------------------------------------------------*/
@@ -125,6 +130,9 @@
     font-size: 125%;
   }
 
+  .content > div > h3 {
+    font-size: 150%;
+  }
   /*------------------------------------------------*/
   /* CONTENT */
   /*----------------------------------------------- */
