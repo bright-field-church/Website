@@ -11,7 +11,7 @@
 }
 
 .header_image>img {
-    margin-top: 90px;  
+    margin-top: 90px;
     width: 40%;
     height: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -89,7 +89,22 @@
     text-align: center;
 }
 
+.where-we-meet>h1>a {
+    color: #414440;
+    text-decoration: none;
+}
 
+.where-we-meet>h1>a:hover {
+    text-decoration: underline;
+}
+
+.where-we-meet>h1>a:visited {
+    color: #414440;
+}
+
+.where-we-meet>h1>a:link {
+    color: #414440;
+}
 
 .leader_card {
     display: grid;
