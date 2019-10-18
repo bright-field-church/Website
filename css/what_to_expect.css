@@ -57,6 +57,11 @@
   font-size: 150%;
 }
 
+.content > div > h2 {
+  color: #6f726e;
+  font-size: 125%;
+}
+
 .content > div > p {
   font-size: 110%;
 }
@@ -66,6 +71,40 @@
   grid-template-columns: 1fr;
   grid-gap: 20px;
 }
+
+.time-of-year {
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+}
+
+.time-of-year > h2 {
+  color: #6f726e;
+  font-size: 125%;
+}
+.time-of-year > p {
+  font-size: 110%;
+}
+
+.time-of-year > p > a {
+  color: #414440;
+  text-decoration: none;
+}
+
+.time-of-year > p > a:hover {
+  text-decoration: underline;
+}
+
+.time-of-year > p > a:visited {
+  color: #414440;
+}
+
+.time-of-year > p > a:link {
+  color: #414440;
+}
+
 
 /*------------------------------------------------*/
 /* CONTENT */
@@ -122,6 +161,19 @@
   }
 
   .content > div > p {
+    font-size: 125%;
+  }
+
+  .time-of-year {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .time-of-year > h2 {
+    color: #6f726e;
+    font-size: 175%;
+  }
+  .time-of-year > p {
     font-size: 125%;
   }
 

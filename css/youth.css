@@ -1,0 +1,320 @@
+/*------------------------------------------------*/
+/* HEADER IMAGE  */
+/*----------------------------------------------- */
+
+.header_image {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    align-content: center;
+    justify-items: center;
+}
+
+.header_image>img {
+    margin-top: 90px;
+    width: 40%;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*------------------------------------------------*/
+/* HEADER IMAGE  */
+/*----------------------------------------------- */
+
+/*------------------------------------------------*/
+/* MENU */
+/*----------------------------------------------- */
+
+.menu {
+    margin: 5% 0px 5% 0px;
+    padding: 2% 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #cfd3ce;
+}
+
+.menu>h1 {
+    color: #6f726e;
+    justify-self: center;
+    font-size: 200%;
+}
+
+/*------------------------------------------------*/
+/* MENU */
+/*----------------------------------------------- */
+
+/*------------------------------------------------*/
+/* CONTENT */
+/*----------------------------------------------- */
+
+.content {
+    padding: 10% 20px 15% 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px;
+    color: #414440;
+}
+
+.content>div>h1 {
+    font-size: 150%;
+}
+
+.content>div>p {
+    font-size: 110%;
+}
+
+.content>div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.content>h2 {
+    font-size: 125%;
+    color: #6f726e;
+}
+
+.where-we-meet {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+
+.where-we-meet>h1 {
+    font-size: 150%;
+    color: #414440;
+    text-align: center;
+}
+
+.where-we-meet>h1>a {
+    color: #414440;
+    text-decoration: none;
+}
+
+.where-we-meet>h1>a:hover {
+    text-decoration: underline;
+}
+
+.where-we-meet>h1>a:visited {
+    color: #414440;
+}
+
+.where-we-meet>h1>a:link {
+    color: #414440;
+}
+
+.leader_card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.leader_image {
+    justify-self: center;
+    width: 80%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.leader_headings {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.leader_headings_subwrapper {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    align-self: center;
+
+}
+
+.leader_headings_subwrapper>.leader_name {
+    font-size: 150%;
+}
+
+.leader_headings_subwrapper>.leader_title {
+    font-size: 125%;
+    color: #6f726e;
+}
+
+.leader_email {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.leader_email>.fa {
+    display: grid;
+    padding: 0px 2% 0px 0px;
+    margin: 0px;
+    margin-top: 2px;
+    font-size: 110%;
+}
+
+.leader_email>a {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+.leader_email>a:visited {
+    color: #414440;
+}
+
+.leader_email>a:link {
+    color: #414440;
+}
+
+.leader_description {
+    font-size: 110%;
+}
+
+/*------------------------------------------------*/
+/* CONTENT */
+/*----------------------------------------------- */
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    /*------------------------------------------------*/
+    /* HEADER IMAGE  */
+    /*----------------------------------------------- */
+    .header_image {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(0px, 625px);
+        overflow: shown;
+        align-content: center;
+    }
+
+
+    .header_image>img {
+        width: auto;
+        height: 530px;
+        margin-top: 80px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /*------------------------------------------------*/
+    /* HEADER IMAGE  */
+    /*----------------------------------------------- */
+    /*------------------------------------------------*/
+    /* MENU */
+    /*----------------------------------------------- */
+
+    .menu {
+        padding: 2%;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        background-color: #cfd3ce;
+        grid-gap: 20px;
+    }
+
+    .menu>h1 {
+        color: #6f726e;
+        justify-self: center;
+        font-size: 250%;
+    }
+
+    /*------------------------------------------------*/
+    /* MENU */
+    /*----------------------------------------------- */
+    /*------------------------------------------------*/
+    /* CONTENT */
+    /*----------------------------------------------- */
+
+    .content {
+        padding: 100px 15% 100px 15%;
+        grid-gap: 100px;
+    }
+
+    .content>div>h1 {
+        font-size: 225%;
+    }
+
+    .content>div>p {
+        font-size: 125%;
+    }
+
+    .content>h2 {
+        font-size: 175%;
+    }
+
+    .content>.leaders {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    .content>.leaders>.leader_card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr 1fr 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+
+    .leader_card>.leader_image {
+        align-self: center;
+        /* grid-template-columns: minmax(100px, 200px); */
+        width: 70%;
+    }
+
+    .leader_headings {
+        align-items: top;
+
+    }
+
+    .leader_headings_subwrapper {
+        align-self: center;
+    }
+
+    .leader_headings_subwrapper>.leader_name {
+        font-size: 1.8vw;
+        padding-left: 7%;
+
+    }
+
+    .leader_headings_subwrapper>.leader_title {
+        font-size: 1.4vw;
+        color: #6f726e;
+        padding-left: 7%;
+
+    }
+
+    .leader_email {
+        padding: 0px;
+        margin: 0px;
+        font-size: 1.2vw;
+        padding-left: 7%;
+
+    }
+
+    .leader_description {
+        font-size: 125%;
+        padding-left: 7%;
+    }
+
+    /*------------------------------------------------*/
+    /* CONTENT */
+    /*----------------------------------------------- */
+
+}
