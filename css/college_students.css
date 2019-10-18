@@ -24,12 +24,19 @@
     color: #414440;
 }
 
-.content > h1
+.content > div
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.content > div > h1
 {
     font-size: 150%;
 }
 
-.content > p
+.content > div > p
 {
     font-size: 110%;
 }
@@ -86,12 +93,36 @@
         padding: 100px 15% 100px 15%;
     }
 
-    .content > h1
+    .content > div > h1
     {
         font-size: 225%;
     }
 
-    .content > p
+    .content> div >.picture_card {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: minmax(100px, 40%) 1fr;
+        grid-template-rows: 1fr;
+    }
+    .picture_card > div {
+        justify-self: center;
+    }
+    .picture_card > div >img {
+        width: 100%;
+        height: auto;
+        border-radius: 25px;
+        box-shadow: 0px 0px 5px grey;
+    
+       /* width: 70%;*/
+    }
+    .picture_card > div > p
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 125%;
+    }
+
+    .content > div > p
     {
         font-size: 125%;
     }
