@@ -11,6 +11,7 @@
 
 .header_image > img
 {
+    margin-top: 75px;
     width: 100%;
     height: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
