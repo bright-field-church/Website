@@ -1,0 +1,286 @@
+/*------------------------------------------------*/
+                /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+
+.header_image
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+}
+
+.header_image > img
+{
+    margin-top: 75px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+/*------------------------------------------------*/
+                /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+
+/*------------------------------------------------*/
+                /* MENU */
+/*----------------------------------------------- */ 
+
+.menu
+{
+    margin: 5% 0px 5% 0px;
+    padding: 2% 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #cfd3ce;
+}
+
+.menu > h1
+{
+    color: #6f726e;
+    justify-self: center; 
+    font-size: 200%;
+}
+
+/*------------------------------------------------*/
+                /* MENU */
+/*----------------------------------------------- */ 
+
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
+
+    .content
+    {
+        padding: 10% 20px 15% 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 60px;
+        color: #414440;
+    }
+
+    .content > div > h1
+    {
+        font-size: 150%;
+    }
+
+    .content > div > p
+    {
+        font-size: 110%;
+    }
+
+    .content > div
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .content > h2
+    {
+        font-size: 125%;
+        color: #6f726e;
+    }
+
+    .staff_card
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .staff_image
+    {
+        justify-self: center;
+        width: 80%;
+        max-width: 450px;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .staff_headings
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .staff_headings_subwrapper
+    {
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+
+    .staff_headings_subwrapper > .staff_name
+    {
+        font-size: 150%;
+    }
+
+    .staff_headings_subwrapper > .staff_title
+    {
+        font-size: 125%;
+        color: #6f726e;
+    }
+
+    .staff_description
+    {
+        font-size: 110%;
+    }
+
+    .content > div > .serving-login > a 
+    {
+        color: #5f9e43;
+    }
+
+    .content > div > .serving-login > a:visited 
+    {
+        color: #5f9e43;
+    }
+
+    .content > div > .serving-login > a:link
+    {
+        color: #5f9e43;
+    }
+
+/*------------------------------------------------*/
+                /* CONTENT */
+/*----------------------------------------------- */
+
+
+
+@media only screen and (min-width: 1024px)
+{
+/*------------------------------------------------*/
+                /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+    .header_image
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(0px, 625px);
+        overflow: hidden;
+    }
+
+
+    .header_image > img
+    {
+        width: 100%;
+        height: auto;
+        margin-top: -250px;
+    }
+
+    .header_image > h1
+    {
+
+    }
+/*------------------------------------------------*/
+                /* HEADER IMAGE  */
+/*----------------------------------------------- */ 
+/*------------------------------------------------*/
+                /* MENU */
+/*----------------------------------------------- */
+
+    .menu
+    {
+        padding: 2%;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        background-color: #cfd3ce;
+        grid-gap: 20px;
+    }
+
+    .menu > h1
+    {
+        color: #6f726e;
+        justify-self: center;
+        font-size: 250%;
+    }
+    
+/*------------------------------------------------*/
+                /* MENU */
+/*----------------------------------------------- */
+/*------------------------------------------------*/
+            /* CONTENT */
+/*----------------------------------------------- */
+
+    .content
+    {
+        padding: 100px 15% 100px 15%;
+        grid-gap: 100px;
+    }
+
+    .content > div > h1
+    {
+        font-size: 225%;
+    }
+
+    .content > div > p
+    {
+        font-size: 125%;
+    }
+    
+    .content > h2
+    {
+        font-size: 175%;
+    }
+
+    .content > .staff_card
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 20px;
+    }
+
+    .staff_card > .staff_image
+    {
+        align-self: center;
+        grid-column: 1 / 2;
+        grid-row: 1 / -1;
+    }
+
+    .staff_headings
+    {
+        align-items: top;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .staff_headings_subwrapper
+    {
+        align-self: center;
+    }
+
+    .staff_headings_subwrapper > .staff_name
+    {
+        font-size: 225%;
+    }
+
+    .staff_headings_subwrapper > .staff_title
+    {
+        font-size: 175%;
+        color: #6f726e;
+    }
+
+    .staff_description
+    {
+        padding: 0px;
+        margin: 0px;
+        grid-column: 2 / 3;
+        grid-row: 3 / -1;
+        font-size: 125%;
+    }
+
+/*------------------------------------------------*/
+            /* CONTENT */
+/*----------------------------------------------- */
+
+}
