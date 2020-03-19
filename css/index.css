@@ -43,7 +43,7 @@
 }
 
 .header-item {
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   color: #fff;
   align-items: center;
@@ -57,7 +57,7 @@
 }
 
 .header-text {
-  font-size: 3.5vw;
+  font-size: 3.4vw;
   padding-right: 0px;
 }
 
@@ -551,9 +551,9 @@
   }
 
   .header-context {
-    padding: 10px;
+    /* padding: 10px; */
 
-    grid-column-gap: 20px;
+    /* grid-column-gap: 20px; */
     grid-row-gap: 20px;
   }
 
