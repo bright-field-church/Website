@@ -63,6 +63,8 @@
     height: 0;
     min-height: 250px;
     padding-bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .worship {
     position: absolute;
