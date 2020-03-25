@@ -48,6 +48,7 @@
 
 .sermon>div>p {
     font-size: 120%;
+    font-weight: bold;
 }
 
 .sermon_list{
@@ -91,6 +92,10 @@
 
 .pad-top{
     padding-top: 10px;
+}
+
+.serving-login{
+    font-size: 110%;
 }
 
 .serving-login>a {
@@ -152,11 +157,19 @@
         font-size: 150%;
     }
 
+    .serving-login{
+        font-size: 125%;
+    }
+
     .sermon{
         display: grid;
-        grid-row: 1fr;
+        grid-row: auto auto;
         grid-template-columns: 25% 75%;
         column-gap: 20px;
+    }
+
+    .video-span{
+        grid-row-start: span 2;
     }
 
     .worship_container{
