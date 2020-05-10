@@ -51,6 +51,11 @@
     font-weight: bold;
 }
 
+.no_worship>div>p {
+    font-size: 120%;
+    font-weight: bold;
+}
+
 .sermon_list{
  padding-left: 20px;
  font-size: 110%; 
@@ -154,6 +159,10 @@
     }
 
     .sermon>div>p {
+        font-size: 150%;
+    }
+
+    .no_worship>div>p {
         font-size: 150%;
     }
 
