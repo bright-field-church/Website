@@ -1,5 +1,5 @@
 .alert {
-  margin-top: 84px;
+
   padding: 0px;
   display: grid;
   grid-template-columns: 1fr;
@@ -19,6 +19,7 @@
 }
 
 .header {
+  margin-top: 84px;
   padding: 0px;
   display: grid;
   grid-template-columns: 1fr;
@@ -29,7 +30,10 @@
   overflow: hidden;
   align-items: center;
 
-  background-image: url("../images/graphics/barema-small1.jpg");
+  background-image: linear-gradient(21deg, rgba(0, 0, 0, 0.5) 45%, rgba(0, 0, 0, 0.5)), url("../images/graphics/barema-small1.jpg");
+
+
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -37,13 +41,13 @@
 
 .header-context {
   margin: 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  justify-content: center;
+ 
 }
 
 .header-item {
-  padding: 10px;
+padding: 0px;
   border-radius: 10px;
   color: #fff;
   align-items: center;
@@ -52,20 +56,28 @@
   text-shadow: 1px 1px 6px black;
 }
 
+
+
 .header-title {
-  font-size: 6.5vw;
+  font-size: 125%;
+  text-align: center;
 }
 
 .header-text {
-  font-size: 3.4vw;
-  padding-right: 0px;
+  font-size: 150%;
+  text-align: center;  
+}
+
+.header-text1 {
+  font-size: 110%;
+  text-align: center;
 }
 
 .header-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .header-button>a>p {
@@ -73,14 +85,14 @@
   border-radius: 25px;
   border: 2px solid white;
   padding: 5px;
-  font-size: 3.5vw;
+  font-size: 110%;
   color: white;
   text-align: center;
 }
 
 .header-button>a>p:hover {
   background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   text-shadow: 1px 1px 3px black;
 }
 
@@ -549,26 +561,33 @@
   .alert-warning {
     font-size: 125%;
   }
-
-  .header-context {
-    /* padding: 10px; */
-
-    /* grid-column-gap: 20px; */
-    grid-row-gap: 20px;
+  .header {
+    grid-template-rows: minmax(650px, 1fr);
   }
 
   .header-title {
-    font-size: 7.5vw;
+    font-size: 300%;
+  }
+  
+  .header-text {
+    font-size: 350%;
+  }
+  
+  .header-text1 {
+    font-size: 200%;
   }
 
-  .header-text {
-    font-size: 3.5vw;
+  .header-context {
+    grid-row-gap: 20px;
+  }
+
+  .header-button{
+    padding: 20px;
   }
 
   .header-button>a>p {
-    padding: 20px;
-    font-size: 2.4vw;
-
+    padding: 15px;
+    font-size: 200%;
   }
 
   /*------------------------------------------------*/
