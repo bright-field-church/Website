@@ -42,18 +42,23 @@
     font-size: 150%;
 }
 
-.content>div>p {
+.content>div>h3 {
+    font-size: 120%;
+}
+.content div p {
     font-size: 110%;
 }
 
+
+
 .sermon>div>p {
-    font-size: 120%;
-    font-weight: bold;
+    /* font-size: 120%; 
+    font-weight: bold;*/
 }
 
 .no_worship>div>p {
-    font-size: 120%;
-    font-weight: bold;
+    /* font-size: 120%; 
+    font-weight: bold;*/
 }
 
 .sermon_list{
@@ -100,7 +105,7 @@
 }
 
 .serving-login{
-    font-size: 110%;
+    /* font-size: 110%; */
 }
 
 .serving-login>a {
@@ -117,7 +122,11 @@
 
 li.details {
   margin: 10px;
+  font-size: 110%;
 }
+.details>p>span {
+    font-size: 110%;
+  }
 
 li.details div.details-info {
   margin-left: 25px;
@@ -135,14 +144,14 @@ li.details div.details-info {
     .header_image {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: minmax(0px, 400px);
+        grid-template-rows: minmax(0px, 625px);
         overflow: hidden;
     }
 
     .header_image>img {
         width: 100%;
         height: auto;
-        margin-top: 80px
+        margin-top: -350px
     }
 
     /*------------------------------------------------*/
@@ -161,21 +170,32 @@ li.details div.details-info {
     .content>div>h1 {
         font-size: 225%;
     }
+    
+    .content>div>h3 {
+        font-size: 140%;
+    }
 
     .content>div>p {
         font-size: 125%;
     }
 
+    li.details {
+        /* font-size: 125%; */
+      }
+     .details>p>span {
+          font-size: 125%;
+        }
+
     .sermon>div>p {
-        font-size: 150%;
+        /* font-size: 150%; */
     }
 
     .no_worship>div>p {
-        font-size: 150%;
+        /* font-size: 150%; */
     }
 
     .serving-login{
-        font-size: 125%;
+        /* font-size: 125%; */
     }
 
     .sermon{
@@ -190,8 +210,9 @@ li.details div.details-info {
     }
 
     .worship_container{
-        max-width: none;
-        padding-bottom: 100%;
+        max-width: 400px;
+        min-height: 350px;
+        padding-bottom: 0px;
     }
     .pad-top{
         padding-top: 0px;
