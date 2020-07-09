@@ -132,6 +132,9 @@ li.details div.details-info {
   margin-left: 25px;
 }
 
+.big-heading{
+    font-size: 125%;
+}
 /*------------------------------------------------*/
 /* CONTENT */
 /*----------------------------------------------- */
@@ -224,6 +227,9 @@ li.details div.details-info {
         font-size: 125%; 
        }
 
+       .big-heading{
+        font-size: 200%;
+    }
     
 
     /*------------------------------------------------*/
