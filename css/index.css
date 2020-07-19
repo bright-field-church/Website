@@ -19,7 +19,7 @@
 }
 
 .header {
-  margin-top: 84px;
+  margin-top: 0px;
   padding: 0px;
   display: grid;
   grid-template-columns: 1fr;
