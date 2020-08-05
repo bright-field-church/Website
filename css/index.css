@@ -602,6 +602,10 @@ padding: 0px;
     grid-template-rows: 1fr;
   }
 
+  .info-item{
+    align-self: center;
+  }
+
   .info-text>a {
     font-size: 225%;
   }
