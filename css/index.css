@@ -277,6 +277,26 @@
   grid-auto-rows: minmax(0px, 150px);
   grid-gap: 0px;
 }
+.info-item {
+  align-self: center;
+  justify-items: center;
+}
+.info-item:hover {
+  font-size: larger;
+}
+
+.info-icon {
+  font-size: 350%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.info-desc {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 125%;
+}
 
 .home-information > .image-wrapper {
   padding: 0px;
@@ -620,25 +640,12 @@
     margin: 2%;
   }
 
-  .info-item {
-    align-self: center;
-    justify-items: center;
-  }
-  .info-item:hover {
-    font-size: larger;
-  }
-
   .info-icon {
-    font-size: 5vw;
-    left: 50%;
-    transform: translateX(-50%);
+    font-size: 7vw;
   }
 
   .info-desc {
-    display: block;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
   }
 
   .info-item > div > i {
