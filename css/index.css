@@ -39,7 +39,32 @@
       rgba(0, 0, 0, 0.6) 45%,
       rgba(0, 0, 0, 0.6)
     ),
-    url("../images/graphics/BandShell1.jpg");
+    url("../images/graphics/basema.jpeg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.guidelines {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(250px, 1fr);
+
+  grid-gap: 0px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+
+  background-image: linear-gradient(
+      21deg,
+      rgba(0, 0, 0, 0.6) 45%,
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../images/graphics/Surgical_face_mask.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -100,23 +125,28 @@
   text-shadow: 1px 1px 3px black;
 }
 
-.header-button > a:visited {
+.header-button > a:visited,
+a.guidelines-button:visited {
   color: white;
   text-decoration: none;
 }
 
-.header-button > a:link {
+.header-button > a:link,
+a.guidelines-button:link {
   color: white;
   text-decoration: none;
 }
 
-.header-button > a:hover {
+.header-button > a:hover,
+a.guidelines-button:hover {
   text-decoration: none;
 }
 
-.header-button > a:active {
+.header-button > a:active,
+a.guidelines-button:active {
   text-decoration: none;
 }
+
 
 .serving-login>a {
   color: #5f9e43;
@@ -132,7 +162,6 @@
 
 .serving-login>a:hover {
   color: #21570a;
-  font-size: 115%;
   box-shadow: 12px
 }
 
@@ -281,9 +310,12 @@
   align-self: center;
   justify-items: center;
 }
-.info-item:hover {
-  font-size: larger;
+
+.info-item>a {
+text-decoration: none;
 }
+
+
 
 .info-icon {
   font-size: 350%;
@@ -296,6 +328,7 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 125%;
+  text-decoration: none;
 }
 
 .home-information > .image-wrapper {
@@ -600,8 +633,14 @@
   .alert-warning {
     font-size: 125%;
   }
+  
+  .guidelines,
   .header {
-    grid-template-rows: minmax(450px, 1fr);
+    grid-template-rows: minmax(400px, 1fr);
+  }
+
+  .header {
+    background-position:50% 75%;
   }
 
   .header-title {
@@ -634,14 +673,14 @@
   /*----------------------------------------------- */
 
   .home-information {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
     margin: 2%;
   }
 
   .info-icon {
-    font-size: 7vw;
+    font-size: 5vw;
   }
 
   .info-desc {
@@ -650,7 +689,7 @@
 
   .info-item > div > i {
     color: #5f9e43;
-    font-size: 6vw;
+    font-size: 5vw;
   }
 
   .info-text > a {
