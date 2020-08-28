@@ -36,8 +36,8 @@
 
   background-image: linear-gradient(
       21deg,
-      rgba(0, 0, 0, 0.6) 45%,
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4) 45%,
+      rgba(0, 0, 0, 0.4)
     ),
     url("../images/graphics/barsema.jpg");
 
@@ -61,8 +61,8 @@
 
   background-image: linear-gradient(
       21deg,
-      rgba(0, 0, 0, 0.6) 45%,
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4) 45%,
+      rgba(0, 0, 0, 0.4)
     ),
     url("../images/graphics/Surgical_face_mask.jpg");
 
@@ -148,20 +148,20 @@ a.guidelines-button:active {
 }
 
 
-.serving-login>a {
-  color: #5f9e43;
+.icon>a {
+  color: #4b4846;
 }
 
-.serving-login>a:visited {
-  color: #5f9e43;
+.icon>a:visited {
+  color: #4b4846;
 }
 
-.serving-login>a:link {
-  color: #5f9e43;
+.icon>a:link {
+  color: #4b4846;
 }
 
-.serving-login>a:hover {
-  color: #21570a;
+.icon>a:hover {
+  color: #646261;
   box-shadow: 12px
 }
 
@@ -636,7 +636,7 @@ text-decoration: none;
   
   .guidelines,
   .header {
-    grid-template-rows: minmax(400px, 1fr);
+    grid-template-rows: minmax(18vw, 1fr);
   }
 
   .header {
@@ -673,10 +673,12 @@ text-decoration: none;
   /*----------------------------------------------- */
 
   .home-information {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
     margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .info-icon {
@@ -684,7 +686,7 @@ text-decoration: none;
   }
 
   .info-desc {
-    font-size: 1.8vw;
+    font-size: 1.7vw;
   }
 
   .info-item > div > i {
