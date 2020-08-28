@@ -673,7 +673,7 @@ text-decoration: none;
   /*----------------------------------------------- */
 
   .home-information {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
     margin: 2%;
@@ -686,7 +686,7 @@ text-decoration: none;
   }
 
   .info-desc {
-    font-size: 1.8vw;
+    font-size: 1.7vw;
   }
 
   .info-item > div > i {
