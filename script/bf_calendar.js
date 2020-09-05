@@ -17,18 +17,18 @@ var convertDay = {
 };
 
 var convertMonth = {
-  0: "Jan",
-  1: "Feb",
-  2: "Mar",
-  3: "Apr",
-  4: "May",
-  5: "Jun",
-  6: "Jul",
-  7: "Aug",
-  8: "Sep",
-  9: "Oct",
-  10: "Nov",
-  11: "Dec"
+  0: "JAN",
+  1: "FEB",
+  2: "MAR",
+  3: "APR",
+  4: "MAY",
+  5: "JUN",
+  6: "JUL",
+  7: "AUG",
+  8: "SEP",
+  9: "OCT",
+  10: "NOV",
+  11: "DEC"
 };
 
 function addZero(day) {
@@ -39,7 +39,7 @@ function addZero(day) {
 }
 
 function hourAdjust(hour) {
-if (hour > 12) {
+  if (hour > 12) {
     return hour - 12;
   }
   return hour;
@@ -58,11 +58,10 @@ function initClient() {
       scope: SCOPES
     })
     .then(
-      function() {
-        console.log("Loaded Google");
+      function () {
         listUpcomingEvents();
       },
-      function(error) {
+      function (error) {
         console.log(JSON.stringify(error, null, 2));
       }
     );
@@ -75,42 +74,54 @@ function listUpcomingEvents() {
       timeMin: new Date().toISOString(),
       showDeleted: false,
       singleEvents: true,
-      maxResults: 10,
+      maxResults: 15,
       orderBy: "startTime"
     })
-    .then(function(response) {
+    .then(function (response) {
       var events = response.result.items;
-
+      let singleEvents = new Map();
       if (events.length > 0) {
         for (i = 0; i < events.length; i++) {
           var event = events[i];
-          var when = event.start.dateTime;
-          if (!when) {
-            when = event.start.date;
-          }
-          console.log(event.location);
-          var eventDate = new Date(event.start.dateTime);
 
-          var eventTitle =
-          addZero(hourAdjust(eventDate.getHours())).toString() +
-            ":" +
-            addZero(eventDate.getMinutes()).toString() + " "+
-            event.summary.trim();
-
-          addEvent(
-            convertDay[eventDate.getDay()],
-            convertMonth[eventDate.getMonth()],
-            addZero(eventDate.getDate()),
-            eventTitle,
-            event.description.trim()
-          );
+          if (!singleEvents.has(event.summary.trim())) {
+            var eventDate = new Date(event.start.dateTime);
+            singleEvents.set(event.summary.trim(), "Event");
+         
+            var eventTitle =
+              hourAdjust(eventDate.getHours()).toString() +
+              ":" +
+              addZero(eventDate.getMinutes()).toString() + " " +
+              event.summary.trim();
+  
+            addEvent(
+              convertDay[eventDate.getDay()],
+              convertMonth[eventDate.getMonth()],
+              addZero(eventDate.getDate()),
+              eventTitle,
+              event.description.trim(),
+              event.location
+            );
+            if (singleEvents.size == 4) {
+              break;
+            }
+            }
         }
       }
     });
 }
 
 
-function addEvent(day, month, num, title, desc) {
+function addEvent(day, month, num, title, desc, location) {
+  var splitLocation, locationText, locationLink;
+  if (location != null) {
+    splitLocation = location.search(",");
+    locationText = location.substr(0, splitLocation);
+    locationLink = location.substr(splitLocation+2, location.length);
+    locationLink = locationLink.replace(/,/g, "");
+    locationLink = locationLink.replace(/\ /g, "+");
+  }
+
   var event = document.createElement("div");
   event.className = "event";
 
@@ -148,5 +159,16 @@ function addEvent(day, month, num, title, desc) {
 
   event.appendChild(eventDesc);
 
+  if (location != null) {
+    var eventLocation = document.createElement("p");
+    eventLocation.className = "event_location serving-login";
+
+    var eventLocationLink = document.createElement("a");
+    eventLocationLink.href = "https://www.google.com/maps/dir/?api=1&destination=" + locationLink+ "&dir_action=navigate";
+    eventLocationLink.innerHTML = '<i class="fas fa-map-marker-alt"></i> ' + locationText;
+    eventLocation.appendChild(eventLocationLink);
+
+    event.appendChild(eventLocation);
+  }
   document.getElementsByClassName("upcoming_events")[0].appendChild(event);
 }
