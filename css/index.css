@@ -423,6 +423,14 @@ text-decoration: none;
   grid-gap: 15px;
 }
 
+.where-we-meet > p {
+  font-size: 110%;
+  color: #414440;
+  text-align: center;
+  font-weight: 600;
+}
+
+
 .where-we-meet > h1 {
   font-size: 150%;
   color: #414440;
@@ -737,6 +745,9 @@ text-decoration: none;
 
   .description > p {
     font-size: 125%;
+  }
+  .where-we-meet > p {
+    font-size: 120%;
   }
 
   .where-we-meet > h1 {
