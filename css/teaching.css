@@ -120,6 +120,12 @@
     color: #5f9e43;
 }
 
+.giving>li{
+    font-size: 110%;
+    margin-left: 25px;
+    padding-top: 5px;
+}
+
 li.details {
   margin: 10px;
   font-size: 110%;
@@ -181,25 +187,16 @@ li.details div.details-info {
     .content>div>p {
         font-size: 125%;
     }
+    .giving>li{
+        font-size: 125%;
+        margin-left: 35px;
+        padding-top: 10px;
+    }
 
-    li.details {
-        /* font-size: 125%; */
-      }
+ 
      .details>p>span {
           font-size: 125%;
         }
-
-    .sermon>div>p {
-        /* font-size: 150%; */
-    }
-
-    .no_worship>div>p {
-        /* font-size: 150%; */
-    }
-
-    .serving-login{
-        /* font-size: 125%; */
-    }
 
     .sermon{
         display: grid;
@@ -213,7 +210,7 @@ li.details div.details-info {
     }
 
     .worship_container{
-        max-width: 400px;
+        max-width: 500px;
         min-height: 350px;
         padding-bottom: 0px;
     }
