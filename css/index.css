@@ -666,7 +666,7 @@ text-decoration: none;
   
   .guidelines,
   .header {
-    grid-template-rows: minmax(18vw, 1fr);
+    grid-template-rows: minmax(22vw, 1fr);
   }
 
   .header {
