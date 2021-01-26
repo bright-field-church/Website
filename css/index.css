@@ -703,12 +703,12 @@ text-decoration: none;
   /*----------------------------------------------- */
 
   .home-information {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
     margin: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .info-icon {
