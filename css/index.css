@@ -309,6 +309,7 @@ a.guidelines-button:active {
 .info-item {
   align-self: center;
   justify-items: center;
+  user-select: none;   
 }
 
 .info-item>a {
