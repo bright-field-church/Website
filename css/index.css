@@ -39,7 +39,7 @@
       rgba(0, 0, 0, 0.4) 45%,
       rgba(0, 0, 0, 0.4)
     ),
-    url("../images/graphics/4_july_1.jpg");
+    url("../images/graphics/barsema.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -671,7 +671,7 @@ text-decoration: none;
   }
 
   .header {
-    background-position:50% -15%;
+    background-position:50% 75%;
   }
 
   .header-title {
