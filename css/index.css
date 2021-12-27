@@ -40,7 +40,7 @@
       rgba(0, 0, 0, 0.4) 45%,
       rgba(0, 0, 0, 0.4)
     ),
-    url("../images/graphics/barsema.jpg");
+    url("../images/graphics/EgyptianTheater.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -672,7 +672,7 @@ text-decoration: none;
   }
 
   .header {
-    background-position: 50% 75%;
+    background-position: 50% 60%;
   }
 
   .header-title {
